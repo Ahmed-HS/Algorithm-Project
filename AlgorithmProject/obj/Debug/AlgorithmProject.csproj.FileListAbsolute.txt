@@ -1,0 +1,14 @@
+C:\Users\Ahmed Hatem\source\repos\AlgorithmProject\AlgorithmProject\bin\Debug\AlgorithmProject.exe.config
+C:\Users\Ahmed Hatem\source\repos\AlgorithmProject\AlgorithmProject\bin\Debug\AlgorithmProject.exe
+C:\Users\Ahmed Hatem\source\repos\AlgorithmProject\AlgorithmProject\bin\Debug\AlgorithmProject.pdb
+C:\Users\Ahmed Hatem\source\repos\AlgorithmProject\AlgorithmProject\obj\Debug\AlgorithmProject.csprojAssemblyReference.cache
+C:\Users\Ahmed Hatem\source\repos\AlgorithmProject\AlgorithmProject\obj\Debug\AlgorithmProject.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Hatem\source\repos\AlgorithmProject\AlgorithmProject\obj\Debug\AlgorithmProject.exe
+C:\Users\Ahmed Hatem\source\repos\AlgorithmProject\AlgorithmProject\obj\Debug\AlgorithmProject.pdb
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\AlgorithmProject\bin\Debug\AlgorithmProject.exe.config
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\AlgorithmProject\bin\Debug\AlgorithmProject.exe
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\AlgorithmProject\bin\Debug\AlgorithmProject.pdb
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\AlgorithmProject\obj\Debug\AlgorithmProject.csprojAssemblyReference.cache
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\AlgorithmProject\obj\Debug\AlgorithmProject.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\AlgorithmProject\obj\Debug\AlgorithmProject.exe
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\AlgorithmProject\obj\Debug\AlgorithmProject.pdb
