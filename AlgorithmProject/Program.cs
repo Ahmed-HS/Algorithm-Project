@@ -12,6 +12,18 @@ namespace AlgorithmProject
         {
             Console.WriteLine("Reading Movies Information ");
             Graph.ReadGraph("Input.txt");
+            Console.WriteLine();
+
+            string Source, Target;
+
+            Source = "E";
+            Target = "K";
+
+            Console.WriteLine("Shortest path between " + Source + " and " + Target + " : " + Graph.BFS(Source, Target));
+
+            // Work in Progress
+            //Console.WriteLine("Frequency between " + Source + " and " + Target + " : " + Graph.GetFrequency(Source, Target));
+            Console.WriteLine();
         }
     }
 }
