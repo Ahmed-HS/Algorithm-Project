@@ -45,27 +45,37 @@ namespace AlgorithmProject
     class ActorState
     {
         public bool Visited;
-        public int DistanceFromSource;
+        public int DistanceFromSource,Frequency;
         public string Parent;
 
         public ActorState()
         {
             Visited = false;
             DistanceFromSource = int.MaxValue;
+            Frequency = 0;
             Parent = "Not Set";
         }
 
-        public void MarkVisted(int Distance,string CurrentParent)
+        public void MarkVisted(int Distance, int NewFrequency ,string CurrentParent)
         {
             Visited = true;
             DistanceFromSource = Distance;
+            Frequency = NewFrequency;
             Parent = CurrentParent;
+        }
+
+        public void Reset()
+        {
+            Visited = false;
+            DistanceFromSource = int.MaxValue;
+            Frequency = 0;
+            Parent = "Not Set";
         }
     }
 
     static class Graph
     {
-        //Grapg of Relations the strings are actor names 
+        //Graph of Relations the strings are actor names 
         private static Dictionary<string, Dictionary<string, CommonInfo>> Relations;
         private static Dictionary<string, ActorState> ActorStates;
         private static int NumberOfActors;
@@ -81,24 +91,48 @@ namespace AlgorithmProject
         }
         private static void ReIntialize()
         {
-            // Rest each Actor's State
+            // Reset each Actor's State
             foreach (ActorState CurrentActor in ActorStates.Values)
             {
-                CurrentActor.Visited = false;
-                CurrentActor.DistanceFromSource = int.MaxValue;
-                CurrentActor.Parent = "Not Set";
+                CurrentActor.Reset();
             }
+        }
+
+        public static void ReadQueries(string FileName)
+        {
+            MyDataFile = new FileStream(FileName, FileMode.Open);
+            MyReader = new StreamReader(MyDataFile);
+            string[] CurrentQuery;
+            string Source, Target;
+            while (MyReader.Peek() != -1)
+            {
+                CurrentQuery = MyReader.ReadLine().Split('/');
+                Source = CurrentQuery[0];
+                Target = CurrentQuery[1];
+                Console.WriteLine("Shortest path between " + Source + " and " + Target + " : " + BFS(Source, Target));
+                Console.WriteLine("Frequency between " + Source + " and " + Target + " : " + GetFrequency(Source, Target));
+                Console.WriteLine();
+            }
+            MyReader.Close();
+            MyDataFile.Close();
         }
 
         public static int GetFrequency(string Source, string Target)
         {
-            return Relations[Source][Target].GetFrequency();
+            if (Relations[Source].ContainsKey(Target))
+            {
+                return Relations[Source][Target].GetFrequency();
+            }
+            else
+            {       
+                return ActorStates[Target].Frequency;
+            }
         }
 
         public static int BFS(string Source, string Target)
         {
-            ActorStates[Source].MarkVisted(0, "Source");
-            int ShortestPath;
+            ReIntialize();
+            ActorStates[Source].MarkVisted(0, 0,"Source");
 
             Queue<string> TraverseQueue = new Queue<string>();
 
@@ -112,20 +146,25 @@ namespace AlgorithmProject
                 {
                     if (!ActorStates[Neighbour].Visited)
                     {
-                        ActorStates[Neighbour].MarkVisted(ActorStates[CurrentActor].DistanceFromSource + 1, CurrentActor);
-                        if (Neighbour == Target)
-                        {
-                            TraverseQueue.Clear();
-                            break;
-                        }
+                        int Distance = ActorStates[CurrentActor].DistanceFromSource + 1;
+                        int Frequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
+                        ActorStates[Neighbour].MarkVisted(Distance, Frequency, CurrentActor);
+                        //if (Neighbour == Target)
+                        //{
+                        //    TraverseQueue.Clear();
+                        //    break;
+                        //}
                         TraverseQueue.Enqueue(Neighbour);
+                    }// Checking if current path is equal to the shortest path in length and sets the frequency to the max between the two
+                    else if (ActorStates[CurrentActor].DistanceFromSource + 1 == ActorStates[Neighbour].DistanceFromSource)
+                    {
+                        int AltFrequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
+                        ActorStates[Neighbour].Frequency = Math.Max(ActorStates[Neighbour].Frequency, AltFrequency);
                     }
                 }
             }
-
-            ShortestPath = ActorStates[Target].DistanceFromSource;
-            ReIntialize();
-            return ShortestPath;
+       
+            return ActorStates[Target].DistanceFromSource;
         }
         public static void ReadGraph(string FileName)
         {
@@ -195,12 +234,18 @@ namespace AlgorithmProject
                     }
                 }
             }
+
             // Loging Info
             Console.WriteLine();
             MyWriter.WriteLine();
             MyWriter.WriteLine("Created Graph in : " + MyWatch.Elapsed.TotalSeconds + "Seconds");
             Console.WriteLine("Created Graph in : " + MyWatch.Elapsed.TotalSeconds + "Seconds");
+            Console.WriteLine();
             MyWatch.Stop();
+
+            MyWriter.Close();
+            MyReader.Close();
+            MyDataFile.Close();
         }
 
     }
