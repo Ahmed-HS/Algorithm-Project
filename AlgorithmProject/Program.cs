@@ -16,8 +16,8 @@ namespace AlgorithmProject
 
             string Source, Target;
 
-            Source = "E";
-            Target = "K";
+            Source = "Z";
+            Target = "L";
 
             Console.WriteLine("Shortest path between " + Source + " and " + Target + " : " + Graph.BFS(Source, Target));
 
