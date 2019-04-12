@@ -149,11 +149,11 @@ namespace AlgorithmProject
                         int Distance = ActorStates[CurrentActor].DistanceFromSource + 1;
                         int Frequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
                         ActorStates[Neighbour].MarkVisted(Distance, Frequency, CurrentActor);
-                        //if (Neighbour == Target)
-                        //{
-                        //    TraverseQueue.Clear();
-                        //    break;
-                        //}
+                        if (Distance > ActorStates[Target].DistanceFromSource)
+                        {
+                            TraverseQueue.Clear();
+                            break;
+                        }
                         TraverseQueue.Enqueue(Neighbour);
                     }// Checking if current path is equal to the shortest path in length and sets the frequency to the max between the two
                     else if (ActorStates[CurrentActor].DistanceFromSource + 1 == ActorStates[Neighbour].DistanceFromSource)
