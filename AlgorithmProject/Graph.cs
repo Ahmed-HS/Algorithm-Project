@@ -78,7 +78,7 @@ namespace AlgorithmProject
         //Graph of Relations the strings are actor names 
         private static Dictionary<string, Dictionary<string, CommonInfo>> Relations;
         private static Dictionary<string, ActorState> ActorStates;
-        private static int NumberOfActors;
+        public static int NumberOfActors;
         private static FileStream MyDataFile;
         private static FileStream OutputFile;
         private static StreamReader MyReader;
@@ -133,7 +133,7 @@ namespace AlgorithmProject
 
         public static string ActorsPath(string Source, string Target)
         {
-            string Parent,CurrentActor = Target;
+            string CurrentActor = Target;
             string Path = Target;
 
             while (CurrentActor != Source)
@@ -253,12 +253,18 @@ namespace AlgorithmProject
 
             // Loging Info
             Console.WriteLine();
-            MyWriter.WriteLine();
-            MyWriter.WriteLine("Created Graph in : " + MyWatch.Elapsed.TotalSeconds + "Seconds");
             Console.WriteLine("Created Graph in : " + MyWatch.Elapsed.TotalSeconds + "Seconds");
             Console.WriteLine();
-            MyWatch.Stop();
+            Console.WriteLine("Number of Actors : " + NumberOfActors);
+            Console.WriteLine();
 
+            MyWriter.WriteLine();
+            MyWriter.WriteLine("Created Graph in : " + MyWatch.Elapsed.TotalSeconds + "Seconds");
+            MyWriter.WriteLine();
+            MyWriter.WriteLine("Number of Actors : " + NumberOfActors);
+            MyWriter.WriteLine();
+
+            MyWatch.Stop();
             MyWriter.Close();
             MyReader.Close();
             MyDataFile.Close();

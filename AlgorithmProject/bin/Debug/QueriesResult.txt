@@ -1,440 +1,800 @@
-Murcell, George/Jordan, Patrick
+Erlich, Norman/Alc�n, Alfredo
 DoS = 1, RS = 1
-Chain Of Actors : Murcell, George => Jordan, Patrick
+Chain Of Actors : Erlich, Norman => Alc�n, Alfredo
 
-Hoey, John/Kennedy, Arthur
+Chilakalpudi, Seeta Rama Anjaneyulu/Nandamuri, Rama Rao Taraka
+DoS = 1, RS = 5
+Chain Of Actors : Chilakalpudi, Seeta Rama Anjaneyulu => Nandamuri, Rama Rao Taraka
+
+Pugliese, Armando/Benvenuti, Leonardo
 DoS = 1, RS = 1
-Chain Of Actors : Hoey, John => Kennedy, Arthur
+Chain Of Actors : Pugliese, Armando => Benvenuti, Leonardo
 
-Gomez, David/Michael, Christopher
+Bendre, Sonali/Akkineni, Nagarjuna
+DoS = 1, RS = 2
+Chain Of Actors : Bendre, Sonali => Akkineni, Nagarjuna
+
+Jaccard, Joan/Burns, Fred
 DoS = 1, RS = 1
-Chain Of Actors : Gomez, David => Michael, Christopher
+Chain Of Actors : Jaccard, Joan => Burns, Fred
 
-Puhy, Tiffany/Belushi, James
+Kriechbaum, Philipp/Blythe, Benedick
 DoS = 1, RS = 1
-Chain Of Actors : Puhy, Tiffany => Belushi, James
+Chain Of Actors : Kriechbaum, Philipp => Blythe, Benedick
 
-Reed, George/Barthelmess, Richard
+Wirbgen, Willy/Arent, Eddi
 DoS = 1, RS = 1
-Chain Of Actors : Reed, George => Barthelmess, Richard
+Chain Of Actors : Wirbgen, Willy => Arent, Eddi
 
-Neville, Marjean/Hoyt, Arthur
+Cotton, Darryl/Braverman, Barbara
 DoS = 1, RS = 1
-Chain Of Actors : Neville, Marjean => Hoyt, Arthur
+Chain Of Actors : Cotton, Darryl => Braverman, Barbara
 
-Aguilar, George/Clemenson, Christian
+Tognella/Ciardo, Gianni
 DoS = 1, RS = 1
-Chain Of Actors : Aguilar, George => Clemenson, Christian
+Chain Of Actors : Tognella => Ciardo, Gianni
 
-Doonan, Patric/Herbert, Percy
+Zucco, Jocelyne/Andrei, Damir
 DoS = 1, RS = 1
-Chain Of Actors : Doonan, Patric => Herbert, Percy
+Chain Of Actors : Zucco, Jocelyne => Andrei, Damir
 
-Rambeau, Marjorie/Barthelmess, Richard
+Guldener, Rainer/Andrae, Manfred
 DoS = 1, RS = 1
-Chain Of Actors : Rambeau, Marjorie => Barthelmess, Richard
+Chain Of Actors : Guldener, Rainer => Andrae, Manfred
 
-McMurry, Murray/Pickett, Cindy
+Marineau, Barbara/Adams, Matthew
 DoS = 1, RS = 1
-Chain Of Actors : McMurry, Murray => Pickett, Cindy
+Chain Of Actors : Marineau, Barbara => Adams, Matthew
 
-Frakes, Jonathan/Arnold, Tom
+Ollila, Marjut/Brandt, Nils
+DoS = 1, RS = 1
+Chain Of Actors : Ollila, Marjut => Brandt, Nils
+
+Unruh, Siegfried/Alric, Catherine
+DoS = 1, RS = 1
+Chain Of Actors : Unruh, Siegfried => Alric, Catherine
+
+Casadei, Raoul/Agren, Janet
+DoS = 1, RS = 1
+Chain Of Actors : Casadei, Raoul => Agren, Janet
+
+Danneborn-Spjuth, Sanna/Anderson, Mikael
+DoS = 1, RS = 1
+Chain Of Actors : Danneborn-Spjuth, Sanna => Anderson, Mikael
+
+Hazeldine, Jaclyn/Bostwick, Barry
+DoS = 1, RS = 1
+Chain Of Actors : Hazeldine, Jaclyn => Bostwick, Barry
+
+McMartin, Kathleen/Adair-Rios, Mark
+DoS = 1, RS = 1
+Chain Of Actors : McMartin, Kathleen => Adair-Rios, Mark
+
+Gisselkvist, Christian/Hagstedt, Kaj
+DoS = 1, RS = 1
+Chain Of Actors : Gisselkvist, Christian => Hagstedt, Kaj
+
+Ahlstedt, Inga-Britt/Lilliecrona, Torsten
+DoS = 1, RS = 1
+Chain Of Actors : Ahlstedt, Inga-Britt => Lilliecrona, Torsten
+
+Tsuda, Akiko/Chiba, Nobuo
+DoS = 1, RS = 1
+Chain Of Actors : Tsuda, Akiko => Chiba, Nobuo
+
+De Cohen, Lisa/Cariou, Len
+DoS = 1, RS = 1
+Chain Of Actors : De Cohen, Lisa => Cariou, Len
+
+Mermelstein, Ester/Abbas, Gassan
+DoS = 1, RS = 1
+Chain Of Actors : Mermelstein, Ester => Abbas, Gassan
+
+Dazhi, Wu/Cowan, Richard
+DoS = 1, RS = 1
+Chain Of Actors : Dazhi, Wu => Cowan, Richard
+
+Sullivan, Julie/Barry-Weske, Sean
+DoS = 1, RS = 1
+Chain Of Actors : Sullivan, Julie => Barry-Weske, Sean
+
+G�ttner, Bruno/Gigli, Beniamino
+DoS = 1, RS = 1
+Chain Of Actors : G�ttner, Bruno => Gigli, Beniamino
+
+McCoy, Angelina/Abrahams, Doug
+DoS = 1, RS = 1
+Chain Of Actors : McCoy, Angelina => Abrahams, Doug
+
+Demorget, Robert/Amato, Nicolas
+DoS = 1, RS = 1
+Chain Of Actors : Demorget, Robert => Amato, Nicolas
+
+Christian, Beulah/Acker, Jean
+DoS = 1, RS = 1
+Chain Of Actors : Christian, Beulah => Acker, Jean
+
+Bonneveau, Mich�le Camizuli/Castel, Robert
+DoS = 1, RS = 1
+Chain Of Actors : Bonneveau, Mich�le Camizuli => Castel, Robert
+
+Stewart, Carl/Carpenter, Ken
+DoS = 1, RS = 1
+Chain Of Actors : Stewart, Carl => Carpenter, Ken
+
+Wesson, Howard/Blair, Pamela
+DoS = 1, RS = 1
+Chain Of Actors : Wesson, Howard => Blair, Pamela
+
+Sato, Yasue/Momoi, Kaori
+DoS = 1, RS = 1
+Chain Of Actors : Sato, Yasue => Momoi, Kaori
+
+Mancuso, Frank/Hart, Veronica
+DoS = 1, RS = 2
+Chain Of Actors : Mancuso, Frank => Hart, Veronica
+
+Heit, Sally-Jane/Robards, Jason
+DoS = 1, RS = 1
+Chain Of Actors : Heit, Sally-Jane => Robards, Jason
+
+Lowell, Randy/Warren, Lesley Ann
+DoS = 1, RS = 2
+Chain Of Actors : Lowell, Randy => Warren, Lesley Ann
+
+Cooke, Ed/Bolder, Robert
+DoS = 1, RS = 1
+Chain Of Actors : Cooke, Ed => Bolder, Robert
+
+Maning, Mark/Alexander, Richard
+DoS = 1, RS = 1
+Chain Of Actors : Maning, Mark => Alexander, Richard
+
+Williams, Chuck/Brown, Terry
+DoS = 1, RS = 1
+Chain Of Actors : Williams, Chuck => Brown, Terry
+
+Imada, Samezu/Date, Satoko
+DoS = 1, RS = 1
+Chain Of Actors : Imada, Samezu => Date, Satoko
+
+O'Brian, James/Beaman, Lee Anne
+DoS = 1, RS = 2
+Chain Of Actors : O'Brian, James => Beaman, Lee Anne
+
+Nagy, Judy/Bernard, Jason
+DoS = 1, RS = 1
+Chain Of Actors : Nagy, Judy => Bernard, Jason
+
+Torr�s, Henry/Argenziano, Carmen
+DoS = 1, RS = 1
+Chain Of Actors : Torr�s, Henry => Argenziano, Carmen
+
+Carroll, Corky/Miller, Dick
+DoS = 1, RS = 1
+Chain Of Actors : Carroll, Corky => Miller, Dick
+
+Verhaeghe, Ray/Althoff Jr., Alberto
+DoS = 1, RS = 1
+Chain Of Actors : Verhaeghe, Ray => Althoff Jr., Alberto
+
+Simonson, Julie/Astor, Patti
+DoS = 1, RS = 1
+Chain Of Actors : Simonson, Julie => Astor, Patti
+
+Fischer, Margarita/Travers, Beverly
+DoS = 1, RS = 3
+Chain Of Actors : Fischer, Margarita => Travers, Beverly
+
+Newman, George/Allen, Debbie
+DoS = 1, RS = 1
+Chain Of Actors : Newman, George => Allen, Debbie
+
+McLellan, Diana/Bacall, Lauren
+DoS = 1, RS = 1
+Chain Of Actors : McLellan, Diana => Bacall, Lauren
+
+Sitaropoulos, Ral/Abrahams, Caz
+DoS = 1, RS = 1
+Chain Of Actors : Sitaropoulos, Ral => Abrahams, Caz
+
+Fritz, Malcolm/Cederlund, G�sta
+DoS = 1, RS = 1
+Chain Of Actors : Fritz, Malcolm => Cederlund, G�sta
+
+Kapadia, Simple/Khan, Kader
+DoS = 1, RS = 1
+Chain Of Actors : Kapadia, Simple => Khan, Kader
+
+Khahi/Atterton, Edward
+DoS = 1, RS = 1
+Chain Of Actors : Khahi => Atterton, Edward
+
+Honkaniemi, Airi/Majuri, Tauno
+DoS = 1, RS = 1
+Chain Of Actors : Honkaniemi, Airi => Majuri, Tauno
+
+Usztics, M�ty�s/Apor, No�mi
+DoS = 1, RS = 1
+Chain Of Actors : Usztics, M�ty�s => Apor, No�mi
+
+Flores, Mylene/Moss, Jim
+DoS = 1, RS = 1
+Chain Of Actors : Flores, Mylene => Moss, Jim
+
+Sigaud, Fr�d�ric/Ang�le, Olivier
+DoS = 1, RS = 1
+Chain Of Actors : Sigaud, Fr�d�ric => Ang�le, Olivier
+
+Langdon, Adele/Ayler, Ethel
+DoS = 1, RS = 1
+Chain Of Actors : Langdon, Adele => Ayler, Ethel
+
+May, Edna/Lytton, L. Rogers
+DoS = 1, RS = 1
+Chain Of Actors : May, Edna => Lytton, L. Rogers
+
+Menado, Maria/Maarof, Mustaffa
+DoS = 1, RS = 1
+Chain Of Actors : Menado, Maria => Maarof, Mustaffa
+
+Kelly, Dorothy/Connelly, Bobby
+DoS = 1, RS = 2
+Chain Of Actors : Kelly, Dorothy => Connelly, Bobby
+
+Gelanza, Ted/Carter, Fleurette
+DoS = 1, RS = 1
+Chain Of Actors : Gelanza, Ted => Carter, Fleurette
+
+Mafela, Joe/Brock, Stanley
+DoS = 1, RS = 1
+Chain Of Actors : Mafela, Joe => Brock, Stanley
+
+Novello, Don/Alexander, Jason
+DoS = 1, RS = 1
+Chain Of Actors : Novello, Don => Alexander, Jason
+
+McGowan, Dave/Carpenter, Wade
+DoS = 1, RS = 1
+Chain Of Actors : McGowan, Dave => Carpenter, Wade
+
+Wang, Zhixia/Zhu, Xu
+DoS = 1, RS = 1
+Chain Of Actors : Wang, Zhixia => Zhu, Xu
+
+Perry, Vivian/Allen, Lucille
+DoS = 1, RS = 1
+Chain Of Actors : Perry, Vivian => Allen, Lucille
+
+Ford, Carl Kwaku/Berry, Stephanie
+DoS = 1, RS = 1
+Chain Of Actors : Ford, Carl Kwaku => Berry, Stephanie
+
+Simon, Jill Marie/Allen, Tommy
+DoS = 1, RS = 1
+Chain Of Actors : Simon, Jill Marie => Allen, Tommy
+
+Gabiola, Violy/Strzalkowski, Henry
+DoS = 1, RS = 1
+Chain Of Actors : Gabiola, Violy => Strzalkowski, Henry
+
+Mashnaya, Olga/Leonov, Yevgeni
+DoS = 1, RS = 2
+Chain Of Actors : Mashnaya, Olga => Leonov, Yevgeni
+
+Reinold, Bernard A./Hendricks Jr., Ben
+DoS = 1, RS = 1
+Chain Of Actors : Reinold, Bernard A. => Hendricks Jr., Ben
+
+Dechamps, Charles/Dubost, Paulette
+DoS = 1, RS = 2
+Chain Of Actors : Dechamps, Charles => Dubost, Paulette
+
+Fuest, Robert/Bates, Richard
+DoS = 1, RS = 1
+Chain Of Actors : Fuest, Robert => Bates, Richard
+
+Maierhouser, Joe/Bernard, Maurice
+DoS = 1, RS = 1
+Chain Of Actors : Maierhouser, Joe => Bernard, Maurice
+
+Vaughn, Henry/Anderson, Bruce
+DoS = 1, RS = 1
+Chain Of Actors : Vaughn, Henry => Anderson, Bruce
+
+Petrenko, Vassily/Carter, Jimmy
+DoS = 1, RS = 1
+Chain Of Actors : Petrenko, Vassily => Carter, Jimmy
+
+Williard, Steve/Aard, Frank J.
+DoS = 1, RS = 1
+Chain Of Actors : Williard, Steve => Aard, Frank J.
+
+Gorski, Alexandra/Arel, Fabienne
+DoS = 1, RS = 1
+Chain Of Actors : Gorski, Alexandra => Arel, Fabienne
+
+Steele, George/Adler, Luther
+DoS = 1, RS = 1
+Chain Of Actors : Steele, George => Adler, Luther
+
+Hancock, Graham/Karn, Richard
+DoS = 1, RS = 1
+Chain Of Actors : Hancock, Graham => Karn, Richard
+
+Nolan, Margaret/Maynard, Bill
+DoS = 1, RS = 4
+Chain Of Actors : Nolan, Margaret => Maynard, Bill
+
+Browning, Jill/Taylor, Ferris
+DoS = 1, RS = 1
+Chain Of Actors : Browning, Jill => Taylor, Ferris
+
+Sinkovits, Imre/Bessenyei, Ferenc
+DoS = 1, RS = 5
+Chain Of Actors : Sinkovits, Imre => Bessenyei, Ferenc
+
+Peng, Mike/Anderson, Richard
+DoS = 1, RS = 1
+Chain Of Actors : Peng, Mike => Anderson, Richard
+
+Gillis, Mark/Annis, Francesca
+DoS = 1, RS = 1
+Chain Of Actors : Gillis, Mark => Annis, Francesca
+
+Baerwalde, David/Devona, Phillip
+DoS = 1, RS = 1
+Chain Of Actors : Baerwalde, David => Devona, Phillip
+
+Koumpan, Alexander/Benedict, Jay
+DoS = 1, RS = 1
+Chain Of Actors : Koumpan, Alexander => Benedict, Jay
+
+Johansen, David/Plummer, Christopher
+DoS = 1, RS = 1
+Chain Of Actors : Johansen, David => Plummer, Christopher
+
+Gittleman, Milton/Clark, Linda
+DoS = 1, RS = 1
+Chain Of Actors : Gittleman, Milton => Clark, Linda
+
+Kay, Geraldine/Bohn, John
+DoS = 1, RS = 1
+Chain Of Actors : Kay, Geraldine => Bohn, John
+
+Fregeac, Rapha�l/Aumont, Marie-Dominique
+DoS = 1, RS = 1
+Chain Of Actors : Fregeac, Rapha�l => Aumont, Marie-Dominique
+
+Johnson, Brad Eric/Halihan, Kelli
+DoS = 1, RS = 1
+Chain Of Actors : Johnson, Brad Eric => Halihan, Kelli
+
+Crowder, Christina/Cameron Mitchell, Christina
+DoS = 1, RS = 1
+Chain Of Actors : Crowder, Christina => Cameron Mitchell, Christina
+
+Ching, Peter/Moss, Jim
+DoS = 1, RS = 1
+Chain Of Actors : Ching, Peter => Moss, Jim
+
+Andersson, Eva/Alexander, Rolf
+DoS = 1, RS = 1
+Chain Of Actors : Andersson, Eva => Alexander, Rolf
+
+Tigerholm, Magnus/Arosenius, Per-Axel
+DoS = 1, RS = 2
+Chain Of Actors : Tigerholm, Magnus => Arosenius, Per-Axel
+
+Danielsen, Jimmi H�gh/Glargaard, Poul
+DoS = 1, RS = 1
+Chain Of Actors : Danielsen, Jimmi H�gh => Glargaard, Poul
+
+Galante, Rudolph/Armenta, F.A.
+DoS = 1, RS = 1
+Chain Of Actors : Galante, Rudolph => Armenta, F.A.
+
+Hauthier dit Preston, Jean/Le Brigant, Sylvie
+DoS = 1, RS = 1
+Chain Of Actors : Hauthier dit Preston, Jean => Le Brigant, Sylvie
+
+Schr�der, Bolette/Skarsg�rd, Stellan
+DoS = 2, RS = 3
+Chain Of Actors : Schr�der, Bolette => Ma�s, Tove => Skarsg�rd, Stellan
+
+Sohma, Ippei/Allison, Patricia
 DoS = 2, RS = 2
-Chain Of Actors : Frakes, Jonathan => David, Keith => Arnold, Tom
+Chain Of Actors : Sohma, Ippei => Ogawa, Yukiko => Allison, Patricia
 
-Hall, Douglas Kent/Baldwin, Daniel
+Hannon, Dan/Finlay, Frank
+DoS = 2, RS = 4
+Chain Of Actors : Hannon, Dan => Gray, Charles => Finlay, Frank
+
+Levin, Marc/Allen, Penelope
+DoS = 2, RS = 3
+Chain Of Actors : Levin, Marc => Baerwald, David => Allen, Penelope
+
+Silver, Joe/Avalon, Frankie
+DoS = 2, RS = 4
+Chain Of Actors : Silver, Joe => Albert, Eddie => Avalon, Frankie
+
+Stewart, Joshua Dean/Heaton, Tom
+DoS = 2, RS = 3
+Chain Of Actors : Stewart, Joshua Dean => Burstyn, Ellen => Heaton, Tom
+
+Herrera, Leticia/Azor�n, Eloy
 DoS = 2, RS = 2
-Chain Of Actors : Hall, Douglas Kent => Arnold, Tom => Baldwin, Daniel
+Chain Of Actors : Herrera, Leticia => Cano, M�nica => Azor�n, Eloy
 
-Salinas, Ricardo/Coburn, James
+Fanaro, Mary/Adell, Traci
+DoS = 2, RS = 3
+Chain Of Actors : Fanaro, Mary => Adams, Rhonda => Adell, Traci
+
+Corncob/Mayo, Frank
+DoS = 2, RS = 24
+Chain Of Actors : Corncob => Bari, Lynn => Mayo, Frank
+
+Jones, Liz/Anhalt, Edward
 DoS = 2, RS = 2
-Chain Of Actors : Salinas, Ricardo => Arnold, Tom => Coburn, James
+Chain Of Actors : Jones, Liz => Apick, Mary => Anhalt, Edward
 
-Elliott, Lillian/Lease, Rex
+Rae, Stephen/Hickey, Paul
+DoS = 2, RS = 4
+Chain Of Actors : Rae, Stephen => Burke, Frances => Hickey, Paul
+
+Levinson, Ellis/Albulescu, Mircea
 DoS = 2, RS = 2
-Chain Of Actors : Elliott, Lillian => Homans, Robert => Lease, Rex
+Chain Of Actors : Levinson, Ellis => Caldwell, Jane => Albulescu, Mircea
 
-Davis, Don S./Coburn, James
+Whaler, Blair/Richardson, Jay
 DoS = 2, RS = 2
-Chain Of Actors : Davis, Don S. => Arnold, Tom => Coburn, James
+Chain Of Actors : Whaler, Blair => Haim, Corey => Richardson, Jay
 
-Tenbrook, Harry/Barcroft, Roy
+Petersson, Oscar/Carradine, David
+DoS = 2, RS = 3
+Chain Of Actors : Petersson, Oscar => Hellquist, A.R. => Carradine, David
+
+Symons-Sutcliffe, Alex/Steele, Lexington
+DoS = 2, RS = 4
+Chain Of Actors : Symons-Sutcliffe, Alex => Anthony, Mark => Steele, Lexington
+
+Alexander, Jean/Anderson, John
+DoS = 2, RS = 6
+Chain Of Actors : Alexander, Jean => Bissell, Whit => Anderson, John
+
+Francis, Anthony/O'Connor, Frank
+DoS = 2, RS = 9
+Chain Of Actors : Francis, Anthony => Barry, Phyllis => O'Connor, Frank
+
+Mart�nez, Antonio/Palma, Rossy de
+DoS = 2, RS = 4
+Chain Of Actors : Mart�nez, Antonio => Cobos, Germ�n => Palma, Rossy de
+
+Tennstedt, Joachim/Frank, Horst
+DoS = 2, RS = 3
+Chain Of Actors : Tennstedt, Joachim => Steeger, Ingrid => Frank, Horst
+
+Ivans, Elaine/Hardy, Oliver
+DoS = 2, RS = 33
+Chain Of Actors : Ivans, Elaine => Dwight, Mabel => Hardy, Oliver
+
+Levin, Hilde/Graber, Yossi
+DoS = 2, RS = 5
+Chain Of Actors : Levin, Hilde => Amrani, Gabi => Graber, Yossi
+
+Fretz, Tony/Lane, Nathan
+DoS = 2, RS = 3
+Chain Of Actors : Fretz, Tony => Abercrombie, Ian => Lane, Nathan
+
+Van Hellem, Huib/Betz, Kris
+DoS = 2, RS = 3
+Chain Of Actors : Van Hellem, Huib => Baret, Louis => Betz, Kris
+
+Thomas, Marlo/Lazenby, George
+DoS = 2, RS = 5
+Chain Of Actors : Thomas, Marlo => Sheen, Martin => Lazenby, George
+
+Straub, John/Blount, Steve
 DoS = 2, RS = 2
-Chain Of Actors : Tenbrook, Harry => Cobb, Edmund => Barcroft, Roy
+Chain Of Actors : Straub, John => Adams, Peter => Blount, Steve
 
-Toussaint, Lorraine/Arnold, Tom
+Florelle/Clariond, Aim�
+DoS = 2, RS = 7
+Chain Of Actors : Florelle => Baumer, Jacques => Clariond, Aim�
+
+Mau, Doan Chau/Cage, Nicolas
+DoS = 2, RS = 3
+Chain Of Actors : Mau, Doan Chau => Bell, Marshall => Cage, Nicolas
+
+Anderlini, Cristina/Bersh, Christopher
 DoS = 2, RS = 2
-Chain Of Actors : Toussaint, Lorraine => Coburn, James => Arnold, Tom
+Chain Of Actors : Anderlini, Cristina => Mackay, Donald Sage => Bersh, Christopher
 
-Stamper, Sumer/Arnold, Tom
+Grossfeld, Sid/Ray, Aldo
+DoS = 2, RS = 5
+Chain Of Actors : Grossfeld, Sid => Wynn, Keenan => Ray, Aldo
+
+Stavrakas, Dimitri/Panagiotidis, Alkis
 DoS = 2, RS = 2
-Chain Of Actors : Stamper, Sumer => Chaykin, Maury => Arnold, Tom
+Chain Of Actors : Stavrakas, Dimitri => Ferris, Costas => Panagiotidis, Alkis
 
-Valanios, Lee/Taylor, Dub
+Curiel, Fernando/Bacon, Irving
 DoS = 2, RS = 2
-Chain Of Actors : Valanios, Lee => Buster, Budd => Taylor, Dub
+Chain Of Actors : Curiel, Fernando => Villar�as, Carlos => Bacon, Irving
 
-Le Gon, Jeni/Barcroft, Roy
+Amir, Saffron/Edwards, Jango
 DoS = 2, RS = 2
-Chain Of Actors : Le Gon, Jeni => Collier, Lois => Barcroft, Roy
-
-Schienle, Martin/Guardino, Harry
-DoS = 3, RS = 3
-Chain Of Actors : Schienle, Martin => Arnold, Tom => Coburn, James => Guardino, Harry
-
-Kelly, Paul/Corbett, Ben
-DoS = 3, RS = 3
-Chain Of Actors : Kelly, Paul => Elliott, Dick => Kibbee, Milton => Corbett, Ben
-
-Farese, Jude/DeVito, Danny
-DoS = 3, RS = 3
-Chain Of Actors : Farese, Jude => Cole, Olivia => Field, Sally => DeVito, Danny
-
-Grey, Martin/Baldwin, Daniel
-DoS = 3, RS = 3
-Chain Of Actors : Grey, Martin => Coburn, James => Arnold, Tom => Baldwin, Daniel
-
-Kain, Khalil/Coburn, James
-DoS = 3, RS = 3
-Chain Of Actors : Kain, Khalil => Pugsley, Don => Arnold, Tom => Coburn, James
-
-Pawn, Doris/Barcroft, Roy
-DoS = 3, RS = 3
-Chain Of Actors : Pawn, Doris => Mattox, Martha => Cobb, Edmund => Barcroft, Roy
-
-Coleman, Irene/London, Tom
-DoS = 3, RS = 4
-Chain Of Actors : Coleman, Irene => Bupp, Tommy => Cobb, Edmund => London, Tom
-
-Williams, Brook/Guardino, Harry
-DoS = 3, RS = 3
-Chain Of Actors : Williams, Brook => Jordan, Patrick => Knight, Don => Guardino, Harry
-
-Kaitlyn, Peter/Coburn, James
-DoS = 3, RS = 3
-Chain Of Actors : Kaitlyn, Peter => Chaykin, Maury => Arnold, Tom => Coburn, James
-
-Van Peebles, Melvin/Guardino, Harry
-DoS = 3, RS = 3
-Chain Of Actors : Van Peebles, Melvin => Belushi, James => Coburn, James => Guardino, Harry
-
-Jones, Barry/Coburn, James
-DoS = 4, RS = 4
-Chain Of Actors : Jones, Barry => Jordan, Patrick => Knight, Don => Guardino, Harry => Coburn, James
-
-Williams, Lottie/Ford, Harrison
-DoS = 4, RS = 4
-Chain Of Actors : Williams, Lottie => Cobb, Edmund => Taylor, Dub => Capshaw, Kate => Ford, Harrison
-
-Boyd, Joshua/Guardino, Harry
-DoS = 4, RS = 4
-Chain Of Actors : Boyd, Joshua => Chaykin, Maury => Arnold, Tom => Coburn, James => Guardino, Harry
-
-McGuire, Tom/Hearn, Edward
-DoS = 4, RS = 4
-Chain Of Actors : McGuire, Tom => McCullough, Philo => Cobb, Edmund => Chesebro, George => Hearn, Edward
-
-Hammer, M.C./Knight, Don
-DoS = 4, RS = 4
-Chain Of Actors : Hammer, M.C. => Belushi, James => Coburn, James => Guardino, Harry => Knight, Don
-
-Kelly, Patsy/Busey, Gary
-DoS = 4, RS = 4
-Chain Of Actors : Kelly, Patsy => Collier, Lois => Friedkin, Joel => Taylor, Dub => Busey, Gary
-
-DeKay, Tim/Guardino, Harry
-DoS = 4, RS = 4
-Chain Of Actors : DeKay, Tim => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry
-
-Steele, Tom/Clemenson, Christian
-DoS = 4, RS = 5
-Chain Of Actors : Steele, Tom => Barcroft, Roy => Cobb, Edmund => Hart, Gordon => Clemenson, Christian
-
-Harris, Richard/Coburn, James
-DoS = 4, RS = 4
-Chain Of Actors : Harris, Richard => Jordan, Patrick => Knight, Don => Guardino, Harry => Coburn, James
-
-Big Tree, Chief John/Clemenson, Christian
-DoS = 4, RS = 4
-Chain Of Actors : Big Tree, Chief John => Coats, Tommy => Cobb, Edmund => Hart, Gordon => Clemenson, Christian
-
-Ryan, Roz/Bupp, Tommy
-DoS = 5, RS = 5
-Chain Of Actors : Ryan, Roz => David, Keith => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Bupp, Tommy
-
-Oddo, Lynn/Herbert, Percy
-DoS = 5, RS = 5
-Chain Of Actors : Oddo, Lynn => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don => Herbert, Percy
-
-Hatton, Raymond/Arnold, Tom
-DoS = 5, RS = 5
-Chain Of Actors : Hatton, Raymond => Coats, Tommy => Cobb, Edmund => Hart, Gordon => Clemenson, Christian => Arnold, Tom
-
-Carothers, AJ/Baldwin, Daniel
-DoS = 5, RS = 5
-Chain Of Actors : Carothers, AJ => McCarthy, Kevin => Guardino, Harry => Coburn, James => Arnold, Tom => Baldwin, Daniel
-
-Strange, Glenn/Cole, Olivia
-DoS = 5, RS = 5
-Chain Of Actors : Strange, Glenn => Cobb, Edmund => Taylor, Dub => Capshaw, Kate => Ford, Harrison => Cole, Olivia
-
-James, Gladden/Arnold, Tom
-DoS = 5, RS = 5
-Chain Of Actors : James, Gladden => Elliott, Dick => Kibbee, Milton => Hart, Gordon => Clemenson, Christian => Arnold, Tom
-
-Beatty, Ned/DeVito, Danny
-DoS = 5, RS = 5
-Chain Of Actors : Beatty, Ned => Busey, Gary => Capshaw, Kate => Ford, Harrison => Field, Sally => DeVito, Danny
-
-Phillips, Betty/Knight, Don
-DoS = 5, RS = 5
-Chain Of Actors : Phillips, Betty => Davis, Don S. => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don
-
-Pennell, R.O./Busey, Gary
-DoS = 5, RS = 5
-Chain Of Actors : Pennell, R.O. => Paddock, Charles => Lease, Rex => Buster, Budd => Taylor, Dub => Busey, Gary
-
-Webb, Frank/Baldwin, Daniel
-DoS = 5, RS = 5
-Chain Of Actors : Webb, Frank => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Baldwin, Daniel
-
-Smith, Jack C./Guardino, Harry
-DoS = 6, RS = 6
-Chain Of Actors : Smith, Jack C. => Corbett, Ben => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry
-
-Walburn, Raymond/Coburn, James
-DoS = 6, RS = 6
-Chain Of Actors : Walburn, Raymond => McCullough, Philo => Cobb, Edmund => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James
-
-Gethers, Amani/Herbert, Percy
-DoS = 6, RS = 6
-Chain Of Actors : Gethers, Amani => Pugsley, Don => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don => Herbert, Percy
-
-Krull, Kendra/Herbert, Percy
-DoS = 6, RS = 6
-Chain Of Actors : Krull, Kendra => Chaykin, Maury => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don => Herbert, Percy
-
-Duvall, Wayne/Herbert, Percy
-DoS = 6, RS = 6
-Chain Of Actors : Duvall, Wayne => Chaykin, Maury => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don => Herbert, Percy
-
-McNeal, Heidi/Clark, Harvey
-DoS = 6, RS = 6
-Chain Of Actors : McNeal, Heidi => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Flockhart, Calista/Herbert, Percy
-DoS = 6, RS = 6
-Chain Of Actors : Flockhart, Calista => DeVito, Danny => Belushi, James => Coburn, James => Guardino, Harry => Knight, Don => Herbert, Percy
-
-Wahlberg, Mark/Herbert, Percy
-DoS = 6, RS = 6
-Chain Of Actors : Wahlberg, Mark => DeVito, Danny => Belushi, James => Coburn, James => Guardino, Harry => Knight, Don => Herbert, Percy
-
-Baker, Mary/Cole, Olivia
-DoS = 6, RS = 6
-Chain Of Actors : Baker, Mary => Kibbee, Milton => Cobb, Edmund => Taylor, Dub => Capshaw, Kate => Ford, Harrison => Cole, Olivia
-
-Wayne, John/Cole, Olivia
-DoS = 6, RS = 6
-Chain Of Actors : Wayne, John => Steele, Bob => Friedkin, Joel => Taylor, Dub => Capshaw, Kate => Ford, Harrison => Cole, Olivia
-
-Hicks, Chuck/Hearn, Edward
-DoS = 7, RS = 8
-Chain Of Actors : Hicks, Chuck => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Cobb, Edmund => Chesebro, George => Hearn, Edward
-
-Robinson, Michael/Clark, Harvey
-DoS = 7, RS = 7
-Chain Of Actors : Robinson, Michael => Tobolowsky, Stephen => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Hudson, Ernie/Hearn, Edward
-DoS = 7, RS = 8
-Chain Of Actors : Hudson, Ernie => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Cobb, Edmund => Chesebro, George => Hearn, Edward
-
-Ryusaki, Bill M./Knight, Don
-DoS = 7, RS = 7
-Chain Of Actors : Ryusaki, Bill M. => Cole, Olivia => Field, Sally => DeVito, Danny => Belushi, James => Coburn, James => Guardino, Harry => Knight, Don
-
-Santillan, Eileen/Clark, Harvey
-DoS = 7, RS = 7
-Chain Of Actors : Santillan, Eileen => Tobolowsky, Stephen => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Phelps, Tex/Knight, Don
-DoS = 7, RS = 7
-Chain Of Actors : Phelps, Tex => Corbett, Ben => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don
-
-McGlynn Jr., Frank/Guardino, Harry
-DoS = 7, RS = 7
-Chain Of Actors : McGlynn Jr., Frank => Elliott, Dick => Kibbee, Milton => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry
-
-Farr, Hugh/Guardino, Harry
-DoS = 7, RS = 7
-Chain Of Actors : Farr, Hugh => Mason, LeRoy => Kirk, Jack => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry
-
-Elliott, Lillian/Guardino, Harry
-DoS = 7, RS = 7
-Chain Of Actors : Elliott, Lillian => McKee, Lafe => Corbett, Ben => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry
-
-Conway, Pamela/Hart, Gordon
-DoS = 7, RS = 7
-Chain Of Actors : Conway, Pamela => Jordan, Patrick => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon
-
-Ansara, Michael/Knight, Don
-DoS = 8, RS = 8
-Chain Of Actors : Ansara, Michael => Steele, Bob => Osborne, Bud => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don
-
-James, Gladden/Knight, Don
-DoS = 8, RS = 8
-Chain Of Actors : James, Gladden => Elliott, Dick => Kibbee, Milton => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don
-
-Davis, Edwards/Guardino, Harry
-DoS = 8, RS = 9
-Chain Of Actors : Davis, Edwards => Hearn, Edward => Chesebro, George => Cobb, Edmund => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry
-
-Le Gon, Jeni/Knight, Don
-DoS = 8, RS = 8
-Chain Of Actors : Le Gon, Jeni => Collier, Lois => Osborne, Bud => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don
-
-Kim, Leigh C./Herbert, Percy
-DoS = 8, RS = 8
-Chain Of Actors : Kim, Leigh C. => Cole, Olivia => Field, Sally => DeVito, Danny => Belushi, James => Coburn, James => Guardino, Harry => Knight, Don => Herbert, Percy
-
-Grey, Clifford/Guardino, Harry
-DoS = 8, RS = 8
-Chain Of Actors : Grey, Clifford => Warwick, Robert => McCullough, Philo => Cobb, Edmund => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry
-
-Marston, John/Herbert, Percy
-DoS = 8, RS = 8
-Chain Of Actors : Marston, John => Kibbee, Milton => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don => Herbert, Percy
-
-Ford, Francis/Herbert, Percy
-DoS = 8, RS = 8
-Chain Of Actors : Ford, Francis => Cobb, Edmund => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don => Herbert, Percy
-
-Lenehan, Nancy/Clark, Harvey
-DoS = 8, RS = 8
-Chain Of Actors : Lenehan, Nancy => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Everton, Paul/Knight, Don
-DoS = 8, RS = 8
-Chain Of Actors : Everton, Paul => Marlowe, Jerry => Bupp, Tommy => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don
-
-Ricketts, Tom/Knight, Don
-DoS = 9, RS = 9
-Chain Of Actors : Ricketts, Tom => Hoyt, Arthur => McCullough, Philo => Cobb, Edmund => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don
-
-Harlan, Kenneth/Herbert, Percy
-DoS = 9, RS = 9
-Chain Of Actors : Harlan, Kenneth => McKee, Lafe => Corbett, Ben => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don => Herbert, Percy
-
-Kitaeva, Ida/Herbert, Percy
-DoS = 9, RS = 9
-Chain Of Actors : Kitaeva, Ida => McCullough, Philo => Cobb, Edmund => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don => Herbert, Percy
-
-Farley, Dot/Herbert, Percy
-DoS = 9, RS = 9
-Chain Of Actors : Farley, Dot => McCullough, Philo => Cobb, Edmund => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don => Herbert, Percy
-
-McCarthy, Kevin/Clark, Harvey
-DoS = 9, RS = 9
-Chain Of Actors : McCarthy, Kevin => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Cafiso, Matteo/Hearn, Edward
-DoS = 9, RS = 10
-Chain Of Actors : Cafiso, Matteo => McCarthy, Kevin => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Cobb, Edmund => Chesebro, George => Hearn, Edward
-
-Norton, Jack/Herbert, Percy
-DoS = 9, RS = 9
-Chain Of Actors : Norton, Jack => McCullough, Philo => Cobb, Edmund => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don => Herbert, Percy
-
-Conrad, Jan/Marlowe, Jerry
-DoS = 9, RS = 9
-Chain Of Actors : Conrad, Jan => Jordan, Patrick => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Bupp, Tommy => Marlowe, Jerry
-
-Richards, Addison/Herbert, Percy
-DoS = 9, RS = 9
-Chain Of Actors : Richards, Addison => Fowley, Douglas => Kibbee, Milton => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don => Herbert, Percy
-
-Hall, Lois/Herbert, Percy
-DoS = 9, RS = 9
-Chain Of Actors : Hall, Lois => Cody, Iron Eyes => Osborne, Bud => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don => Herbert, Percy
-
-O'Connell, James/Clark, Harvey
-DoS = 10, RS = 10
-Chain Of Actors : O'Connell, James => McCarthy, Kevin => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Waters, Russell/Hearn, Edward
-DoS = 10, RS = 11
-Chain Of Actors : Waters, Russell => Jordan, Patrick => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Cobb, Edmund => Chesebro, George => Hearn, Edward
-
-Frees, Wolf/Hearn, Edward
-DoS = 10, RS = 11
-Chain Of Actors : Frees, Wolf => Jordan, Patrick => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Cobb, Edmund => Chesebro, George => Hearn, Edward
-
-Newley, Anthony/Hearn, Edward
-DoS = 10, RS = 11
-Chain Of Actors : Newley, Anthony => Herbert, Percy => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Cobb, Edmund => Chesebro, George => Hearn, Edward
-
-Carricart, Robert/Clark, Harvey
-DoS = 10, RS = 10
-Chain Of Actors : Carricart, Robert => McCarthy, Kevin => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Douglas, Howard/Hearn, Edward
-DoS = 10, RS = 11
-Chain Of Actors : Douglas, Howard => Jordan, Patrick => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Cobb, Edmund => Chesebro, George => Hearn, Edward
-
-Andon, Kurt/Clark, Harvey
-DoS = 10, RS = 10
-Chain Of Actors : Andon, Kurt => McCarthy, Kevin => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Bacon, Kevin/Clark, Harvey
-DoS = 10, RS = 10
-Chain Of Actors : Bacon, Kevin => McCarthy, Kevin => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Masset, Andrew/Clark, Harvey
-DoS = 10, RS = 10
-Chain Of Actors : Masset, Andrew => McCarthy, Kevin => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Doonan, Patric/Hearn, Edward
-DoS = 10, RS = 11
-Chain Of Actors : Doonan, Patric => Herbert, Percy => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Cobb, Edmund => Chesebro, George => Hearn, Edward
-
-Maddern, Victor/Clark, Harvey
-DoS = 11, RS = 11
-Chain Of Actors : Maddern, Victor => Herbert, Percy => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Waters, Russell/Clark, Harvey
-DoS = 11, RS = 11
-Chain Of Actors : Waters, Russell => Jordan, Patrick => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Keen, Geoffrey/Clark, Harvey
-DoS = 11, RS = 11
-Chain Of Actors : Keen, Geoffrey => Jordan, Patrick => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Bryan, Dora/Clark, Harvey
-DoS = 11, RS = 11
-Chain Of Actors : Bryan, Dora => Herbert, Percy => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Frees, Wolf/Clark, Harvey
-DoS = 11, RS = 11
-Chain Of Actors : Frees, Wolf => Jordan, Patrick => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-French, Charles K./Herbert, Percy
-DoS = 11, RS = 11
-Chain Of Actors : French, Charles K. => Clark, Harvey => Paddock, Charles => Lease, Rex => Corbett, Ben => Hart, Gordon => Clemenson, Christian => Arnold, Tom => Coburn, James => Guardino, Harry => Knight, Don => Herbert, Percy
-
-Hilary, Jennifer/Clark, Harvey
-DoS = 11, RS = 11
-Chain Of Actors : Hilary, Jennifer => Jordan, Patrick => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Campbell, Beatrice/Clark, Harvey
-DoS = 11, RS = 11
-Chain Of Actors : Campbell, Beatrice => Herbert, Percy => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Beaumont, Victor/Clark, Harvey
-DoS = 11, RS = 11
-Chain Of Actors : Beaumont, Victor => Jordan, Patrick => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
-
-Fitzgerald, William/Clark, Harvey
-DoS = 11, RS = 11
-Chain Of Actors : Fitzgerald, William => Herbert, Percy => Knight, Don => Guardino, Harry => Coburn, James => Arnold, Tom => Clemenson, Christian => Hart, Gordon => Corbett, Ben => Lease, Rex => Paddock, Charles => Clark, Harvey
+Chain Of Actors : Amir, Saffron => Bailey, Ewan => Edwards, Jango
+
+Luden, Jack/Martindel, Edward
+DoS = 2, RS = 8
+Chain Of Actors : Luden, Jack => Davis, George => Martindel, Edward
+
+Furtak, Evelyn/Harrell, James N.
+DoS = 2, RS = 4
+Chain Of Actors : Furtak, Evelyn => Glasgow, Gil => Harrell, James N.
+
+Einstein, Carolyn/Angel, Vanessa
+DoS = 2, RS = 2
+Chain Of Actors : Einstein, Carolyn => Blake, Clement => Angel, Vanessa
+
+Marcq, Nick/Barnes, Barbara
+DoS = 2, RS = 2
+Chain Of Actors : Marcq, Nick => Abraham, Jake => Barnes, Barbara
+
+Kortos, Peter/Ford, Francis
+DoS = 2, RS = 10
+Chain Of Actors : Kortos, Peter => Busch, Mae => Ford, Francis
+
+Velasco, Jerry/Dale, Esther
+DoS = 2, RS = 7
+Chain Of Actors : Velasco, Jerry => Fisher, Shug => Dale, Esther
+
+Bykoff, Vladimar/Chandler, George
+DoS = 2, RS = 13
+Chain Of Actors : Bykoff, Vladimar => Ahn, Philip => Chandler, George
+
+Chambers, Dan/Dix, Richard
+DoS = 2, RS = 4
+Chain Of Actors : Chambers, Dan => Hancock, John => Dix, Richard
+
+Moon, Joan/Breuer, Pascal
+DoS = 2, RS = 2
+Chain Of Actors : Moon, Joan => Bowman, Robert => Breuer, Pascal
+
+Most, Don/Welker, Frank
+DoS = 2, RS = 23
+Chain Of Actors : Most, Don => Bartel, Paul => Welker, Frank
+
+Haugsvaer, Gunnar/Bernhoft, Unni
+DoS = 2, RS = 2
+Chain Of Actors : Haugsvaer, Gunnar => Halvorsen, Jan => Bernhoft, Unni
+
+Lowman, Jay/James, Sid
+DoS = 2, RS = 2
+Chain Of Actors : Lowman, Jay => Adams, Joyce => James, Sid
+
+Tyler, James/Gammon, James
+DoS = 2, RS = 3
+Chain Of Actors : Tyler, James => Cassel, Seymour => Gammon, James
+
+Javid, Krysia/West, Red
+DoS = 2, RS = 3
+Chain Of Actors : Javid, Krysia => Prior, Ted => West, Red
+
+Plumhoff, Wolfgang/Amerkamp, Erich
+DoS = 2, RS = 2
+Chain Of Actors : Plumhoff, Wolfgang => Bienert, Katja => Amerkamp, Erich
+
+Potter, Diane/Francis, Derek
+DoS = 2, RS = 3
+Chain Of Actors : Potter, Diane => Boyd, Margaret => Francis, Derek
+
+Brown Jr., Herb/Ardito, Gino
+DoS = 2, RS = 2
+Chain Of Actors : Brown Jr., Herb => Cort, William => Ardito, Gino
+
+Lee, Milton/Phelps, Lee
+DoS = 2, RS = 11
+Chain Of Actors : Lee, Milton => Arnold, Jessie => Phelps, Lee
+
+Tuominen, Matti/Pellonp��, Matti
+DoS = 2, RS = 7
+Chain Of Actors : Tuominen, Matti => Ahonen, Olavi => Pellonp��, Matti
+
+Georgoulis, Kimberly/Walcott, Gregory
+DoS = 2, RS = 5
+Chain Of Actors : Georgoulis, Kimberly => Eastwood, Clint => Walcott, Gregory
+
+Shamaei, Hooshang/Karimi, Niki
+DoS = 2, RS = 2
+Chain Of Actors : Shamaei, Hooshang => Kiarostami, Abbas => Karimi, Niki
+
+Kampinga, Fritz/Courbois, Kitty
+DoS = 2, RS = 8
+Chain Of Actors : Kampinga, Fritz => Beekman, Tim => Courbois, Kitty
+
+Chan, Mrs./Devine, Raquel
+DoS = 2, RS = 2
+Chain Of Actors : Chan, Mrs. => Jessica => Devine, Raquel
+
+Tilden, Leland/Baxter, Jennifer
+DoS = 2, RS = 2
+Chain Of Actors : Tilden, Leland => Aasland, Derek => Baxter, Jennifer
+
+Marggraf, Ilse/Sander, Otto
+DoS = 2, RS = 2
+Chain Of Actors : Marggraf, Ilse => Holtenau, Gerd => Sander, Otto
+
+Monticelli, Mimma/Bonos, Gigi
+DoS = 2, RS = 2
+Chain Of Actors : Monticelli, Mimma => De Luca, Pupo => Bonos, Gigi
+
+Feeney, Mary/Barker, Eric
+DoS = 2, RS = 2
+Chain Of Actors : Feeney, Mary => Feeney, Pat => Barker, Eric
+
+Albrecht, Marcy/Pleasence, Donald
+DoS = 2, RS = 2
+Chain Of Actors : Albrecht, Marcy => Lawhead, Mark => Pleasence, Donald
+
+Zignon, Yelena/Bell, Francis
+DoS = 2, RS = 3
+Chain Of Actors : Zignon, Yelena => Barry, Tony => Bell, Francis
+
+MacIntosh, Frank/Baez, Joan
+DoS = 2, RS = 2
+Chain Of Actors : MacIntosh, Frank => Boyce, Linda => Baez, Joan
+
+Blechmans, Salom�/Blanc, Manuel
+DoS = 2, RS = 2
+Chain Of Actors : Blechmans, Salom� => Aim�e, Anouk => Blanc, Manuel
+
+Thomas, Sean Patrick/Aguilera, Christina
+DoS = 2, RS = 3
+Chain Of Actors : Thomas, Sean Patrick => Berry, Halle => Aguilera, Christina
+
+Moore, Ray/Holt, Tim
+DoS = 2, RS = 3
+Chain Of Actors : Moore, Ray => Bartholomew, Freddie => Holt, Tim
+
+Romano, Nick/Kerman, Robert
+DoS = 2, RS = 13
+Chain Of Actors : Romano, Nick => Barbour, Kandi => Kerman, Robert
+
+Dundara, David/Starr, Mike
+DoS = 2, RS = 7
+Chain Of Actors : Dundara, David => Jutras, Simon => Starr, Mike
+
+Gosselaar, Mark-Paul/Affleck, Ben
+DoS = 2, RS = 4
+Chain Of Actors : Gosselaar, Mark-Paul => Carradine, Ever => Affleck, Ben
+
+Monroe, Rob/Hart, Veronica
+DoS = 2, RS = 5
+Chain Of Actors : Monroe, Rob => Edwards, Eric => Hart, Veronica
+
+Ratoucheff, Andy/Saylor, Syd
+DoS = 2, RS = 3
+Chain Of Actors : Ratoucheff, Andy => Raye, Martha => Saylor, Syd
+
+Dobson, Viki/Sanders, George
+DoS = 2, RS = 5
+Chain Of Actors : Dobson, Viki => Currie, Finlay => Sanders, George
+
+Bogino, David/Freytez, Patxi
+DoS = 2, RS = 2
+Chain Of Actors : Bogino, David => Bellucci, Monica => Freytez, Patxi
+
+Martins, Armando/Machado, Armando
+DoS = 2, RS = 2
+Chain Of Actors : Martins, Armando => Amaro, Jos� => Machado, Armando
+
+Jones, Isabelle/Kehoe, Jack
+DoS = 2, RS = 2
+Chain Of Actors : Jones, Isabelle => Donat, Peter => Kehoe, Jack
+
+Scott, Mike/Adams, Brian
+DoS = 2, RS = 8
+Chain Of Actors : Scott, Mike => Eadie, Bill => Adams, Brian
+
+Pruitt, Nate/Matthews, Dakin
+DoS = 2, RS = 3
+Chain Of Actors : Pruitt, Nate => Alda, Alan => Matthews, Dakin
+
+Wiedenhoff, Randy/Arquette, Lewis
+DoS = 2, RS = 3
+Chain Of Actors : Wiedenhoff, Randy => Farley, John => Arquette, Lewis
+
+Weygers, Arlette/Van Kuyk, Fred
+DoS = 2, RS = 7
+Chain Of Actors : Weygers, Arlette => Decleir, Jan => Van Kuyk, Fred
+
+Whalley, Joanne/Keir, Andrew
+DoS = 2, RS = 4
+Chain Of Actors : Whalley, Joanne => Connolly, Billy => Keir, Andrew
+
+Cederberg, G�ran/Franz�n, Peter
+DoS = 2, RS = 2
+Chain Of Actors : Cederberg, G�ran => Riza, Ahmed => Franz�n, Peter
+
+Karim, Abdul/Paxton, Bill
+DoS = 2, RS = 6
+Chain Of Actors : Karim, Abdul => Biehn, Michael => Paxton, Bill
+
+Wiedman, Marek/Behrens, Bernard
+DoS = 2, RS = 2
+Chain Of Actors : Wiedman, Marek => Barroll, Catherine => Behrens, Bernard
+
+Dalunde, Nancy/Skarstedt, Georg
+DoS = 2, RS = 27
+Chain Of Actors : Dalunde, Nancy => Bergstr�m, Torsten => Skarstedt, Georg
+
+Welther, Jim/Barnouw, Erik
+DoS = 2, RS = 2
+Chain Of Actors : Welther, Jim => Barber, Red => Barnouw, Erik
+
+Norton, Harold/Holt, Tim
+DoS = 2, RS = 3
+Chain Of Actors : Norton, Harold => Bartholomew, Freddie => Holt, Tim
+
+Gilbert, Maude/Hart, Al
+DoS = 2, RS = 4
+Chain Of Actors : Gilbert, Maude => De Carlton, George => Hart, Al
+
+Yoshioka, Adele/Alaimo, Marc
+DoS = 2, RS = 6
+Chain Of Actors : Yoshioka, Adele => Bunker, Edward => Alaimo, Marc
+
+Jarvis, Woody/Andrews, Stanley
+DoS = 2, RS = 12
+Chain Of Actors : Jarvis, Woody => Scott, Randolph => Andrews, Stanley
+
+Gobin, Gabriel/Demange, Paul
+DoS = 2, RS = 7
+Chain Of Actors : Gobin, Gabriel => Berton, Jean => Demange, Paul
+
+Hartley, Lee/Gielgud, John
+DoS = 2, RS = 5
+Chain Of Actors : Hartley, Lee => Blanchett, Cate => Gielgud, John
+
+Doll, Gracie/Hytten, Olaf
+DoS = 2, RS = 23
+Chain Of Actors : Doll, Gracie => Blandick, Clara => Hytten, Olaf
+
+Miroux, Thierry/Ardant, Fanny
+DoS = 2, RS = 2
+Chain Of Actors : Miroux, Thierry => B�art, Emmanuelle => Ardant, Fanny
+
+Daniels, Mickey/Crawford, Joan
+DoS = 2, RS = 40
+Chain Of Actors : Daniels, Mickey => Hoskins, Allen 'Farina' => Crawford, Joan
+
+Corveau, Jeff/Alldredge, Greg
+DoS = 2, RS = 2
+Chain Of Actors : Corveau, Jeff => Amendola, Linda => Alldredge, Greg
+
+Lacaste, Alex/Maguelon, Pierre
+DoS = 2, RS = 5
+Chain Of Actors : Lacaste, Alex => Benguigui, Jean => Maguelon, Pierre
+
+Fanning, Dakota/Abraham, Falconer
+DoS = 2, RS = 2
+Chain Of Actors : Fanning, Dakota => Bacon, Kevin => Abraham, Falconer
+
+Nay, Pierre/Boyer, Charles
+DoS = 2, RS = 6
+Chain Of Actors : Nay, Pierre => Lamarr, Hedy => Boyer, Charles
+
+Helpmann, Robert/Green, Danny
+DoS = 2, RS = 6
+Chain Of Actors : Helpmann, Robert => Appleby, Lucy => Green, Danny
+
+Chavez, Margaret/Fletcher, Louise
+DoS = 2, RS = 4
+Chain Of Actors : Chavez, Margaret => Baldwin, Daniel => Fletcher, Louise
+
+Con�alves, Daniel/Lint, Derek de
+DoS = 2, RS = 3
+Chain Of Actors : Con�alves, Daniel => Hoffman, Thom => Lint, Derek de
 
