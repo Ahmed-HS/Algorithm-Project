@@ -101,7 +101,9 @@ namespace AlgorithmProject
         public static void ReadQueries(string FileName)
         {
             MyDataFile = new FileStream(FileName, FileMode.Open);
+            OutputFile = new FileStream("QueriesResult.txt", FileMode.Create);
             MyReader = new StreamReader(MyDataFile);
+            MyWriter = new StreamWriter(OutputFile);
             string[] CurrentQuery;
             string Source, Target;
             while (MyReader.Peek() != -1)
@@ -109,27 +111,41 @@ namespace AlgorithmProject
                 CurrentQuery = MyReader.ReadLine().Split('/');
                 Source = CurrentQuery[0];
                 Target = CurrentQuery[1];
-                Console.WriteLine("Shortest path between " + Source + " and " + Target + " : " + BFS(Source, Target));
-                Console.WriteLine("Frequency between " + Source + " and " + Target + " : " + GetFrequency(Source, Target));
+                ActorState TargetResult = BFS(Source, Target);
+                string ShortestPath = ActorsPath(Source, Target);
+
+                MyWriter.WriteLine(Source + "/" + Target);
+                MyWriter.WriteLine("DoS = " + TargetResult.DistanceFromSource + ", RS = " + TargetResult.Frequency);
+                MyWriter.WriteLine("Chain Of Actors : " + ShortestPath);        
+                MyWriter.WriteLine();
+
+                Console.WriteLine(Source + "/" + Target);
+                Console.WriteLine("DoS = " + TargetResult.DistanceFromSource + ", RS = " + TargetResult.Frequency);
+                Console.WriteLine("Chain Of Actors : " + ShortestPath);
                 Console.WriteLine();
+
             }
             MyReader.Close();
+            MyWriter.Close();
+            OutputFile.Close();
             MyDataFile.Close();
         }
 
-        public static int GetFrequency(string Source, string Target)
+        public static string ActorsPath(string Source, string Target)
         {
-            if (Relations[Source].ContainsKey(Target))
+            string Parent,CurrentActor = Target;
+            string Path = Target;
+
+            while (CurrentActor != Source)
             {
-                return Relations[Source][Target].GetFrequency();
+                CurrentActor = ActorStates[CurrentActor].Parent;
+                Path = CurrentActor + " => " + Path; 
             }
-            else
-            {       
-                return ActorStates[Target].Frequency;
-            }
+
+            return Path;
         }
 
-        public static int BFS(string Source, string Target)
+        public static ActorState BFS(string Source, string Target)
         {
             ReIntialize();
             ActorStates[Source].MarkVisted(0, 0,"Source");
@@ -164,7 +180,7 @@ namespace AlgorithmProject
                 }
             }
        
-            return ActorStates[Target].DistanceFromSource;
+            return ActorStates[Target];
         }
         public static void ReadGraph(string FileName)
         {
