@@ -12,7 +12,7 @@ namespace AlgorithmProject
     class CommonInfo
     {
         private int Frequency;
-        private List<string> CommonMovies;
+        public List<string> CommonMovies;
 
         public CommonInfo()
         {
@@ -78,7 +78,7 @@ namespace AlgorithmProject
         //Graph of Relations the strings are actor names 
         private static Dictionary<string, Dictionary<string, CommonInfo>> Relations;
         private static Dictionary<string, ActorState> ActorStates;
-        public static int NumberOfActors;
+        private static int NumberOfActors;
         private static FileStream MyDataFile;
         private static FileStream OutputFile;
         private static StreamReader MyReader;
@@ -98,51 +98,62 @@ namespace AlgorithmProject
             }
         }
 
+
+
         public static void ReadQueries(string FileName)
         {
             MyDataFile = new FileStream(FileName, FileMode.Open);
             OutputFile = new FileStream("QueriesResult.txt", FileMode.Create);
             MyReader = new StreamReader(MyDataFile);
             MyWriter = new StreamWriter(OutputFile);
+
             string[] CurrentQuery;
             string Source, Target;
+
             while (MyReader.Peek() != -1)
             {
                 CurrentQuery = MyReader.ReadLine().Split('/');
                 Source = CurrentQuery[0];
                 Target = CurrentQuery[1];
+
                 ActorState TargetResult = BFS(Source, Target);
-                string ShortestPath = ActorsPath(Source, Target);
+                Tuple<string, string> ShortestPath = GetPath(Source, Target);
+                string ActorPath = ShortestPath.Item1;
+                string MoviePath = ShortestPath.Item2;
 
                 MyWriter.WriteLine(Source + "/" + Target);
                 MyWriter.WriteLine("DoS = " + TargetResult.DistanceFromSource + ", RS = " + TargetResult.Frequency);
-                MyWriter.WriteLine("Chain Of Actors : " + ShortestPath);        
+                MyWriter.WriteLine("Chain Of Actors : " + ActorPath);
+                MyWriter.WriteLine("Chain Of Movies : " + MoviePath);
                 MyWriter.WriteLine();
 
-                Console.WriteLine(Source + "/" + Target);
-                Console.WriteLine("DoS = " + TargetResult.DistanceFromSource + ", RS = " + TargetResult.Frequency);
-                Console.WriteLine("Chain Of Actors : " + ShortestPath);
-                Console.WriteLine();
+                //Console.WriteLine(Source + "/" + Target);
+                //Console.WriteLine("DoS = " + TargetResult.DistanceFromSource + ", RS = " + TargetResult.Frequency);
+                //Console.WriteLine("Chain Of Actors : " + ActorPath);
+                //Console.WriteLine();
 
             }
             MyReader.Close();
             MyWriter.Close();
             OutputFile.Close();
             MyDataFile.Close();
+
         }
 
-        public static string ActorsPath(string Source, string Target)
+        public static Tuple<string,string> GetPath(string Source, string Target)
         {
-            string CurrentActor = Target;
-            string Path = Target;
+            string Parent , CurrentActor = Target;
+            string MoviePath = "" , ActorPath = Target;
 
             while (CurrentActor != Source)
             {
-                CurrentActor = ActorStates[CurrentActor].Parent;
-                Path = CurrentActor + " => " + Path; 
+                Parent = ActorStates[CurrentActor].Parent;
+                MoviePath = Relations[CurrentActor][Parent].CommonMovies[0] + " => " + MoviePath;
+                ActorPath = Parent + " -> " + ActorPath;
+                CurrentActor = Parent;
             }
-
-            return Path;
+  
+            return new Tuple<string, string>(ActorPath,MoviePath);
         }
 
         public static ActorState BFS(string Source, string Target)
@@ -184,12 +195,12 @@ namespace AlgorithmProject
         }
         public static void ReadGraph(string FileName)
         {
+            Console.WriteLine("Reading Movies Information ");
+
             Stopwatch MyWatch = new Stopwatch();
             MyWatch.Start();
             MyDataFile = new FileStream(FileName, FileMode.Open);
-            OutputFile = new FileStream("Output.txt", FileMode.Create);
             MyReader = new StreamReader(MyDataFile);
-            MyWriter = new StreamWriter(OutputFile);
             string[] Actors;
 
             while (MyReader.Peek() != -1)
@@ -197,15 +208,6 @@ namespace AlgorithmProject
                 // Read a movie then split it by '/' where Actors[0] is the movie name 
                 Actors = MyReader.ReadLine().Split('/');
                 int ActorsPerMovie = Actors.Length;
-
-                // Loging Info
-                Console.WriteLine();
-                Console.WriteLine("Movie Name : " + Actors[0]);
-                Console.WriteLine();
-
-                MyWriter.WriteLine();
-                MyWriter.WriteLine("Movie Name : " + Actors[0]);
-                MyWriter.WriteLine();
 
                 // Start From Fisrt Actor
                 for (int i = 1; i < ActorsPerMovie; i++)
@@ -245,8 +247,6 @@ namespace AlgorithmProject
                         Relations[Actors[j]][Actors[i]].IncreaseFrequency();
                         Relations[Actors[j]][Actors[i]].AddCommonMovie(Actors[0]);
 
-                        Console.WriteLine(Actors[i] + " Acted With " + Actors[j]);
-                        MyWriter.WriteLine(Actors[i] + " Acted With " + Actors[j]);
                     }
                 }
             }
@@ -258,17 +258,14 @@ namespace AlgorithmProject
             Console.WriteLine("Number of Actors : " + NumberOfActors);
             Console.WriteLine();
 
-            MyWriter.WriteLine();
-            MyWriter.WriteLine("Created Graph in : " + MyWatch.Elapsed.TotalSeconds + "Seconds");
-            MyWriter.WriteLine();
-            MyWriter.WriteLine("Number of Actors : " + NumberOfActors);
-            MyWriter.WriteLine();
-
             MyWatch.Stop();
-            MyWriter.Close();
             MyReader.Close();
             MyDataFile.Close();
         }
 
     }
+
+
+
+
 }

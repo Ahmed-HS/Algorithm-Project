@@ -1,0 +1,14 @@
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\GraphUnitTests.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\GraphUnitTests.pdb
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\obj\Debug\GraphUnitTests.csprojAssemblyReference.cache
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\obj\Debug\GraphUnitTests.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\obj\Debug\GraphUnitTests.csproj.CopyComplete
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\obj\Debug\GraphUnitTests.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\obj\Debug\GraphUnitTests.pdb

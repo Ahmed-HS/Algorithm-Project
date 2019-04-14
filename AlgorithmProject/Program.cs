@@ -12,10 +12,8 @@ namespace AlgorithmProject
         {
             Stopwatch MyWatch = new Stopwatch();
             MyWatch.Start();
-            Console.WriteLine("Reading Movies Information ");
             Graph.ReadGraph("Input.txt");
             Graph.ReadQueries("Queries.txt");
-            Console.WriteLine("Number Of Actors : " + Graph.NumberOfActors);
             Console.WriteLine("Total Running Time : " + MyWatch.Elapsed.TotalSeconds);
             Console.WriteLine();
             MyWatch.Stop();
