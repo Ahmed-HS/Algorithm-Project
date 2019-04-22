@@ -31,7 +31,6 @@ namespace GraphUnitTests
                 SolutionReader.ReadLine();
                 Expected += SolutionReader.ReadLine();
                 
-
                 ResultReader.ReadLine();
                 ResultReader.ReadLine();
                 ResultReader.ReadLine();
