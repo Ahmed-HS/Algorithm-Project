@@ -1,0 +1,6 @@
+MainPackage=C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\SmallWorld_1.0.0.0_x64.appx
+SymbolPackage=C:\Users\Ahmed Hatem\Desktop\SmallWorld_1.0.0.0_Test\SmallWorld_1.0.0.0_x64.appxsym
+ResourcePack=C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\SmallWorld_1.0.0.0_scale-100.appx
+ResourcePack=C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\SmallWorld_1.0.0.0_scale-125.appx
+ResourcePack=C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\SmallWorld_1.0.0.0_scale-150.appx
+ResourcePack=C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\SmallWorld_1.0.0.0_scale-400.appx

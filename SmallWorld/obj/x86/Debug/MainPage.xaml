@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="SmallWorld.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SmallWorld"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="800" Height="601" HorizontalAlignment="Center" VerticalAlignment="Center" Background="{ThemeResource AppBarBackgroundThemeBrush}">
+    <Grid HorizontalAlignment="Center" Height="601" Margin="0,0,0,0" VerticalAlignment="Center" Width="800">
+        <AppBarButton x:ConnectionId='2' x:Name="SelectMovies" HorizontalAlignment="Left" Icon="OpenWith" Label="Select Movies File" Margin="722,10,0,0" VerticalAlignment="Top" RequestedTheme="Light"                       />
+        <AppBarButton x:ConnectionId='3' HorizontalAlignment="Left" Icon="Target" Label="Select Queries File" Margin="629,10,0,0" VerticalAlignment="Top"                        />
+        <ComboBox x:ConnectionId='4' x:Name="Queries" HorizontalAlignment="Left" Margin="201,32,0,0" VerticalAlignment="Top" Width="168" RenderTransformOrigin="0.503,-0.953">
+            <Button/>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" Margin="35,33,0,0" Text="Choose a query :" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22"/>
+        <RichEditBox x:ConnectionId='5' x:Name="QueriesResult" HorizontalAlignment="Left" Margin="35,132,0,0" VerticalAlignment="Top" Height="418" Width="721"/>
+    </Grid>
+</Page>
+

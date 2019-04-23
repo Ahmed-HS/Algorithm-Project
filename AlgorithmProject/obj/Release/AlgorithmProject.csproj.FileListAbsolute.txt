@@ -1,7 +1,0 @@
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\AlgorithmProject\bin\Release\AlgorithmProject.exe.config
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\AlgorithmProject\bin\Release\AlgorithmProject.exe
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\AlgorithmProject\bin\Release\AlgorithmProject.pdb
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\AlgorithmProject\obj\Release\AlgorithmProject.csprojAssemblyReference.cache
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\AlgorithmProject\obj\Release\AlgorithmProject.csproj.CoreCompileInputs.cache
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\AlgorithmProject\obj\Release\AlgorithmProject.exe
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\AlgorithmProject\obj\Release\AlgorithmProject.pdb
