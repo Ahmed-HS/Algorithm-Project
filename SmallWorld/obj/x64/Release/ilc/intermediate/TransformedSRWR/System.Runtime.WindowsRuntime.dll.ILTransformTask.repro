@@ -1,10 +1,10 @@
 FullName=Microsoft.Build.ILTasks.ILTransformInternalTask
-InputAssembly=C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\obj\x64\Release\ilc\in\System.Runtime.WindowsRuntime.dll
-OutputAssembly=C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\obj\x64\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll
+InputAssembly=C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\System.Runtime.WindowsRuntime.dll
+OutputAssembly=C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll
 UseILOutputPrefix=False
 LibPathsCount=2
 LibPath=C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\tools\x64\ilc\lib\Private\
-LibPath=C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\obj\x64\Release\ilc\in\
+LibPath=C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\
 CoreAssemblyName=System.Private.CoreLib
 SkipWritingTransformedAssembly=False
 DontSaveUnlessChangesMade=False

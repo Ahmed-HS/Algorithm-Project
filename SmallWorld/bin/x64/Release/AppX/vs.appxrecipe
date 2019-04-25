@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>2545bc0b-f423-4494-b349-372d0be91779</PackageIdentityName>
     <PackageIdentityPublisher>CN=Ahmed Hatem</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\obj\x64\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\AppX</LayoutDir>
     <RegisteredManifestChecksum>EE9990F3200D89982C098427C21675676D7922ED45AB153C12570765F44CC1A4</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>2545bc0b-f423-4494-b349-372d0be91779_1.0.0.0_x64__kc9f3hk55xjm4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>2545bc0b-f423-4494-b349-372d0be91779_kc9f3hk55xjm4!App</RegisteredUserModeAppID>
@@ -28,262 +28,262 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-23T19:56:33.983</Modified>
+      <Modified>2019-04-25T09:59:18.837</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.705</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.734</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.776</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.909</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2019-04-16T09:26:15.478</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.370</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.382</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.397</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.427</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.101</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.134</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.487</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.454</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.467</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.487</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.527</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.028</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.077</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.047</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.057</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.919</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.928</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.937</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.948</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.962</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.972</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.981</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.038</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.019</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.991</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.497</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.507</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.518</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.529</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:17.546</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.555</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.573</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-23T19:56:16.664</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\clrcompression.dll">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
       <Modified>2016-06-13T19:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-23T19:56:22.197</Modified>
+      <Modified>2019-04-25T09:59:06.736</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\SmallWorld.dll">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\SmallWorld.dll">
       <PackagePath>SmallWorld.dll</PackagePath>
-      <Modified>2019-04-23T19:56:33.876</Modified>
+      <Modified>2019-04-25T09:59:18.729</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\SmallWorld.exe">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\SmallWorld.exe">
       <PackagePath>SmallWorld.exe</PackagePath>
-      <Modified>2019-04-23T19:56:33.975</Modified>
+      <Modified>2019-04-25T09:59:18.829</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\source\repos\SmallWorld\SmallWorld\bin\x64\Release\ilc\SmallWorld.pdb">
+    <AppxPackagedFile Include="C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\ilc\SmallWorld.pdb">
       <PackagePath>SmallWorld.pdb</PackagePath>
-      <Modified>2019-04-23T19:56:33.969</Modified>
+      <Modified>2019-04-25T09:59:18.823</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -16,7 +16,8 @@
         <AutoSuggestBox x:ConnectionId='6' x:Name="SecondActor" HorizontalAlignment="Left" Margin="191,82,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.258,-0.328" Width="163"                           />
         <AppBarButton x:ConnectionId='7' x:Name="FindRelationButton" HorizontalAlignment="Left" Icon="Switch" Label="2 Actors' Relation" Margin="508,588,0,0" VerticalAlignment="Top"                     />
         <AppBarButton x:ConnectionId='8' x:Name="FindAllRelationsButton" HorizontalAlignment="Left" Icon="ContactInfo" Label="1 to all Relation" Margin="594,588,0,0" VerticalAlignment="Top"                         />
-        <TextBlock x:ConnectionId='9' x:Name="TimerText" HorizontalAlignment="Left" Margin="35,616,0,0" Text="Finished in :" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.359,1.75"/>
+        <TextBlock x:ConnectionId='9' x:Name="StatusText" HorizontalAlignment="Left" Margin="51,617,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.359,1.75" Width="237" Height="42"/>
+        <TextBlock HorizontalAlignment="Left" Margin="42,578,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Height="28" Width="63"><Run Text="Status :"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
     </Grid>
 </Page>
 

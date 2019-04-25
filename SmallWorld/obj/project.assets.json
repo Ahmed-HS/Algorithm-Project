@@ -27506,11 +27506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ahmed Hatem\\source\\repos\\SmallWorld\\SmallWorld\\SmallWorld.csproj",
+      "projectUniqueName": "C:\\Users\\Ahmed Hatem\\Documents\\AlgorithmProject\\Algorithm-Project\\SmallWorld\\SmallWorld.csproj",
       "projectName": "SmallWorld",
-      "projectPath": "C:\\Users\\Ahmed Hatem\\source\\repos\\SmallWorld\\SmallWorld\\SmallWorld.csproj",
+      "projectPath": "C:\\Users\\Ahmed Hatem\\Documents\\AlgorithmProject\\Algorithm-Project\\SmallWorld\\SmallWorld.csproj",
       "packagesPath": "C:\\Users\\Ahmed Hatem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ahmed Hatem\\source\\repos\\SmallWorld\\SmallWorld\\obj\\",
+      "outputPath": "C:\\Users\\Ahmed Hatem\\Documents\\AlgorithmProject\\Algorithm-Project\\SmallWorld\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

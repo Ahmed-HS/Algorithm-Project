@@ -33,25 +33,6 @@ namespace SmallWorld
       
         }
 
-        private void StartTaskTimer()
-        {
-            TaskTimer.Reset();
-            TaskTimer.Start();
-        }
-        private void SetTaskTime()
-        {
-            string Time = "";
-            int Hours, Minutes, Seconds;
-            TaskTimer.Stop();
-            Seconds = TaskTimer.Elapsed.Seconds;
-            Seconds %= 60;
-            Minutes = Seconds / 60;
-            Minutes %= 60;
-            Hours = Minutes / 60;
-            Time = "Finished in : " + Hours + " Hours , " + Minutes + " Minutes , " + Seconds + " Seconds ";
-            TimerText.Text = Time;
-        }
-
         private async void OpenMoviesFile(object sender, RoutedEventArgs e)
         {
             FileOpenPicker FilePicker = new FileOpenPicker();
@@ -59,6 +40,7 @@ namespace SmallWorld
             FilePicker.SuggestedStartLocation = PickerLocationId.PicturesLibrary;
             FilePicker.FileTypeFilter.Add(".txt");
             StorageFile ChosenFile = await FilePicker.PickSingleFileAsync();
+
             Task<string[]> ReadGraph = null;
             if (ChosenFile != null)
             {
@@ -67,12 +49,10 @@ namespace SmallWorld
                 {
                     return Graph.ReadGraph(ChosenFile.Path);
                 });
-                StartTaskTimer();
-                Window.Current.CoreWindow.PointerCursor = new Windows.UI.Core.CoreCursor(Windows.UI.Core.CoreCursorType.Wait, 0);
+                StartTask("Reading movies file.");
                 ReadGraph.Start();
                 ActorNames = ReadGraph.Result;
-                Window.Current.CoreWindow.PointerCursor = new Windows.UI.Core.CoreCursor(Windows.UI.Core.CoreCursorType.Arrow, 0);
-                SetTaskTime();
+                FinishTask();
             }
 
         }
@@ -89,26 +69,82 @@ namespace SmallWorld
             {
                 Windows.Storage.AccessCache.StorageApplicationPermissions.FutureAccessList.Add(ChosenFile);
                 ReadQueries = new Task<string>(()=>
-                {                  
+                {
                     return Graph.ReadQueries(ChosenFile.Path);
                 });
-                StartTaskTimer();
-                Window.Current.CoreWindow.PointerCursor = new Windows.UI.Core.CoreCursor(Windows.UI.Core.CoreCursorType.Wait, 0);
+                StartTask("Reading queries file.");
                 ReadQueries.Start();
-                SetQueriesResultText(ReadQueries.Result);
-                Window.Current.CoreWindow.PointerCursor = new Windows.UI.Core.CoreCursor(Windows.UI.Core.CoreCursorType.Arrow, 0);
-                SetTaskTime();
+                FinishTask(ReadQueries.Result);
             }
           
         }
 
-        private void SetQueriesResultText(string NewText)
+        private void FindRelation(object sender, RoutedEventArgs e)
+        {
+            string Source = FirstActor.Text;
+            string Target = SecondActor.Text;
+            Task<string> FindRelationTask = new Task<string>(() =>
+            {
+                return Graph.GetTwoActorsRelation(Source,Target);
+            });
+            StartTask("Finding relation between two actors.");
+            FindRelationTask.Start();
+            FinishTask(FindRelationTask.Result);
+        }
+
+        private void FindAllRelations(object sender, RoutedEventArgs e)
+        {
+            string Source = FirstActor.Text;
+            Task<string> FindOneToAll = new Task<string>(() =>
+            {
+                return Graph.GetOneToAllRelation(Source);
+            });
+            StartTask("Calculating distribution of shortest paths.");
+            FindOneToAll.Start();
+            FinishTask(FindOneToAll.Result);
+        }
+
+        private void StartTask(string Status)
+        {
+            StatusText.Text = Status;
+            StartTaskTimer();
+            Window.Current.CoreWindow.PointerCursor = new Windows.UI.Core.CoreCursor(Windows.UI.Core.CoreCursorType.Wait, 0);
+        }
+
+        private void FinishTask(string Result = "")
+        {
+            string FinishTime = StopTaskTime();
+            Window.Current.CoreWindow.PointerCursor = new Windows.UI.Core.CoreCursor(Windows.UI.Core.CoreCursorType.Arrow, 0);
+            if (Result != "")
+            {
+                SetQueriesResultText(Result, FinishTime);
+            }
+        }
+
+        private void StartTaskTimer()
+        {
+            TaskTimer.Reset();
+            TaskTimer.Start();
+        }
+
+        private string StopTaskTime()
+        {
+            TaskTimer.Stop();
+            StatusText.Text = "Finished in : \n" + TaskTimer.Elapsed.Minutes + " Minutes , " + TaskTimer.Elapsed.Seconds + " Seconds ";
+            return TaskTimer.Elapsed.Minutes + " Minutes , " + TaskTimer.Elapsed.Seconds + " Seconds ";
+        }
+
+        private void SetQueriesResultText(string NewText,string FinishTime)
         {
             int MaxDisplaySize = 457050;
             if (NewText.Length > MaxDisplaySize)
             {
-                ShowSaveDialog(NewText);
+                ShowSaveDialog(NewText, "Result too large", "The result is too large to display, Save it to a text file.");
                 return;
+            }
+            else
+            {
+                ShowSaveDialog(NewText, "Finished", "The task finished in " + FinishTime + ", Do you want to save the result to a text file ?");
             }
             QueriesResult.IsReadOnly = false;
             QueriesResult.Document.SetText(Windows.UI.Text.TextSetOptions.None,NewText);
@@ -127,18 +163,19 @@ namespace SmallWorld
             ContentDialogResult Result = await SavedFile.ShowAsync();
         }
 
-        private async void ShowSaveDialog(string QueriesResult)
+        private async void ShowSaveDialog(string QueriesResult,string Heading,string Message)
         {
-            ContentDialog TextTooLarge = new ContentDialog
+            ContentDialog SaveDialog = new ContentDialog
             {
-                Title = "Result too large",
-                Content = "The result is too large to display, Save it to a text file.",
-                CloseButtonText = "Ok"
+                Title = Heading,
+                Content = Message,
+                PrimaryButtonText = "Save",
+                CloseButtonText = "Cancel"
             };
 
-            ContentDialogResult Result = await TextTooLarge.ShowAsync();
+            ContentDialogResult Result = await SaveDialog.ShowAsync();
 
-            if (Result == ContentDialogResult.None)
+            if (Result == ContentDialogResult.Primary)
             {
                 FileSavePicker SavePicker = new FileSavePicker();
                 SavePicker.SuggestedStartLocation = PickerLocationId.DocumentsLibrary;
@@ -169,37 +206,6 @@ namespace SmallWorld
             }
         }
 
-        private void FindRelation(object sender, RoutedEventArgs e)
-        {
-            string Source = FirstActor.Text;
-            string Target = SecondActor.Text;
-            Task<string> FindRelationTask = new Task<string>(() =>
-            {
-                return Graph.GetTwoActorsRelation(Source,Target);
-            });
-            StartTaskTimer();
-            Window.Current.CoreWindow.PointerCursor = new Windows.UI.Core.CoreCursor(Windows.UI.Core.CoreCursorType.Wait, 0);
-            FindRelationTask.Start();
-            SetQueriesResultText(FindRelationTask.Result);
-            Window.Current.CoreWindow.PointerCursor = new Windows.UI.Core.CoreCursor(Windows.UI.Core.CoreCursorType.Arrow, 0);
-            SetTaskTime();
-        }
-
-        private void FindAllRelations(object sender, RoutedEventArgs e)
-        {
-            string Source = FirstActor.Text;
-            Task<string> FindOneToAll = new Task<string>(() =>
-            {
-                return Graph.GetOneToAllRelation(Source);
-            });
-            StartTaskTimer();
-            Window.Current.CoreWindow.PointerCursor = new Windows.UI.Core.CoreCursor(Windows.UI.Core.CoreCursorType.Wait, 0);
-            FindOneToAll.Start();
-            SetQueriesResultText(FindOneToAll.Result);
-            Window.Current.CoreWindow.PointerCursor = new Windows.UI.Core.CoreCursor(Windows.UI.Core.CoreCursorType.Arrow, 0);
-            SetTaskTime();
-        }
-
         private async void FilterActors(AutoSuggestBox sender, AutoSuggestBoxTextChangedEventArgs args)
         {
             if (args.Reason == AutoSuggestionBoxTextChangeReason.UserInput)
@@ -209,13 +215,16 @@ namespace SmallWorld
             }
         }
         
-
         private string[] GetSuggestions(string text)
         {
             string[] Suggestions = null;
-
+            if (ActorNames == null)
+            {
+                return null;
+            }
             Suggestions = ActorNames.Where(x => x.Contains(text)).ToArray();
             return Suggestions;
         }
+
     }
 }

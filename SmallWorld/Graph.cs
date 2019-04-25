@@ -10,12 +10,11 @@ namespace AlgorithmProject
     class CommonInfo
     {
         private int Frequency;
-        public List<string> CommonMovies;
+        public string CommonMovie;
 
         public CommonInfo()
         {
             Frequency = 0;
-            CommonMovies = new List<string>();
         }
 
         public void IncreaseFrequency()
@@ -23,9 +22,9 @@ namespace AlgorithmProject
             Frequency++;
         }
 
-        public void AddCommonMovie(string MovieName)
+        public void SetCommonMovie(string MovieName)
         {
-            CommonMovies.Add(MovieName);
+            CommonMovie = MovieName;
         }
 
         public int GetFrequency()
@@ -33,9 +32,9 @@ namespace AlgorithmProject
             return Frequency;
         }
 
-        List<string> GetCommonMovies()
+        string GetCommonMovie()
         {
-            return CommonMovies;
+            return CommonMovie;
         }
     }
 
@@ -141,7 +140,7 @@ namespace AlgorithmProject
             while (CurrentActor != Source)
             {
                 Parent = ActorStates[CurrentActor].Parent;
-                MoviePath = Relations[CurrentActor][Parent].CommonMovies[0] + " => " + MoviePath;
+                MoviePath = Relations[CurrentActor][Parent].CommonMovie + " => " + MoviePath;
                 ActorPath = Parent + " -> " + ActorPath;
                 CurrentActor = Parent;
             }
@@ -319,10 +318,11 @@ namespace AlgorithmProject
                         if (!Relations[Actors[i]].ContainsKey(Actors[j]))
                         {
                             Relations[Actors[i]].Add(Actors[j], new CommonInfo());
+                            Relations[Actors[i]][Actors[j]].SetCommonMovie(Actors[0]);
                         }
 
                         Relations[Actors[i]][Actors[j]].IncreaseFrequency();
-                        Relations[Actors[i]][Actors[j]].AddCommonMovie(Actors[0]);
+                        
 
                         if (!Relations.ContainsKey(Actors[j]))
                         {
@@ -334,10 +334,10 @@ namespace AlgorithmProject
                         if (!Relations[Actors[j]].ContainsKey(Actors[i]))
                         {
                             Relations[Actors[j]].Add(Actors[i], new CommonInfo());
+                            Relations[Actors[j]][Actors[i]].SetCommonMovie(Actors[0]);
                         }
 
                         Relations[Actors[j]][Actors[i]].IncreaseFrequency();
-                        Relations[Actors[j]][Actors[i]].AddCommonMovie(Actors[0]);
 
                     }
                 }
@@ -353,8 +353,9 @@ namespace AlgorithmProject
             MyWatch.Stop();
             MyReader.Dispose();
             MyDataFile.Dispose();
-
-            return ActorStates.Keys.ToArray();
+            string[] AllActors = ActorStates.Keys.ToArray();
+            AllActors[0] = "Select an actor";
+            return AllActors;
         }
 
     }
