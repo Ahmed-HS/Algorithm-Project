@@ -8,10 +8,14 @@
 /multiFile
 /sharedGenericsMode StandardUniversalGenericsHeuristics
 /in "C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\SmallWorld.ilexe"
+/in "C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\MedallionPriorityQueue.ildll"
+/in "C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\Priority Queue.ildll"
 /in "C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\SmallWorld.McgInterop.ildll"
 /in "C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\System.AppContext.ildll"
+/in "C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\System.Buffers.ildll"
 /in "C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\System.Collections.NonGeneric.ildll"
 /in "C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\System.ComponentModel.ildll"
+/in "C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\System.Console.ildll"
 /in "C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\System.Data.Common.ildll"
 /in "C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\System.Diagnostics.Contracts.ildll"
 /in "C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\System.Diagnostics.Debug.ildll"

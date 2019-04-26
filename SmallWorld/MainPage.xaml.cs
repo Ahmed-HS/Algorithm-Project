@@ -104,6 +104,32 @@ namespace SmallWorld
             FinishTask(FindOneToAll.Result);
         }
 
+        private void FindStrongestPath(object sender, RoutedEventArgs e)
+        {
+            string Source = FirstActor.Text;
+            string Target = SecondActor.Text;
+            Task<string> StrongestPathTask = new Task<string>(() =>
+            {
+                return "To be Implemented";
+            });
+            StartTask("Finding strongest path between two actors.");
+            StrongestPathTask.Start();
+            FinishTask(StrongestPathTask.Result);
+        }
+
+        private void FindMST(object sender, RoutedEventArgs e)
+        {
+            string Source = FirstActor.Text;
+            string Target = SecondActor.Text;
+            Task<string> MSTTaske = new Task<string>(() =>
+            {
+                return "To be Implemented";
+            });
+            StartTask("Finding MST.");
+            MSTTaske.Start();
+            FinishTask(MSTTaske.Result);
+        }
+
         private void StartTask(string Status)
         {
             StatusText.Text = Status;
@@ -136,10 +162,14 @@ namespace SmallWorld
 
         private void SetQueriesResultText(string NewText,string FinishTime)
         {
-            int MaxDisplaySize = 457050;
+            int MaxDisplaySize = 307620;
             if (NewText.Length > MaxDisplaySize)
             {
                 ShowSaveDialog(NewText, "Result too large", "The result is too large to display, Save it to a text file.");
+                return;
+            }
+            else if (NewText == "Please Enter Correct Actor Names")
+            {
                 return;
             }
             else

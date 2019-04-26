@@ -325,6 +325,15 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "OptimizedPriorityQueue/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Priority Queue.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Priority Queue.dll": {}
+        }
+      },
       "runtime.native.System.IO.Compression/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -2478,6 +2487,15 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "OptimizedPriorityQueue/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Priority Queue.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Priority Queue.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -4775,6 +4793,15 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "OptimizedPriorityQueue/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Priority Queue.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Priority Queue.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -7105,6 +7132,15 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "OptimizedPriorityQueue/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Priority Queue.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Priority Queue.dll": {}
+        }
+      },
       "runtime.native.System.IO.Compression/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -9027,6 +9063,15 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "OptimizedPriorityQueue/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Priority Queue.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Priority Queue.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -11333,6 +11378,15 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "OptimizedPriorityQueue/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Priority Queue.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Priority Queue.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -13675,6 +13729,15 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "OptimizedPriorityQueue/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Priority Queue.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Priority Queue.dll": {}
+        }
+      },
       "runtime.any.System.Collections/4.0.11": {
         "type": "package",
         "dependencies": {
@@ -15979,6 +16042,15 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "OptimizedPriorityQueue/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Priority Queue.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Priority Queue.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -20716,6 +20788,34 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
+      ]
+    },
+    "OptimizedPriorityQueue/4.2.0": {
+      "sha512": "jDxbVsb4HBzuhqIb2Bud/obIpvK92YLNi9lHxKiTU1otk8nP17FzZnj/n+ynh5r2i09LCIBC3yZNXB2QSSHPmQ==",
+      "type": "package",
+      "path": "optimizedpriorityqueue/4.2.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net20/Priority Queue.dll",
+        "lib/net20/Priority Queue.pdb",
+        "lib/net20/Priority Queue.xml",
+        "lib/net35-unity full v3.5/Priority Queue.dll",
+        "lib/net35-unity full v3.5/Priority Queue.pdb",
+        "lib/net35-unity full v3.5/Priority Queue.xml",
+        "lib/net35-unity subset v3.5/Priority Queue.dll",
+        "lib/net35-unity subset v3.5/Priority Queue.pdb",
+        "lib/net35-unity subset v3.5/Priority Queue.xml",
+        "lib/net45/Priority Queue.dll",
+        "lib/net45/Priority Queue.pdb",
+        "lib/net45/Priority Queue.xml",
+        "lib/netstandard1.0/Priority Queue.dll",
+        "lib/netstandard1.0/Priority Queue.pdb",
+        "lib/netstandard1.0/Priority Queue.xml",
+        "lib/portable-net40+sl5+win8+wpa81+wp8/Priority Queue.dll",
+        "lib/portable-net40+sl5+win8+wpa81+wp8/Priority Queue.pdb",
+        "lib/portable-net40+sl5+win8+wpa81+wp8/Priority Queue.xml",
+        "optimizedpriorityqueue.4.2.0.nupkg.sha512",
+        "optimizedpriorityqueue.nuspec"
       ]
     },
     "runtime.any.System.Collections/4.0.11": {
@@ -27496,7 +27596,8 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.15063": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.7"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.7",
+      "OptimizedPriorityQueue >= 4.2.0"
     ]
   },
   "packageFolders": {
@@ -27539,6 +27640,10 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.1.7, )"
+          },
+          "OptimizedPriorityQueue": {
+            "target": "Package",
+            "version": "[4.2.0, )"
           }
         }
       }

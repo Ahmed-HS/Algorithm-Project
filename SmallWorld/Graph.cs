@@ -75,11 +75,10 @@ namespace AlgorithmProject
         //Graph of Relations the strings are actor names 
         private static Dictionary<string, Dictionary<string, CommonInfo>> Relations;
         private static Dictionary<string, ActorState> ActorStates;
+        
         private static int NumberOfActors;
         private static FileStream MyDataFile;
-        private static FileStream OutputFile;
         private static StreamReader MyReader;
-        private static StreamWriter MyWriter;
 
         static Graph()
         {
@@ -97,14 +96,10 @@ namespace AlgorithmProject
             ActorStates["Null"].MarkVisted(int.MaxValue, int.MaxValue, "Null");
         }
 
-
-
         public static string ReadQueries(string FileName)
         {
             MyDataFile = new FileStream(FileName, FileMode.Open);
-            //OutputFile = new FileStream("QueriesResult.txt", FileMode.Create);
             MyReader = new StreamReader(MyDataFile);
-           // MyWriter = new StreamWriter(OutputFile);
 
             string[] CurrentQuery;
             string Source, Target, QueriesResult = "";
@@ -114,19 +109,10 @@ namespace AlgorithmProject
                 CurrentQuery = MyReader.ReadLine().Split('/');
                 Source = CurrentQuery[0];
                 Target = CurrentQuery[1];
-
-                //MyWriter.WriteLine(Source + "/" + Target);
-                //MyWriter.WriteLine("DoS = " + TargetResult.DistanceFromSource + ", RS = " + TargetResult.Frequency);
-                //MyWriter.WriteLine("Chain Of Actors : " + ActorPath);
-                //MyWriter.WriteLine("Chain Of Movies : " + MoviePath);
-                //MyWriter.WriteLine();
-
                 QueriesResult += GetTwoActorsRelation(Source, Target);      
 
             }
             MyReader.Dispose();
-           // MyWriter.Dispose();
-            //OutputFile.Dispose();
             MyDataFile.Dispose();
             return QueriesResult;
 
@@ -180,22 +166,16 @@ namespace AlgorithmProject
             }
 
             string Result="";
-            ActorState TargetResult = BFS(Source, Target);
+            BFS(Source, Target);
             Tuple<string, string> ShortestPath = GetPath(Source, Target);
             string ActorPath = ShortestPath.Item1;
             string MoviePath = ShortestPath.Item2;
 
-            //MyWriter.WriteLine(Source + "/" + Target);
-            //MyWriter.WriteLine("DoS = " + TargetResult.DistanceFromSource + ", RS = " + TargetResult.Frequency);
-            //MyWriter.WriteLine("Chain Of Actors : " + ActorPath);
-            //MyWriter.WriteLine("Chain Of Movies : " + MoviePath);
-            //MyWriter.WriteLine();
-
             Result += Source + "/" + Target + "\n";
-            Result += "DoS = " + TargetResult.DistanceFromSource + ", RS = " + TargetResult.Frequency + "\n";
+            Result += "DoS = " + ActorStates[Target].DistanceFromSource + ", RS = " + ActorStates[Target].Frequency + "\n";
             Result += "Chain Of Actors : " + ActorPath + "\n";
             Result += "Chain Of Movies : " + MoviePath + "\n\n";
-
+            //BFSReset(Source, Target);
             return Result;
 
         }
@@ -208,7 +188,7 @@ namespace AlgorithmProject
             }
 
             string Result = "Shortest Path \t\t Frequency\n";
-            ActorState TargetResult = BFS(Source, "Null");
+            BFS(Source);
             SortedDictionary<int, int> Distribution = new SortedDictionary<int, int>();
 
             foreach (string CurrentActor in ActorStates.Keys)
@@ -232,26 +212,22 @@ namespace AlgorithmProject
             return Result;
         }
 
-      
-
-        private static ActorState BFS(string Source, string Target)
+        private static void BFS(string Source, string Target = "Null")
         {
             ResetActorStates();
 
             ActorStates[Source].MarkVisted(0, 0,"Source");
 
             Queue<string> TraverseQueue = new Queue<string>();
-
             string CurrentActor;
             TraverseQueue.Enqueue(Source);
-
-            while (TraverseQueue.Count > 0)
+            while (TraverseQueue.Any())
             {
                 CurrentActor = TraverseQueue.Dequeue();
                 foreach (string Neighbour in Relations[CurrentActor].Keys)
                 {
                     if (!ActorStates[Neighbour].Visited)
-                    {
+                    {                      
                         int Distance = ActorStates[CurrentActor].DistanceFromSource + 1;
                         int Frequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
                         ActorStates[Neighbour].MarkVisted(Distance, Frequency, CurrentActor);
@@ -273,8 +249,6 @@ namespace AlgorithmProject
                     }
                 }
             }
-       
-            return ActorStates[Target];
         }
 
         public static void ClearGraph()
@@ -285,7 +259,6 @@ namespace AlgorithmProject
 
         public static string[] ReadGraph(string FileName)
         {
-            //Console.WriteLine("Reading Movies Information ");
             ClearGraph();
             Stopwatch MyWatch = new Stopwatch();
             MyWatch.Start();
@@ -342,13 +315,6 @@ namespace AlgorithmProject
                     }
                 }
             }
-
-            // Loging Info
-            //Console.WriteLine();
-            //Console.WriteLine("Created Graph in : " + MyWatch.Elapsed.TotalSeconds + "Seconds");
-            //Console.WriteLine();
-            //Console.WriteLine("Number of Actors : " + NumberOfActors);
-            //Console.WriteLine();
 
             MyWatch.Stop();
             MyReader.Dispose();

@@ -14,9 +14,11 @@
         <AutoSuggestBox x:Name="FirstActor" HorizontalAlignment="Left" Margin="191,33,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.258,-0.328" Width="163" TextChanged="FilterActors"/>
         <TextBlock HorizontalAlignment="Left" Margin="35,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22" Height="32"><Run Text="Second Actor :"/><LineBreak/><Run/></TextBlock>
         <AutoSuggestBox x:Name="SecondActor" HorizontalAlignment="Left" Margin="191,82,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.258,-0.328" Width="163" TextChanged="FilterActors"/>
-        <AppBarButton x:Name="FindRelationButton" HorizontalAlignment="Left" Icon="Switch" Label="2 Actors' Relation" Margin="508,588,0,0" VerticalAlignment="Top" Click="FindRelation"/>
-        <AppBarButton x:Name="FindAllRelationsButton" HorizontalAlignment="Left" Icon="ContactInfo" Label="1 to all Relation" Margin="594,588,0,0" VerticalAlignment="Top" Click="FindAllRelations"/>
+        <AppBarButton x:Name="FindRelationButton" HorizontalAlignment="Left" Icon="Switch" Label="2 Actors' Relation" Margin="542,589,0,0" VerticalAlignment="Top" Click="FindRelation"/>
+        <AppBarButton x:Name="FindAllRelationsButton" HorizontalAlignment="Left" Icon="ContactInfo" Label="1 to all Relation" Margin="615,588,0,0" VerticalAlignment="Top" Click="FindAllRelations"/>
         <TextBlock x:Name="StatusText" HorizontalAlignment="Left" Margin="51,617,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.359,1.75" Width="237" Height="42"/>
         <TextBlock HorizontalAlignment="Left" Margin="42,578,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Height="28" Width="63"><Run Text="Status :"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+        <AppBarButton x:Name="StrongestPath" HorizontalAlignment="Left" Icon="Link" Label="Strongest Path" Margin="469,589,0,0" VerticalAlignment="Top" Click="FindStrongestPath"/>
+        <AppBarButton HorizontalAlignment="Left" Icon="World" Label="Find MSTree" Margin="401,589,0,0" VerticalAlignment="Top" Click="FindMST"/>
     </Grid>
 </Page>

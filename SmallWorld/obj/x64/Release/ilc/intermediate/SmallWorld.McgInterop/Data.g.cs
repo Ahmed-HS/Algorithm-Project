@@ -4596,7 +4596,7 @@ namespace __Interop
 				// index: 513, iid: 905a0fef-bc53-11df-8c49-001e4fc686da System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime
 				new global::System.Runtime.InteropServices.McgInterfaceData() {
 					ItfGuid = new global::System.Guid(-1873145873, -17325, 4575, 0x8C, 0x49, 0x0, 0x1E, 0x4F, 0xC6, 0x86, 0xDA), // struct(System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime)
-					FixupItfType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess,System.Runtime.WindowsRuntime, Version=4.0.11.0," +
+					FixupItfType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess,System.Runtime.WindowsRuntime, Version=4.0.12.0," +
 								" Culture=neutral, PublicKeyToken=b77a5c561934e089")),
 					FixupDispatchClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime__Impl.Dispatcher).TypeHandle),
 					CcwVtable = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfGetCCWVtable>(global::System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime__Impl.Vtbl.GetVtbl),
@@ -4604,7 +4604,7 @@ namespace __Interop
 				// index: 514, iid: 00000003-0000-0000-c000-000000000046 System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime
 				new global::System.Runtime.InteropServices.McgInterfaceData() {
 					ItfGuid = new global::System.Guid(3, 0, 0, 0xC0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x46), // struct(System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime)
-					FixupItfType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.IMarshal,System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, Public" +
+					FixupItfType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.IMarshal,System.Runtime.WindowsRuntime, Version=4.0.12.0, Culture=neutral, Public" +
 								"KeyToken=b77a5c561934e089")),
 					FixupDispatchClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Dispatcher).TypeHandle),
 					CcwVtable = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfGetCCWVtable>(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl.GetVtbl),
@@ -4612,7 +4612,7 @@ namespace __Interop
 				// index: 515, iid: 94ea2b94-e9cc-49e0-c0ff-ee64ca8f5b90 System.Runtime.InteropServices.IAgileObject__System_Runtime_WindowsRuntime, RCW discarded
 				new global::System.Runtime.InteropServices.McgInterfaceData() {
 					ItfGuid = new global::System.Guid(-1796592748, -5684, 18912, 0xC0, 0xFF, 0xEE, 0x64, 0xCA, 0x8F, 0x5B, 0x90), // struct(System.Runtime.InteropServices.IAgileObject__System_Runtime_WindowsRuntime)
-					FixupItfType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.IAgileObject,System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, Pu" +
+					FixupItfType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.IAgileObject,System.Runtime.WindowsRuntime, Version=4.0.12.0, Culture=neutral, Pu" +
 								"blicKeyToken=b77a5c561934e089")),
 					CcwVtable = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfGetCCWVtable>(global::System.Runtime.InteropServices.IAgileObject__System_Runtime_WindowsRuntime__Impl.Vtbl.GetVtbl),
 				}, 
@@ -9054,7 +9054,7 @@ namespace __Interop
 		#if false
 		 = new global::System.Runtime.InteropServices.McgPInvokeDelegateData[] {
 				new global::System.Runtime.InteropServices.McgPInvokeDelegateData() {
-					FixupDelegate = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Interop+NativeIoCompletionCallback,System.Threading.Overlapped, Version=4.0.1.0, Culture=neutral, PublicKeyToken" +
+					FixupDelegate = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Interop+NativeIoCompletionCallback,System.Threading.Overlapped, Version=4.0.2.0, Culture=neutral, PublicKeyToken" +
 								"=b03f5f7f11d50a3a")),
 					ReverseStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget110>(global::Interop_NativeIoCompletionCallback__System_Threading_Overlapped__Impl.ReverseDelegateStub),
 					ReverseOpenStaticDelegateStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget110>(global::Interop_NativeIoCompletionCallback__System_Threading_Overlapped__Impl.ReverseOpenStaticDelegateStub),
@@ -9105,11 +9105,11 @@ namespace __Interop
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Markup.IXamlMember).TypeHandle), //   37, Windows.UI.Xaml.Markup.IXamlMember
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::System.IDisposable).TypeHandle), //   38, System.IDisposable
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.Storage.Streams.IBuffer).TypeHandle), //   39, Windows.Storage.Streams.IBuffer
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess,System.Runtime.WindowsRuntime, Version=4.0.11.0," +
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess,System.Runtime.WindowsRuntime, Version=4.0.12.0," +
 							" Culture=neutral, PublicKeyToken=b77a5c561934e089")), //   40, System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.IMarshal,System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, Public" +
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.IMarshal,System.Runtime.WindowsRuntime, Version=4.0.12.0, Culture=neutral, Public" +
 							"KeyToken=b77a5c561934e089")), //   41, System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.IAgileObject,System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, Pu" +
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.IAgileObject,System.Runtime.WindowsRuntime, Version=4.0.12.0, Culture=neutral, Pu" +
 							"blicKeyToken=b77a5c561934e089")), //   42, System.Runtime.InteropServices.IAgileObject__System_Runtime_WindowsRuntime
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.Foundation.IReference<global::Windows.UI.Color>).TypeHandle), //   43, System.Nullable<Windows.UI.Color>
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.Foundation.IPropertyValue).TypeHandle), //   44, Windows.Foundation.IPropertyValue
@@ -9345,7 +9345,7 @@ namespace __Interop
 				}, 
 				// Index = 15
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
-					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.IO.BufferedStream, System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b77a5" +
+					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.IO.BufferedStream, System.Runtime.WindowsRuntime, Version=4.0.12.0, Culture=neutral, PublicKeyToken=b77a5" +
 								"c561934e089")),
 					SupportedInterfaceListBeginIndex = 7,
 					NumberOfSupportedInterface = 0,
@@ -9355,7 +9355,7 @@ namespace __Interop
 				}, 
 				// Index = 16
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
-					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.IO.WinRtToNetFxStreamAdapter, System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, PublicKey" +
+					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.IO.WinRtToNetFxStreamAdapter, System.Runtime.WindowsRuntime, Version=4.0.12.0, Culture=neutral, PublicKey" +
 								"Token=b77a5c561934e089")),
 					SupportedInterfaceListBeginIndex = 38,
 					NumberOfSupportedInterface = 1,
@@ -9365,7 +9365,7 @@ namespace __Interop
 				}, 
 				// Index = 17
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
-					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Microsoft.Win32.SafeHandles.SafeFileHandle, System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyTok" +
+					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Microsoft.Win32.SafeHandles.SafeFileHandle, System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyTok" +
 								"en=b03f5f7f11d50a3a")),
 					SupportedInterfaceListBeginIndex = 7,
 					NumberOfSupportedInterface = 0,
@@ -9375,7 +9375,7 @@ namespace __Interop
 				// Index = 18
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeBuffer, System.Runtime.WindowsRuntime, Version=4.0.1" +
-								"1.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")),
+								"2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")),
 					SupportedInterfaceListBeginIndex = 39,
 					NumberOfSupportedInterface = 4,
 					ParentCCWTemplateIndex = -1,
@@ -12952,15 +12952,15 @@ namespace __Interop
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(32640, typeof(global::Windows.Foundation.IReferenceArray<global::System.Collections.Generic.KeyValuePair<string, object>>))]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(32704, typeof(global::Windows.Foundation.IReference<global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>>))]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(32768, typeof(global::Windows.Foundation.IReference<global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>>))]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(32832, "System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess,System.Runtime.WindowsRuntime, Version=4.0.11.0," +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(32832, "System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess,System.Runtime.WindowsRuntime, Version=4.0.12.0," +
 				" Culture=neutral, PublicKeyToken=b77a5c561934e089")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(32840, typeof(global::System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime__Impl.Dispatcher))]
 			[global::System.Runtime.CompilerServices.MethodAddrFixup(32880, typeof(global::System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime__Impl.Vtbl), "GetVtbl")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(32896, "System.Runtime.InteropServices.IMarshal,System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, Public" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(32896, "System.Runtime.InteropServices.IMarshal,System.Runtime.WindowsRuntime, Version=4.0.12.0, Culture=neutral, Public" +
 				"KeyToken=b77a5c561934e089")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(32904, typeof(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Dispatcher))]
 			[global::System.Runtime.CompilerServices.MethodAddrFixup(32944, typeof(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl), "GetVtbl")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(32960, "System.Runtime.InteropServices.IAgileObject,System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, Pu" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(32960, "System.Runtime.InteropServices.IAgileObject,System.Runtime.WindowsRuntime, Version=4.0.12.0, Culture=neutral, Pu" +
 				"blicKeyToken=b77a5c561934e089")]
 			[global::System.Runtime.CompilerServices.MethodAddrFixup(33008, typeof(global::System.Runtime.InteropServices.IAgileObject__System_Runtime_WindowsRuntime__Impl.Vtbl), "GetVtbl")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(33024, "System.Runtime.InteropServices.ComTypes.ITypeInfo,System.Private.Interop, Version=4.0.0.0, Culture=neutral, Publ" +
@@ -14399,7 +14399,7 @@ namespace __Interop
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 			};
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(0, "Interop+NativeIoCompletionCallback,System.Threading.Overlapped, Version=4.0.1.0, Culture=neutral, PublicKeyToken" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(0, "Interop+NativeIoCompletionCallback,System.Threading.Overlapped, Version=4.0.2.0, Culture=neutral, PublicKeyToken" +
 				"=b03f5f7f11d50a3a")]
 			[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::Interop_NativeIoCompletionCallback__System_Threading_Overlapped__Impl), "ReverseDelegateStub")]
 			[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::Interop_NativeIoCompletionCallback__System_Threading_Overlapped__Impl), "ReverseOpenStaticDelegateStub")]
@@ -14435,16 +14435,16 @@ namespace __Interop
 				"")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(448, "System.Runtime.InteropServices.SafeHandle, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyTo" +
 				"ken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(480, "System.IO.BufferedStream, System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b77a5" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(480, "System.IO.BufferedStream, System.Runtime.WindowsRuntime, Version=4.0.12.0, Culture=neutral, PublicKeyToken=b77a5" +
 				"c561934e089")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(488, "System.IO.Stream, System.IO, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(512, "System.IO.WinRtToNetFxStreamAdapter, System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, PublicKey" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(512, "System.IO.WinRtToNetFxStreamAdapter, System.Runtime.WindowsRuntime, Version=4.0.12.0, Culture=neutral, PublicKey" +
 				"Token=b77a5c561934e089")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(520, "System.IO.Stream, System.IO, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(544, "Microsoft.Win32.SafeHandles.SafeFileHandle, System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyTok" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(544, "Microsoft.Win32.SafeHandles.SafeFileHandle, System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyTok" +
 				"en=b03f5f7f11d50a3a")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(576, "System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeBuffer, System.Runtime.WindowsRuntime, Version=4.0.1" +
-				"1.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")]
+				"2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(608, typeof(global::System.Runtime.InteropServices.WindowsRuntime.ReferenceImpl<global::Windows.UI.Color>))]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(640, typeof(global::System.Runtime.InteropServices.WindowsRuntime.ReferenceImpl<global::Windows.UI.Xaml.CornerRadius>))]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(672, typeof(global::System.Runtime.InteropServices.WindowsRuntime.ReferenceImpl<global::Windows.UI.Xaml.Duration>))]

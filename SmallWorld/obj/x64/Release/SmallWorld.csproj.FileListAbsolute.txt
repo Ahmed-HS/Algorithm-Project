@@ -585,6 +585,8 @@ C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\System.dll
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\mscorlib.dll
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\Microsoft.VisualBasic.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\Priority Queue.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\Priority Queue.pdb
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\System.Collections.dll
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\System.Diagnostics.Tools.dll
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\System.Diagnostics.Tracing.dll
@@ -682,7 +684,6 @@ C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\System.Xml.XDocument.dll
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\System.Xml.XmlDocument.dll
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\System.Xml.XmlSerializer.dll
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\SmallWorld.csprojAssemblyReference.cache
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\App.g.i.cs
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\App.g.cs
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\MainPage.g.i.cs
@@ -719,6 +720,7 @@ C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\SmallWorld.xr.xml
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\AppxManifest.xml
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\SmallWorld.pdb
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\Priority Queue.pdb
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\SmallWorld.exe
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\Microsoft.CSharp.dll
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\System.ComponentModel.DataAnnotations.dll
@@ -735,6 +737,7 @@ C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\System.dll
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\mscorlib.dll
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\Microsoft.VisualBasic.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\Priority Queue.dll
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\System.Collections.dll
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\System.Diagnostics.Tools.dll
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\System.Diagnostics.Tracing.dll
@@ -885,6 +888,8 @@ C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\BuildInfo\BuildInfo.res
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\BuildInfo\BuildInfo.txt
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\gkargs.rsp
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\Priority Queue.ildll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\Priority Queue.ilpdb
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\SmallWorld.closure.csv
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\SmallWorld.csv
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\SmallWorld.forwarders.csv
@@ -1004,3 +1009,16 @@ C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll.ILTransformTask.repro
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.pdb
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\SmallWorld.csprojAssemblyReference.cache
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\MedallionPriorityQueue.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\System.Console.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\MedallionPriorityQueue.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\System.Console.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\MedallionPriorityQueue.ildll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\MedallionPriorityQueue.ilpdb
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\System.Buffers.ildll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\System.Buffers.ilpdb
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\System.Console.ildll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\System.Console.ilpdb

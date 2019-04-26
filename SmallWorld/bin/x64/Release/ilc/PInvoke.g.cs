@@ -293,7 +293,7 @@ namespace __Interop
 
 		// Signature, FormatMessage, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [out] [Mcg.CodeGen.StringBuilderMarshaller] System_Text_StringBuilder__wchar_t *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableArrayMarshaller] rg_System_IntPtr____w64 int *, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "FormatMessage")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "FormatMessage")]
 		public static int FormatMessage(
 					int dwFlags, 
 					global::System.IntPtr lpSource, 
@@ -411,7 +411,7 @@ namespace __Interop
 	{
 		// Signature, GetFileType, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.Win32HandleMarshaller] System_Runtime_InteropServices_SafeHandle____w64 int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "GetFileType")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "GetFileType")]
 		public static int GetFileType(global::System.Runtime.InteropServices.SafeHandle hFile)
 		{
 			// Setup
@@ -431,7 +431,7 @@ namespace __Interop
 
 		// Signature, SetFilePointerEx, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [in] [Mcg.CodeGen.Win32HandleMarshaller] Microsoft_Win32_SafeHandles_SafeFileHandle__System_IO_FileSystem____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] long____int64, [fwd] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] long____int64, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "SetFilePointerEx")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "SetFilePointerEx")]
 		public static bool SetFilePointerEx(
 					global::Microsoft.Win32.SafeHandles.SafeFileHandle__System_IO_FileSystem hFile, 
 					long liDistanceToMove, 
@@ -462,7 +462,7 @@ namespace __Interop
 
 		// Signature, GetFileAttributesExPrivate, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [in] [Mcg.CodeGen.UnicodeStringMarshaller] string__wchar_t *, [fwd] [in] [Mcg.CodeGen.EnumMarshaller] Interop_mincore_GET_FILEEX_INFO_LEVELS__System_IO_FileSystem__Interop_mincore_GET_FILEEX_INFO_LEVELS__System_IO_FileSystem, [fwd] [in] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableStructMarshaller] Interop_mincore_WIN32_FILE_ATTRIBUTE_DATA__System_IO_FileSystem____Interop_mincore_WIN32_FILE_ATTRIBUTE_DATA__System_IO_FileSystem, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "GetFileAttributesExPrivate")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "GetFileAttributesExPrivate")]
 		public static bool GetFileAttributesExPrivate(
 					string name, 
 					global::Interop_mincore_GET_FILEEX_INFO_LEVELS__System_IO_FileSystem fileInfoLevel, 
@@ -493,7 +493,7 @@ namespace __Interop
 
 		// Signature, FindFirstFileExPrivate, [fwd] [return] [Mcg.CodeGen.Win32HandleMarshaller] Microsoft_Win32_SafeHandles_SafeFindHandle__System_IO_FileSystem____w64 int, [fwd] [in] [Mcg.CodeGen.UnicodeStringMarshaller] string__wchar_t *, [fwd] [in] [Mcg.CodeGen.EnumMarshaller] Interop_mincore_FINDEX_INFO_LEVELS__System_IO_FileSystem__Interop_mincore_FINDEX_INFO_LEVELS__System_IO_FileSystem, [fwd] [in] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.StructMarshaller] Interop_mincore_WIN32_FIND_DATA__System_IO_FileSystem____Interop_mincore_WIN32_FIND_DATA__System_IO_FileSystem, [fwd] [in] [Mcg.CodeGen.EnumMarshaller] Interop_mincore_FINDEX_SEARCH_OPS__System_IO_FileSystem__Interop_mincore_FINDEX_SEARCH_OPS__System_IO_FileSystem, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "FindFirstFileExPrivate")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "FindFirstFileExPrivate")]
 		public static global::Microsoft.Win32.SafeHandles.SafeFindHandle__System_IO_FileSystem FindFirstFileExPrivate(
 					string lpFileName, 
 					global::Interop_mincore_FINDEX_INFO_LEVELS__System_IO_FileSystem fInfoLevelId, 
@@ -542,7 +542,7 @@ namespace __Interop
 
 		// Signature, SetEndOfFile, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [in] [Mcg.CodeGen.Win32HandleMarshaller] Microsoft_Win32_SafeHandles_SafeFileHandle__System_IO_FileSystem____w64 int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "SetEndOfFile")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "SetEndOfFile")]
 		public static bool SetEndOfFile(global::Microsoft.Win32.SafeHandles.SafeFileHandle__System_IO_FileSystem hFile)
 		{
 			// Setup
@@ -562,7 +562,7 @@ namespace __Interop
 
 		// Signature, FindClose, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "FindClose")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "FindClose")]
 		public static bool FindClose(global::System.IntPtr hFindFile)
 		{
 			// Setup
@@ -578,7 +578,7 @@ namespace __Interop
 
 		// Signature, ReadFile, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.Win32HandleMarshaller] System_Runtime_InteropServices_SafeHandle____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] byte___ptrunsigned char *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_Threading_NativeOverlapped__System_Threading_Overlapped___ptrSystem_Threading__NativeOverlapped__System_Threading_Overlapped *, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "ReadFile")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "ReadFile")]
 		public static int ReadFile(
 					global::System.Runtime.InteropServices.SafeHandle handle, 
 					byte* bytes, 
@@ -609,7 +609,7 @@ namespace __Interop
 
 		// Signature, ReadFile__0, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.Win32HandleMarshaller] System_Runtime_InteropServices_SafeHandle____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] byte___ptrunsigned char *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "ReadFile")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "ReadFile")]
 		public static int ReadFile__0(
 					global::System.Runtime.InteropServices.SafeHandle handle, 
 					byte* bytes, 
@@ -642,7 +642,7 @@ namespace __Interop
 
 		// Signature, WriteFile, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.Win32HandleMarshaller] System_Runtime_InteropServices_SafeHandle____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] byte___ptrunsigned char *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_Threading_NativeOverlapped__System_Threading_Overlapped___ptrSystem_Threading__NativeOverlapped__System_Threading_Overlapped *, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "WriteFile")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "WriteFile")]
 		public static int WriteFile(
 					global::System.Runtime.InteropServices.SafeHandle handle, 
 					byte* bytes, 
@@ -673,7 +673,7 @@ namespace __Interop
 
 		// Signature, WriteFile__0, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.Win32HandleMarshaller] System_Runtime_InteropServices_SafeHandle____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] byte___ptrunsigned char *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "WriteFile")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "WriteFile")]
 		public static int WriteFile__0(
 					global::System.Runtime.InteropServices.SafeHandle handle, 
 					byte* bytes, 
@@ -706,7 +706,7 @@ namespace __Interop
 
 		// Signature, FlushFileBuffers, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [in] [Mcg.CodeGen.Win32HandleMarshaller] System_Runtime_InteropServices_SafeHandle____w64 int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "FlushFileBuffers")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "FlushFileBuffers")]
 		public static bool FlushFileBuffers(global::System.Runtime.InteropServices.SafeHandle hHandle)
 		{
 			// Setup
@@ -732,7 +732,7 @@ namespace __Interop
 	{
 		// Signature, GetFileInformationByHandleEx, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [in] [Mcg.CodeGen.Win32HandleMarshaller] Microsoft_Win32_SafeHandles_SafeFileHandle__System_IO_FileSystem____w64 int, [fwd] [in] [Mcg.CodeGen.EnumMarshaller] Interop_mincore_FILE_INFO_BY_HANDLE_CLASS__System_IO_FileSystem__Interop_mincore_FILE_INFO_BY_HANDLE_CLASS__System_IO_FileSystem, [fwd] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableStructMarshaller] Interop_mincore_FILE_STANDARD_INFO__System_IO_FileSystem____Interop_mincore_FILE_STANDARD_INFO__System_IO_FileSystem, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "GetFileInformationByHandleEx")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "GetFileInformationByHandleEx")]
 		public static bool GetFileInformationByHandleEx(
 					global::Microsoft.Win32.SafeHandles.SafeFileHandle__System_IO_FileSystem hFile, 
 					global::Interop_mincore_FILE_INFO_BY_HANDLE_CLASS__System_IO_FileSystem FileInformationClass, 
@@ -769,7 +769,7 @@ namespace __Interop
 	{
 		// Signature, CreateThreadpoolIo, [fwd] [return] [Mcg.CodeGen.Win32HandleMarshaller] Microsoft_Win32_SafeHandles_SafeThreadPoolIOHandle__System_Threading_Overlapped____w64 int, [fwd] [in] [Mcg.CodeGen.Win32HandleMarshaller] System_Runtime_InteropServices_SafeHandle____w64 int, [fwd] [in] [Mcg.CodeGen.PInvokeDelegateMarshaller] Interop_NativeIoCompletionCallback__System_Threading_Overlapped____Interop_NativeIoCompletionCallback__System_Threading_Overlapped, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Threading.Overlapped, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "CreateThreadpoolIo")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Threading.Overlapped, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "CreateThreadpoolIo")]
 		public static global::Microsoft.Win32.SafeHandles.SafeThreadPoolIOHandle__System_Threading_Overlapped CreateThreadpoolIo(
 					global::System.Runtime.InteropServices.SafeHandle fl, 
 					global::Interop_NativeIoCompletionCallback__System_Threading_Overlapped pfnio, 
@@ -786,7 +786,7 @@ namespace __Interop
 				// Marshalling
 				fl.DangerousAddRef(ref addRefed);
 				unsafe_pfnio = (void*)global::System.Runtime.InteropServices.McgMarshal.GetStubForPInvokeDelegate(
-									global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Interop+NativeIoCompletionCallback,System.Threading.Overlapped, Version=4.0.1.0, Culture=neutral, PublicKeyToken" +
+									global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Interop+NativeIoCompletionCallback,System.Threading.Overlapped, Version=4.0.2.0, Culture=neutral, PublicKeyToken" +
 											"=b03f5f7f11d50a3a"), 
 									pfnio
 								);
@@ -818,7 +818,7 @@ namespace __Interop
 
 		// Signature, CloseThreadpoolIo, [fwd] [return] [Mcg.CodeGen.VoidReturnMarshaller] void__void, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Threading.Overlapped, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "CloseThreadpoolIo")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Threading.Overlapped, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "CloseThreadpoolIo")]
 		public static void CloseThreadpoolIo(global::System.IntPtr pio)
 		{
 			// Marshalling
@@ -830,7 +830,7 @@ namespace __Interop
 
 		// Signature, StartThreadpoolIo, [fwd] [return] [Mcg.CodeGen.VoidReturnMarshaller] void__void, [fwd] [in] [Mcg.CodeGen.Win32HandleMarshaller] Microsoft_Win32_SafeHandles_SafeThreadPoolIOHandle__System_Threading_Overlapped____w64 int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Threading.Overlapped, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "StartThreadpoolIo")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Threading.Overlapped, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "StartThreadpoolIo")]
 		public static void StartThreadpoolIo(global::Microsoft.Win32.SafeHandles.SafeThreadPoolIOHandle__System_Threading_Overlapped pio)
 		{
 			// Setup
@@ -847,7 +847,7 @@ namespace __Interop
 
 		// Signature, CancelThreadpoolIo, [fwd] [return] [Mcg.CodeGen.VoidReturnMarshaller] void__void, [fwd] [in] [Mcg.CodeGen.Win32HandleMarshaller] Microsoft_Win32_SafeHandles_SafeThreadPoolIOHandle__System_Threading_Overlapped____w64 int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Threading.Overlapped, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "CancelThreadpoolIo")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Threading.Overlapped, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "CancelThreadpoolIo")]
 		public static void CancelThreadpoolIo(global::Microsoft.Win32.SafeHandles.SafeThreadPoolIOHandle__System_Threading_Overlapped pio)
 		{
 			// Setup
@@ -870,7 +870,7 @@ namespace __Interop
 	{
 		// Signature, CreateFile2, [fwd] [return] [Mcg.CodeGen.Win32HandleMarshaller] Microsoft_Win32_SafeHandles_SafeFileHandle__System_IO_FileSystem____w64 int, [fwd] [in] [Mcg.CodeGen.UnicodeStringMarshaller] string__wchar_t *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.EnumMarshaller] System_IO_FileShare__System_IO_FileSystem_Primitives__FileShare__System_IO_FileSystem_Primitives, [fwd] [in] [Mcg.CodeGen.EnumMarshaller] System_IO_FileMode__System_IO_FileSystem_Primitives__FileMode__System_IO_FileSystem_Primitives, [fwd] [in] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableStructMarshaller] Interop_mincore_CREATEFILE2_EXTENDED_PARAMETERS__System_IO_FileSystem____Interop_mincore_CREATEFILE2_EXTENDED_PARAMETERS__System_IO_FileSystem, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "CreateFile2")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "CreateFile2")]
 		public static global::Microsoft.Win32.SafeHandles.SafeFileHandle__System_IO_FileSystem CreateFile2(
 					string lpFileName, 
 					int dwDesiredAccess, 
@@ -916,7 +916,7 @@ namespace __Interop
 	{
 		// Signature, CloseHandle, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "CloseHandle")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "CloseHandle")]
 		public static bool CloseHandle(global::System.IntPtr handle)
 		{
 			// Setup
@@ -938,7 +938,7 @@ namespace __Interop
 	{
 		// Signature, CancelIoEx, [fwd] [return] [Mcg.CodeGen.Win32BoolMarshaller] bool__System.Boolean, [fwd] [in] [Mcg.CodeGen.Win32HandleMarshaller] System_Runtime_InteropServices_SafeHandle____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_Threading_NativeOverlapped__System_Threading_Overlapped___ptrSystem_Threading__NativeOverlapped__System_Threading_Overlapped *, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "CancelIoEx")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "CancelIoEx")]
 		public static bool CancelIoEx(
 					global::System.Runtime.InteropServices.SafeHandle handle, 
 					global::System.Threading.NativeOverlapped__System_Threading_Overlapped* lpOverlapped)
@@ -969,7 +969,7 @@ namespace __Interop
 	{
 		// Signature, RoGetBufferMarshaler, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.ComInterfaceMarshaller] System_Runtime_InteropServices_IMarshal__System_Runtime_WindowsRuntime__System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime *, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "Interop+mincore", "RoGetBufferMarshaler")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Runtime.WindowsRuntime, Version=4.0.12.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "Interop+mincore", "RoGetBufferMarshaler")]
 		public static int RoGetBufferMarshaler(out global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime bufferMarshalerPtr)
 		{
 			// Setup
@@ -984,7 +984,7 @@ namespace __Interop
 				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 				bufferMarshalerPtr = (global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 									((global::System.IntPtr)unsafe_bufferMarshalerPtr), 
-									global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.IMarshal,System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, Public" +
+									global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.IMarshal,System.Runtime.WindowsRuntime, Version=4.0.12.0, Culture=neutral, Public" +
 											"KeyToken=b77a5c561934e089")
 								);
 				// Return

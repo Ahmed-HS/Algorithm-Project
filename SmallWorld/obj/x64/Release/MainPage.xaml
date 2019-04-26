@@ -18,6 +18,7 @@
         <AppBarButton x:ConnectionId='8' x:Name="FindAllRelationsButton" HorizontalAlignment="Left" Icon="ContactInfo" Label="1 to all Relation" Margin="594,588,0,0" VerticalAlignment="Top"                         />
         <TextBlock x:ConnectionId='9' x:Name="StatusText" HorizontalAlignment="Left" Margin="51,617,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.359,1.75" Width="237" Height="42"/>
         <TextBlock HorizontalAlignment="Left" Margin="42,578,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Height="28" Width="63"><Run Text="Status :"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+        <AppBarButton x:ConnectionId='10' x:Name="StrongestPath" HorizontalAlignment="Left" Icon="Link" Label="Strongest Path" Margin="423,588,0,0" VerticalAlignment="Top"                          />
     </Grid>
 </Page>
 
