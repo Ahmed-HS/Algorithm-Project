@@ -1,0 +1,1001 @@
+Erlich, Norman/Alcn, Alfredo
+DoS = 1, RS = 1
+Chain Of Actors : Erlich, Norman -> Alcn, Alfredo
+Chain Of Movies : Cohen vs. Rosi (1998) => 
+
+Chilakalpudi, Seeta Rama Anjaneyulu/Nandamuri, Rama Rao Taraka
+DoS = 1, RS = 5
+Chain Of Actors : Chilakalpudi, Seeta Rama Anjaneyulu -> Nandamuri, Rama Rao Taraka
+Chain Of Movies : Appu Chesi Pappu Koodu (1958) => 
+
+Pugliese, Armando/Benvenuti, Leonardo
+DoS = 1, RS = 1
+Chain Of Actors : Pugliese, Armando -> Benvenuti, Leonardo
+Chain Of Movies : Ferdinando e Carolina (1999) => 
+
+Bendre, Sonali/Akkineni, Nagarjuna
+DoS = 1, RS = 2
+Chain Of Actors : Bendre, Sonali -> Akkineni, Nagarjuna
+Chain Of Movies : Angaaray (1998) => 
+
+Jaccard, Joan/Burns, Fred
+DoS = 1, RS = 1
+Chain Of Actors : Jaccard, Joan -> Burns, Fred
+Chain Of Movies : Cheyenne Kid, The (1930) => 
+
+Kriechbaum, Philipp/Blythe, Benedick
+DoS = 1, RS = 1
+Chain Of Actors : Kriechbaum, Philipp -> Blythe, Benedick
+Chain Of Movies : Seven Years in Tibet (1997) => 
+
+Wirbgen, Willy/Arent, Eddi
+DoS = 1, RS = 1
+Chain Of Actors : Wirbgen, Willy -> Arent, Eddi
+Chain Of Movies : Flscher von London, Der (1961) => 
+
+Cotton, Darryl/Braverman, Barbara
+DoS = 1, RS = 1
+Chain Of Actors : Cotton, Darryl -> Braverman, Barbara
+Chain Of Movies : Pushed to the Limit (1992) => 
+
+Tognella/Ciardo, Gianni
+DoS = 1, RS = 1
+Chain Of Actors : Tognella -> Ciardo, Gianni
+Chain Of Movies : Pierino il fichissimo (1981) => 
+
+Zucco, Jocelyne/Andrei, Damir
+DoS = 1, RS = 1
+Chain Of Actors : Zucco, Jocelyne -> Andrei, Damir
+Chain Of Movies : Almost Golden: The Jessica Savitch Story (1995) => 
+
+Guldener, Rainer/Andrae, Manfred
+DoS = 1, RS = 1
+Chain Of Actors : Guldener, Rainer -> Andrae, Manfred
+Chain Of Movies :  chacun son tour (1997) => 
+
+Marineau, Barbara/Adams, Matthew
+DoS = 1, RS = 1
+Chain Of Actors : Marineau, Barbara -> Adams, Matthew
+Chain Of Movies : When Nature Calls (1985) => 
+
+Ollila, Marjut/Brandt, Nils
+DoS = 1, RS = 1
+Chain Of Actors : Ollila, Marjut -> Brandt, Nils
+Chain Of Movies : Mn kan inte vldtas (1978) => 
+
+Unruh, Siegfried/Alric, Catherine
+DoS = 1, RS = 1
+Chain Of Actors : Unruh, Siegfried -> Alric, Catherine
+Chain Of Movies : Schnffler, Der (1983) => 
+
+Casadei, Raoul/Agren, Janet
+DoS = 1, RS = 1
+Chain Of Actors : Casadei, Raoul -> Agren, Janet
+Chain Of Movies : Vai col liscio (1976) => 
+
+Danneborn-Spjuth, Sanna/Anderson, Mikael
+DoS = 1, RS = 1
+Chain Of Actors : Danneborn-Spjuth, Sanna -> Anderson, Mikael
+Chain Of Movies : Jag skall bli Sveriges Rembrandt eller d! (1990) => 
+
+Hazeldine, Jaclyn/Bostwick, Barry
+DoS = 1, RS = 1
+Chain Of Actors : Hazeldine, Jaclyn -> Bostwick, Barry
+Chain Of Movies : Captive (1991) => 
+
+McMartin, Kathleen/Adair-Rios, Mark
+DoS = 1, RS = 1
+Chain Of Actors : McMartin, Kathleen -> Adair-Rios, Mark
+Chain Of Movies : Candyman: Day of the Dead (1999) => 
+
+Gisselkvist, Christian/Hagstedt, Kaj
+DoS = 1, RS = 1
+Chain Of Actors : Gisselkvist, Christian -> Hagstedt, Kaj
+Chain Of Movies : Som krossat glas i en hrt knuten hand (1995) => 
+
+Ahlstedt, Inga-Britt/Lilliecrona, Torsten
+DoS = 1, RS = 1
+Chain Of Actors : Ahlstedt, Inga-Britt -> Lilliecrona, Torsten
+Chain Of Movies : Krleken segrar (1949) => 
+
+Tsuda, Akiko/Chiba, Nobuo
+DoS = 1, RS = 1
+Chain Of Actors : Tsuda, Akiko -> Chiba, Nobuo
+Chain Of Movies : My Geisha (1962) => 
+
+De Cohen, Lisa/Cariou, Len
+DoS = 1, RS = 1
+Chain Of Actors : De Cohen, Lisa -> Cariou, Len
+Chain Of Movies : Little Night Music, A (1977) => 
+
+Mermelstein, Ester/Abbas, Gassan
+DoS = 1, RS = 1
+Chain Of Actors : Mermelstein, Ester -> Abbas, Gassan
+Chain Of Movies : Yom Yom (1998) => 
+
+Dazhi, Wu/Cowan, Richard
+DoS = 1, RS = 1
+Chain Of Actors : Dazhi, Wu -> Cowan, Richard
+Chain Of Movies : Madame Butterfly (1995) => 
+
+Sullivan, Julie/Barry-Weske, Sean
+DoS = 1, RS = 1
+Chain Of Actors : Sullivan, Julie -> Barry-Weske, Sean
+Chain Of Movies : Biggles: Adventures in Time (1986) => 
+
+Gttner, Bruno/Gigli, Beniamino
+DoS = 1, RS = 1
+Chain Of Actors : Gttner, Bruno -> Gigli, Beniamino
+Chain Of Movies : Du bist mein Glck (1936) => 
+
+McCoy, Angelina/Abrahams, Doug
+DoS = 1, RS = 1
+Chain Of Actors : McCoy, Angelina -> Abrahams, Doug
+Chain Of Movies : 3000 Miles to Graceland (2001) => 
+
+Demorget, Robert/Amato, Nicolas
+DoS = 1, RS = 1
+Chain Of Actors : Demorget, Robert -> Amato, Nicolas
+Chain Of Movies : Carrefour des enfants perdus, Le (1944) => 
+
+Christian, Beulah/Acker, Jean
+DoS = 1, RS = 1
+Chain Of Actors : Christian, Beulah -> Acker, Jean
+Chain Of Movies : Mating Season, The (1951) => 
+
+Bonneveau, Michle Camizuli/Castel, Robert
+DoS = 1, RS = 1
+Chain Of Actors : Bonneveau, Michle Camizuli -> Castel, Robert
+Chain Of Movies : Madame Dubois - Htel Bellevue (1997) => 
+
+Stewart, Carl/Carpenter, Ken
+DoS = 1, RS = 1
+Chain Of Actors : Stewart, Carl -> Carpenter, Ken
+Chain Of Movies : Unusual Occupations (1937,I) => 
+
+Wesson, Howard/Blair, Pamela
+DoS = 1, RS = 1
+Chain Of Actors : Wesson, Howard -> Blair, Pamela
+Chain Of Movies : Me and Veronica (1992) => 
+
+Sato, Yasue/Momoi, Kaori
+DoS = 1, RS = 1
+Chain Of Actors : Sato, Yasue -> Momoi, Kaori
+Chain Of Movies : Baunsu koGALS (1997) => 
+
+Mancuso, Frank/Hart, Veronica
+DoS = 1, RS = 2
+Chain Of Actors : Mancuso, Frank -> Hart, Veronica
+Chain Of Movies : Slammer Girls (1987) => 
+
+Heit, Sally-Jane/Robards, Jason
+DoS = 1, RS = 1
+Chain Of Actors : Heit, Sally-Jane -> Robards, Jason
+Chain Of Movies : Paper, The (1994) => 
+
+Lowell, Randy/Warren, Lesley Ann
+DoS = 1, RS = 2
+Chain Of Actors : Lowell, Randy -> Warren, Lesley Ann
+Chain Of Movies : Limey, The (1999) => 
+
+Cooke, Ed/Bolder, Robert
+DoS = 1, RS = 1
+Chain Of Actors : Cooke, Ed -> Bolder, Robert
+Chain Of Movies : Fools for Luck (1917) => 
+
+Maning, Mark/Alexander, Richard
+DoS = 1, RS = 1
+Chain Of Actors : Maning, Mark -> Alexander, Richard
+Chain Of Movies : Madhouse (1990) => 
+
+Williams, Chuck/Brown, Terry
+DoS = 1, RS = 1
+Chain Of Actors : Williams, Chuck -> Brown, Terry
+Chain Of Movies : Dark Rider (1991) => 
+
+Imada, Samezu/Date, Satoko
+DoS = 1, RS = 1
+Chain Of Actors : Imada, Samezu -> Date, Satoko
+Chain Of Movies : Hideko no oendancho (1940) => 
+
+O'Brian, James/Beaman, Lee Anne
+DoS = 1, RS = 2
+Chain Of Actors : O'Brian, James -> Beaman, Lee Anne
+Chain Of Movies : Irresistible Impulse (1996) => 
+
+Nagy, Judy/Bernard, Jason
+DoS = 1, RS = 1
+Chain Of Actors : Nagy, Judy -> Bernard, Jason
+Chain Of Movies : All of Me (1984) => 
+
+Torrs, Henry/Argenziano, Carmen
+DoS = 1, RS = 1
+Chain Of Actors : Torrs, Henry -> Argenziano, Carmen
+Chain Of Movies : Stand and Deliver (1987) => 
+
+Carroll, Corky/Miller, Dick
+DoS = 1, RS = 1
+Chain Of Actors : Carroll, Corky -> Miller, Dick
+Chain Of Movies : Under the Boardwalk (1989) => 
+
+Verhaeghe, Ray/Althoff Jr., Alberto
+DoS = 1, RS = 1
+Chain Of Actors : Verhaeghe, Ray -> Althoff Jr., Alberto
+Chain Of Movies : Lieven Gevaert, eerste arbeider (1968) => 
+
+Simonson, Julie/Astor, Patti
+DoS = 1, RS = 1
+Chain Of Actors : Simonson, Julie -> Astor, Patti
+Chain Of Movies : Assault of the Killer Bimbos (1987) => 
+
+Fischer, Margarita/Travers, Beverly
+DoS = 1, RS = 3
+Chain Of Actors : Fischer, Margarita -> Travers, Beverly
+Chain Of Movies : Impossible Susan (1918) => 
+
+Newman, George/Allen, Debbie
+DoS = 1, RS = 1
+Chain Of Actors : Newman, George -> Allen, Debbie
+Chain Of Movies : Women of San Quentin (1983) => 
+
+McLellan, Diana/Bacall, Lauren
+DoS = 1, RS = 1
+Chain Of Actors : McLellan, Diana -> Bacall, Lauren
+Chain Of Movies : Greta Garbo: A Lone Star (2001) => 
+
+Sitaropoulos, Ral/Abrahams, Caz
+DoS = 1, RS = 1
+Chain Of Actors : Sitaropoulos, Ral -> Abrahams, Caz
+Chain Of Movies : Ngo hai sui (1998) => 
+
+Fritz, Malcolm/Cederlund, Gsta
+DoS = 1, RS = 1
+Chain Of Actors : Fritz, Malcolm -> Cederlund, Gsta
+Chain Of Movies : Kamrater i vapenrocken (1938) => 
+
+Kapadia, Simple/Khan, Kader
+DoS = 1, RS = 1
+Chain Of Actors : Kapadia, Simple -> Khan, Kader
+Chain Of Movies : Naseeb (1981) => 
+
+Khahi/Atterton, Edward
+DoS = 1, RS = 1
+Chain Of Actors : Khahi -> Atterton, Edward
+Chain Of Movies : Look Me in the Eye (1994) => 
+
+Honkaniemi, Airi/Majuri, Tauno
+DoS = 1, RS = 1
+Chain Of Actors : Honkaniemi, Airi -> Majuri, Tauno
+Chain Of Movies : Kasvot kuvastimessa (1953) => 
+
+Usztics, Mtys/Apor, Nomi
+DoS = 1, RS = 1
+Chain Of Actors : Usztics, Mtys -> Apor, Nomi
+Chain Of Movies : Fbin Blint tallkozsa Istennel (1979) => 
+
+Flores, Mylene/Moss, Jim
+DoS = 1, RS = 1
+Chain Of Actors : Flores, Mylene -> Moss, Jim
+Chain Of Movies : Fist of Glory (1990) => 
+
+Sigaud, Frdric/Angle, Olivier
+DoS = 1, RS = 1
+Chain Of Actors : Sigaud, Frdric -> Angle, Olivier
+Chain Of Movies : Au pays des Juliets (1992) => 
+
+Langdon, Adele/Ayler, Ethel
+DoS = 1, RS = 1
+Chain Of Actors : Langdon, Adele -> Ayler, Ethel
+Chain Of Movies : Stormy Weathers (1992) => 
+
+May, Edna/Lytton, L. Rogers
+DoS = 1, RS = 1
+Chain Of Actors : May, Edna -> Lytton, L. Rogers
+Chain Of Movies : Salvation Joan (1916) => 
+
+Menado, Maria/Maarof, Mustaffa
+DoS = 1, RS = 1
+Chain Of Actors : Menado, Maria -> Maarof, Mustaffa
+Chain Of Movies : Blood of Pontianak (1958) => 
+
+Kelly, Dorothy/Connelly, Bobby
+DoS = 1, RS = 2
+Chain Of Actors : Kelly, Dorothy -> Connelly, Bobby
+Chain Of Movies : Law Decides, The (1916) => 
+
+Gelanza, Ted/Carter, Fleurette
+DoS = 1, RS = 1
+Chain Of Actors : Gelanza, Ted -> Carter, Fleurette
+Chain Of Movies : Aroused (1966) => 
+
+Mafela, Joe/Brock, Stanley
+DoS = 1, RS = 1
+Chain Of Actors : Mafela, Joe -> Brock, Stanley
+Chain Of Movies : Escape from Angola (1976) => 
+
+Novello, Don/Alexander, Jason
+DoS = 1, RS = 1
+Chain Of Actors : Novello, Don -> Alexander, Jason
+Chain Of Movies : Adventures of Rocky & Bullwinkle, The (2000) => 
+
+McGowan, Dave/Carpenter, Wade
+DoS = 1, RS = 1
+Chain Of Actors : McGowan, Dave -> Carpenter, Wade
+Chain Of Movies : Class Warfare (2001) => 
+
+Wang, Zhixia/Zhu, Xu
+DoS = 1, RS = 1
+Chain Of Actors : Wang, Zhixia -> Zhu, Xu
+Chain Of Movies : Huanglian houpu (2000) => 
+
+Perry, Vivian/Allen, Lucille
+DoS = 1, RS = 1
+Chain Of Actors : Perry, Vivian -> Allen, Lucille
+Chain Of Movies : When Love Is King (1916) => 
+
+Ford, Carl Kwaku/Berry, Stephanie
+DoS = 1, RS = 1
+Chain Of Actors : Ford, Carl Kwaku -> Berry, Stephanie
+Chain Of Movies : Girls Town (1996) => 
+
+Simon, Jill Marie/Allen, Tommy
+DoS = 1, RS = 1
+Chain Of Actors : Simon, Jill Marie -> Allen, Tommy
+Chain Of Movies : Beautiful Mind, A (2001) => 
+
+Gabiola, Violy/Strzalkowski, Henry
+DoS = 1, RS = 1
+Chain Of Actors : Gabiola, Violy -> Strzalkowski, Henry
+Chain Of Movies : Raw Target (1995) => 
+
+Mashnaya, Olga/Leonov, Yevgeni
+DoS = 1, RS = 2
+Chain Of Actors : Mashnaya, Olga -> Leonov, Yevgeni
+Chain Of Movies : Kin-Dza-Dza (1986) => 
+
+Reinold, Bernard A./Hendricks Jr., Ben
+DoS = 1, RS = 1
+Chain Of Actors : Reinold, Bernard A. -> Hendricks Jr., Ben
+Chain Of Movies : Headless Horseman, The (1922) => 
+
+Dechamps, Charles/Dubost, Paulette
+DoS = 1, RS = 2
+Chain Of Actors : Dechamps, Charles -> Dubost, Paulette
+Chain Of Movies : Barnab (1938) => 
+
+Fuest, Robert/Bates, Richard
+DoS = 1, RS = 1
+Chain Of Actors : Fuest, Robert -> Bates, Richard
+Chain Of Movies : Avenging the Avengers (2000) => 
+
+Maierhouser, Joe/Bernard, Maurice
+DoS = 1, RS = 1
+Chain Of Actors : Maierhouser, Joe -> Bernard, Maurice
+Chain Of Movies : Incredible Petrified World, The (1959) => 
+
+Vaughn, Henry/Anderson, Bruce
+DoS = 1, RS = 1
+Chain Of Actors : Vaughn, Henry -> Anderson, Bruce
+Chain Of Movies : Funeral for an Assassin (1977) => 
+
+Petrenko, Vassily/Carter, Jimmy
+DoS = 1, RS = 1
+Chain Of Actors : Petrenko, Vassily -> Carter, Jimmy
+Chain Of Movies : To Bear Witness (1983) => 
+
+Williard, Steve/Aard, Frank J.
+DoS = 1, RS = 1
+Chain Of Actors : Williard, Steve -> Aard, Frank J.
+Chain Of Movies : Immortal (1995) => 
+
+Gorski, Alexandra/Arel, Fabienne
+DoS = 1, RS = 1
+Chain Of Actors : Gorski, Alexandra -> Arel, Fabienne
+Chain Of Movies : Catherine et Cie (1975) => 
+
+Steele, George/Adler, Luther
+DoS = 1, RS = 1
+Chain Of Actors : Steele, George -> Adler, Luther
+Chain Of Movies : Tall Texan, The (1953) => 
+
+Hancock, Graham/Karn, Richard
+DoS = 1, RS = 1
+Chain Of Actors : Hancock, Graham -> Karn, Richard
+Chain Of Movies : Chariots of the Gods (1997) => 
+
+Nolan, Margaret/Maynard, Bill
+DoS = 1, RS = 4
+Chain Of Actors : Nolan, Margaret -> Maynard, Bill
+Chain Of Movies : Carry On Dick (1974) => 
+
+Browning, Jill/Taylor, Ferris
+DoS = 1, RS = 1
+Chain Of Actors : Browning, Jill -> Taylor, Ferris
+Chain Of Movies : Town Went Wild, The (1944) => 
+
+Sinkovits, Imre/Bessenyei, Ferenc
+DoS = 1, RS = 5
+Chain Of Actors : Sinkovits, Imre -> Bessenyei, Ferenc
+Chain Of Movies : Alba Regia (1961) => 
+
+Peng, Mike/Anderson, Richard
+DoS = 1, RS = 1
+Chain Of Actors : Peng, Mike -> Anderson, Richard
+Chain Of Movies : Breakout (1998) => 
+
+Gillis, Mark/Annis, Francesca
+DoS = 1, RS = 1
+Chain Of Actors : Gillis, Mark -> Annis, Francesca
+Chain Of Movies : Absolute Hell (1991) => 
+
+Baerwalde, David/Devona, Phillip
+DoS = 1, RS = 1
+Chain Of Actors : Baerwalde, David -> Devona, Phillip
+Chain Of Movies : Initiate, The (1998) => 
+
+Koumpan, Alexander/Benedict, Jay
+DoS = 1, RS = 1
+Chain Of Actors : Koumpan, Alexander -> Benedict, Jay
+Chain Of Movies : Double Team (1997) => 
+
+Johansen, David/Plummer, Christopher
+DoS = 1, RS = 1
+Chain Of Actors : Johansen, David -> Plummer, Christopher
+Chain Of Movies : Light Years (1986) => 
+
+Gittleman, Milton/Clark, Linda
+DoS = 1, RS = 1
+Chain Of Actors : Gittleman, Milton -> Clark, Linda
+Chain Of Movies : Wanda (1970) => 
+
+Kay, Geraldine/Bohn, John
+DoS = 1, RS = 1
+Chain Of Actors : Kay, Geraldine -> Bohn, John
+Chain Of Movies : Crime of Dr. Crespi, The (1935) => 
+
+Fregeac, Raphal/Aumont, Marie-Dominique
+DoS = 1, RS = 1
+Chain Of Actors : Fregeac, Raphal -> Aumont, Marie-Dominique
+Chain Of Movies : Petits dsordres amoureux (1998) => 
+
+Johnson, Brad Eric/Halihan, Kelli
+DoS = 1, RS = 1
+Chain Of Actors : Johnson, Brad Eric -> Halihan, Kelli
+Chain Of Movies : Hale Bopp (2002) => 
+
+Crowder, Christina/Cameron Mitchell, Christina
+DoS = 1, RS = 1
+Chain Of Actors : Crowder, Christina -> Cameron Mitchell, Christina
+Chain Of Movies : Courier, The (2001) => 
+
+Ching, Peter/Moss, Jim
+DoS = 1, RS = 1
+Chain Of Actors : Ching, Peter -> Moss, Jim
+Chain Of Movies : Fist of Glory (1990) => 
+
+Andersson, Eva/Alexander, Rolf
+DoS = 1, RS = 1
+Chain Of Actors : Andersson, Eva -> Alexander, Rolf
+Chain Of Movies : Vackert vder (1996) => 
+
+Tigerholm, Magnus/Arosenius, Per-Axel
+DoS = 1, RS = 2
+Chain Of Actors : Tigerholm, Magnus -> Arosenius, Per-Axel
+Chain Of Movies : Anderssonskans Kalle (1972) => 
+
+Danielsen, Jimmi Hgh/Glargaard, Poul
+DoS = 1, RS = 1
+Chain Of Actors : Danielsen, Jimmi Hgh -> Glargaard, Poul
+Chain Of Movies : Midt om natten (1984) => 
+
+Galante, Rudolph/Armenta, F.A.
+DoS = 1, RS = 1
+Chain Of Actors : Galante, Rudolph -> Armenta, F.A.
+Chain Of Movies : Cruz y la espada, La (1934) => 
+
+Hauthier dit Preston, Jean/Le Brigant, Sylvie
+DoS = 1, RS = 1
+Chain Of Actors : Hauthier dit Preston, Jean -> Le Brigant, Sylvie
+Chain Of Movies : Jacqueline dans ma vitrine (2000) => 
+
+Schrder, Bolette/Skarsgrd, Stellan
+DoS = 2, RS = 3
+Chain Of Actors : Schrder, Bolette -> Asholt, Jesper -> Skarsgrd, Stellan
+Chain Of Movies : Royal Blues (1997) => D-dag (2000) => 
+
+Sohma, Ippei/Allison, Patricia
+DoS = 2, RS = 2
+Chain Of Actors : Sohma, Ippei -> Ogawa, Yukiko -> Allison, Patricia
+Chain Of Movies : Jujiro (1928) => Seventh Sign, The (1988) => 
+
+Hannon, Dan/Finlay, Frank
+DoS = 2, RS = 4
+Chain Of Actors : Hannon, Dan -> Gray, Charles -> Finlay, Frank
+Chain Of Movies : Color of Water, The (2002) => Cromwell (1970) => 
+
+Levin, Marc/Allen, Penelope
+DoS = 2, RS = 3
+Chain Of Actors : Levin, Marc -> Penn, Sean -> Allen, Penelope
+Chain Of Movies : Last Party, The (1993) => Hurlyburly (1998) => 
+
+Silver, Joe/Avalon, Frankie
+DoS = 2, RS = 4
+Chain Of Actors : Silver, Joe -> Conn, Didi -> Avalon, Frankie
+Chain Of Movies : Raggedy Ann and Andy (1977) => Grease (1978) => 
+
+Stewart, Joshua Dean/Heaton, Tom
+DoS = 2, RS = 3
+Chain Of Actors : Stewart, Joshua Dean -> Burstyn, Ellen -> Heaton, Tom
+Chain Of Movies : Resurrection (1980) => Into Thin Air (1985) => 
+
+Herrera, Leticia/Azorn, Eloy
+DoS = 2, RS = 2
+Chain Of Actors : Herrera, Leticia -> Cano, Mnica -> Azorn, Eloy
+Chain Of Movies : Ciudad, La (1998) => Besos para todos (2000) => 
+
+Fanaro, Mary/Adell, Traci
+DoS = 2, RS = 3
+Chain Of Actors : Fanaro, Mary -> Krevoy, Cecile -> Adell, Traci
+Chain Of Movies : Love, Cheat & Steal (1993) => Dumb & Dumber (1994) => 
+
+Corncob/Mayo, Frank
+DoS = 2, RS = 24
+Chain Of Actors : Corncob -> Lewis, Vera -> Mayo, Frank
+Chain Of Movies : Way Down East (1935) => Always a Bride (1940) => 
+
+Jones, Liz/Anhalt, Edward
+DoS = 2, RS = 2
+Chain Of Actors : Jones, Liz -> Apick, Mary -> Anhalt, Edward
+Chain Of Movies : Ferestadeh (1982) => Right Stuff, The (1983) => 
+
+Rae, Stephen/Hickey, Paul
+DoS = 2, RS = 4
+Chain Of Actors : Rae, Stephen -> Kennedy, Maria Doyle -> Hickey, Paul
+Chain Of Movies : I Could Read the Sky (1999) => General, The (1998) => 
+
+Levinson, Ellis/Albulescu, Mircea
+DoS = 2, RS = 2
+Chain Of Actors : Levinson, Ellis -> Caldwell, Jane -> Albulescu, Mircea
+Chain Of Movies : Prehysteria! (1993) => Mandroid (1993) => 
+
+Whaler, Blair/Richardson, Jay
+DoS = 2, RS = 2
+Chain Of Actors : Whaler, Blair -> Haim, Corey -> Richardson, Jay
+Chain Of Movies : Life 101 (1995) => Demolition High (1996) => 
+
+Petersson, Oscar/Carradine, David
+DoS = 2, RS = 3
+Chain Of Actors : Petersson, Oscar -> Lundgren, Lars -> Carradine, David
+Chain Of Movies : Farligt frflutet (2001) => Fatal Secret (1988) => 
+
+Symons-Sutcliffe, Alex/Steele, Lexington
+DoS = 2, RS = 4
+Chain Of Actors : Symons-Sutcliffe, Alex -> Anthony, Mark -> Steele, Lexington
+Chain Of Movies : Madagascar Skin (1995) => Booty Talk 20: Super Fine Sistas! (2000) => 
+
+Alexander, Jean/Anderson, John
+DoS = 2, RS = 6
+Chain Of Actors : Alexander, Jean -> Bissell, Whit -> Anderson, John
+Chain Of Movies : Family Secret, The (1951) => 5 Card Stud (1968) => 
+
+Francis, Anthony/O'Connor, Frank
+DoS = 2, RS = 9
+Chain Of Actors : Francis, Anthony -> Urecal, Minerva -> O'Connor, Frank
+Chain Of Movies : Bonnie Scotland (1935) => Corpse Vanishes, The (1942) => 
+
+Martnez, Antonio/Palma, Rossy de
+DoS = 2, RS = 4
+Chain Of Actors : Martnez, Antonio -> Rabal, Francisco -> Palma, Rossy de
+Chain Of Movies : A las cinco de la tarde (1961) => Airbag (1997) => 
+
+Tennstedt, Joachim/Frank, Horst
+DoS = 2, RS = 3
+Chain Of Actors : Tennstedt, Joachim -> Rgnier, Charles -> Frank, Horst
+Chain Of Movies : Schnffler, Der (1983) => Corrida pour un espion (1965) => 
+
+Ivans, Elaine/Hardy, Oliver
+DoS = 2, RS = 33
+Chain Of Actors : Ivans, Elaine -> McKee, Raymond -> Hardy, Oliver
+Chain Of Movies : Last Sentence, The (1917) => Brewerytown Romance, A (1914) => 
+
+Levin, Hilde/Graber, Yossi
+DoS = 2, RS = 5
+Chain Of Actors : Levin, Hilde -> Efroni, Yehuda -> Graber, Yossi
+Chain Of Movies : Deadly Heroes (1994) => Kazablan (1974) => 
+
+Fretz, Tony/Lane, Nathan
+DoS = 2, RS = 3
+Chain Of Actors : Fretz, Tony -> Abercrombie, Ian -> Lane, Nathan
+Chain Of Movies : Little Mo (1978) => Addams Family Values (1993) => 
+
+Van Hellem, Huib/Betz, Kris
+DoS = 2, RS = 3
+Chain Of Actors : Van Hellem, Huib -> Flower, Co -> Betz, Kris
+Chain Of Movies : Ordonnans, De (1962) => Anita, My Love (1960) => 
+
+Thomas, Marlo/Lazenby, George
+DoS = 2, RS = 5
+Chain Of Actors : Thomas, Marlo -> Connery, Sean -> Lazenby, George
+Chain Of Movies : Dream Factory, The (1975) => Behind the Scenes with Goldfinger (1995) => 
+
+Straub, John/Blount, Steve
+DoS = 2, RS = 2
+Chain Of Actors : Straub, John -> Adams, Peter -> Blount, Steve
+Chain Of Movies : Project Moon Base (1953) => Agnes Browne (1999) => 
+
+Florelle/Clariond, Aim
+DoS = 2, RS = 7
+Chain Of Actors : Florelle -> Baumer, Jacques -> Clariond, Aim
+Chain Of Movies : Caves du Majestic, Les (1945) => Affaires sont les affaires, Les (1942) => 
+
+Mau, Doan Chau/Cage, Nicolas
+DoS = 2, RS = 3
+Chain Of Actors : Mau, Doan Chau -> Dye, Dale -> Cage, Nicolas
+Chain Of Movies : Heaven & Earth (1993) => Fire Birds (1990) => 
+
+Anderlini, Cristina/Bersh, Christopher
+DoS = 2, RS = 2
+Chain Of Actors : Anderlini, Cristina -> Mackay, Donald Sage -> Bersh, Christopher
+Chain Of Movies : Betting the Game (2000) => Desert Saints (2001) => 
+
+Grossfeld, Sid/Ray, Aldo
+DoS = 2, RS = 5
+Chain Of Actors : Grossfeld, Sid -> Wynn, Keenan -> Ray, Aldo
+Chain Of Movies : Monitors, The (1969) => Glove, The (1978) => 
+
+Stavrakas, Dimitri/Panagiotidis, Alkis
+DoS = 2, RS = 2
+Chain Of Actors : Stavrakas, Dimitri -> Ferris, Costas -> Panagiotidis, Alkis
+Chain Of Movies : Exoristos stin kentriki leoforo (1979) => Dyo fengaria ton Avgousto (1978) => 
+
+Curiel, Fernando/Bacon, Irving
+DoS = 2, RS = 2
+Chain Of Actors : Curiel, Fernando -> Villaras, Carlos -> Bacon, Irving
+Chain Of Movies : Museo del crimen, El (1945) => Tropic Holiday (1938) => 
+
+Amir, Saffron/Edwards, Jango
+DoS = 2, RS = 2
+Chain Of Actors : Amir, Saffron -> Bailey, Ewan -> Edwards, Jango
+Chain Of Movies : Infiltrator, The (1995) => All Men Are Mortal (1995) => 
+
+Luden, Jack/Martindel, Edward
+DoS = 2, RS = 8
+Chain Of Actors : Luden, Jack -> Chandler, Lane -> Martindel, Edward
+Chain Of Movies : Bugle Sounds, The (1941) => Lover Come Back (1946) => 
+
+Furtak, Evelyn/Harrell, James N.
+DoS = 2, RS = 4
+Chain Of Actors : Furtak, Evelyn -> Walters, Mark -> Harrell, James N.
+Chain Of Movies : Pure Country (1992) => Carried Away (1996) => 
+
+Einstein, Carolyn/Angel, Vanessa
+DoS = 2, RS = 2
+Chain Of Actors : Einstein, Carolyn -> Blake, Clement -> Angel, Vanessa
+Chain Of Movies : Bob, Verushka & the Pursuit of Happiness (2000) => Bread and Roses (2000) => 
+
+Marcq, Nick/Barnes, Barbara
+DoS = 2, RS = 2
+Chain Of Actors : Marcq, Nick -> Abraham, Jake -> Barnes, Barbara
+Chain Of Movies : Lock, Stock and Two Smoking Barrels (1998) => 51st State, The (2001) => 
+
+Kortos, Peter/Ford, Francis
+DoS = 2, RS = 10
+Chain Of Actors : Kortos, Peter -> McLaglen, Victor -> Ford, Francis
+Chain Of Movies : Unholy Three, The (1925) => Black Watch, The (1929) => 
+
+Velasco, Jerry/Dale, Esther
+DoS = 2, RS = 7
+Chain Of Actors : Velasco, Jerry -> Field, Mary -> Dale, Esther
+Chain Of Movies : Lucy Gallant (1955) => Convicted Woman (1940) => 
+
+Bykoff, Vladimar/Chandler, George
+DoS = 2, RS = 13
+Chain Of Actors : Bykoff, Vladimar -> Burke, James -> Chandler, George
+Chain Of Movies : Klondike Annie (1936) => Are Husbands Necessary? (1942) => 
+
+Chambers, Dan/Dix, Richard
+DoS = 2, RS = 4
+Chain Of Actors : Chambers, Dan -> Hancock, John -> Dix, Richard
+Chain Of Movies : Big Business (1988) => Black Marble, The (1980) => 
+
+Moon, Joan/Breuer, Pascal
+DoS = 2, RS = 2
+Chain Of Actors : Moon, Joan -> Bowman, Robert -> Breuer, Pascal
+Chain Of Movies : Whistle-Blower, The (2001) => Of Pure Blood (1986) => 
+
+Most, Don/Welker, Frank
+DoS = 2, RS = 23
+Chain Of Actors : Most, Don -> Paulsen, Rob -> Welker, Frank
+Chain Of Movies : Stewardess School (1987) => Aladdin and the King of Thieves (1996) => 
+
+Haugsvaer, Gunnar/Bernhoft, Unni
+DoS = 2, RS = 2
+Chain Of Actors : Haugsvaer, Gunnar -> Halvorsen, Jan -> Bernhoft, Unni
+Chain Of Movies : Windjammer: The Voyage of the Christian Radich (1958) => Bedre enn sitt rykte (1955) => 
+
+Lowman, Jay/James, Sid
+DoS = 2, RS = 2
+Chain Of Actors : Lowman, Jay -> Adams, Joyce -> James, Sid
+Chain Of Movies : Simon (1980) => Quatermass 2 (1957) => 
+
+Tyler, James/Gammon, James
+DoS = 2, RS = 3
+Chain Of Actors : Tyler, James -> Sizemore, Tom -> Gammon, James
+Chain Of Movies : Love Is Like That (1992) => Natural Born Killers (1994) => 
+
+Javid, Krysia/West, Red
+DoS = 2, RS = 3
+Chain Of Actors : Javid, Krysia -> Prior, Ted -> West, Red
+Chain Of Movies : Killer Workout (1986) => P.A.C.K., The (1997) => 
+
+Plumhoff, Wolfgang/Amerkamp, Erich
+DoS = 2, RS = 2
+Chain Of Actors : Plumhoff, Wolfgang -> Bienert, Katja -> Amerkamp, Erich
+Chain Of Movies : Schulmdchen vom Treffpunkt Zoo, Die (1979) => Dmonenbrut (2000) => 
+
+Potter, Diane/Francis, Derek
+DoS = 2, RS = 3
+Chain Of Actors : Potter, Diane -> Lee, Christopher -> Francis, Derek
+Chain Of Movies : Treasure of San Teresa, The (1959) => Rasputin: The Mad Monk (1966) => 
+
+Brown Jr., Herb/Ardito, Gino
+DoS = 2, RS = 2
+Chain Of Actors : Brown Jr., Herb -> Cort, William -> Ardito, Gino
+Chain Of Movies : Sammy (1977) => Alex & the Gypsy (1976) => 
+
+Lee, Milton/Phelps, Lee
+DoS = 2, RS = 11
+Chain Of Actors : Lee, Milton -> Blandick, Clara -> Phelps, Lee
+Chain Of Movies : Bitter Tea of General Yen, The (1933) => Daybreak (1931) => 
+
+Tuominen, Matti/Pellonp, Matti
+DoS = 2, RS = 7
+Chain Of Actors : Tuominen, Matti -> Nikkari, Esko -> Pellonp, Matti
+Chain Of Movies : Ponterosa (2001) => Ariel (1988) => 
+
+Georgoulis, Kimberly/Walcott, Gregory
+DoS = 2, RS = 5
+Chain Of Actors : Georgoulis, Kimberly -> Eastwood, Clint -> Walcott, Gregory
+Chain Of Movies : Tightrope (1984) => Eiger Sanction, The (1975) => 
+
+Shamaei, Hooshang/Karimi, Niki
+DoS = 2, RS = 2
+Chain Of Actors : Shamaei, Hooshang -> Kiarostami, Abbas -> Karimi, Niki
+Chain Of Movies : Nema-ye Nazdik (1990) => Friendly Persuasion: Iranian Cinema After the Revolution (2000) => 
+
+Kampinga, Fritz/Courbois, Kitty
+DoS = 2, RS = 8
+Chain Of Actors : Kampinga, Fritz -> Gooyer, Rijk de -> Courbois, Kitty
+Chain Of Movies : In de schaduw van de overwinning (1986) => An Bloem (1983) => 
+
+Chan, Mrs./Devine, Raquel
+DoS = 2, RS = 2
+Chain Of Actors : Chan, Mrs. -> Jessica -> Devine, Raquel
+Chain Of Movies : Xianggang zhizao (1997) => Big & Busty Covergirls (1998) => 
+
+Tilden, Leland/Baxter, Jennifer
+DoS = 2, RS = 2
+Chain Of Actors : Tilden, Leland -> Aasland, Derek -> Baxter, Jennifer
+Chain Of Movies : Urban Legends: Final Cut (2000) => Frequency (2000) => 
+
+Marggraf, Ilse/Sander, Otto
+DoS = 2, RS = 2
+Chain Of Actors : Marggraf, Ilse -> Holtenau, Gerd -> Sander, Otto
+Chain Of Movies : Im Morgenwind (1981) => Liebe in Deutschland, Eine (1983) => 
+
+Monticelli, Mimma/Bonos, Gigi
+DoS = 2, RS = 2
+Chain Of Actors : Monticelli, Mimma -> De Luca, Pupo -> Bonos, Gigi
+Chain Of Movies : Cognatina, La (1975) => ...continuavano a chiamarlo Trinit (1972) => 
+
+Feeney, Mary/Barker, Eric
+DoS = 2, RS = 2
+Chain Of Actors : Feeney, Mary -> Feeney, Pat -> Barker, Eric
+Chain Of Movies : Chicken-Hearted Jim (1916) => Carry On Sergeant (1958) => 
+
+Albrecht, Marcy/Pleasence, Donald
+DoS = 2, RS = 2
+Chain Of Actors : Albrecht, Marcy -> Lawhead, Mark -> Pleasence, Donald
+Chain Of Movies : Hollywood High (1977) => THX 1138 (1970) => 
+
+Zignon, Yelena/Bell, Francis
+DoS = 2, RS = 3
+Chain Of Actors : Zignon, Yelena -> Barry, Tony -> Bell, Francis
+Chain Of Movies : Picture Show Man, The (1977) => Absent Without Leave (1992) => 
+
+MacIntosh, Frank/Baez, Joan
+DoS = 2, RS = 2
+Chain Of Actors : MacIntosh, Frank -> Boyce, Linda -> Baez, Joan
+Chain Of Movies : Torture Me, Kiss Me (1970) => Dynamite Chicken (1971) => 
+
+Blechmans, Salom/Blanc, Manuel
+DoS = 2, RS = 2
+Chain Of Actors : Blechmans, Salom -> Aime, Anouk -> Blanc, Manuel
+Chain Of Movies : Cent et une nuits, Les (1995) => 1999 Madeleine (1999) => 
+
+Thomas, Sean Patrick/Aguilera, Christina
+DoS = 2, RS = 3
+Chain Of Actors : Thomas, Sean Patrick -> Rhymes, Busta -> Aguilera, Christina
+Chain Of Movies : Halloween: Resurrection (2002) => MTV Video Music Awards 2000 (2000) => 
+
+Moore, Ray/Holt, Tim
+DoS = 2, RS = 3
+Chain Of Actors : Moore, Ray -> Bartholomew, Freddie -> Holt, Tim
+Chain Of Movies : Sepia Cinderella (1947) => Spirit of Culver, The (1939) => 
+
+Romano, Nick/Kerman, Robert
+DoS = 2, RS = 13
+Chain Of Actors : Romano, Nick -> Fox, Samantha -> Kerman, Robert
+Chain Of Movies : Bon Appetit (1980) => Amanda by Night (1981) => 
+
+Dundara, David/Starr, Mike
+DoS = 2, RS = 7
+Chain Of Actors : Dundara, David -> Badalucco, Michael -> Starr, Mike
+Chain Of Movies : Jungle Fever (1991) => Clockers (1995) => 
+
+Gosselaar, Mark-Paul/Affleck, Ben
+DoS = 2, RS = 4
+Chain Of Actors : Gosselaar, Mark-Paul -> Swank, Hilary -> Affleck, Ben
+Chain Of Movies : Dying to Belong (1997) => 73rd Annual Academy Awards, The (2001) => 
+
+Monroe, Rob/Hart, Veronica
+DoS = 2, RS = 5
+Chain Of Actors : Monroe, Rob -> Edwards, Eric -> Hart, Veronica
+Chain Of Movies : Problem Child 3 (1995) => Afternoon Delights (1980) => 
+
+Ratoucheff, Andy/Saylor, Syd
+DoS = 2, RS = 3
+Chain Of Actors : Ratoucheff, Andy -> Raye, Martha -> Saylor, Syd
+Chain Of Movies : Pufnstuf (1970) => $1000 a Touchdown (1939) => 
+
+Dobson, Viki/Sanders, George
+DoS = 2, RS = 5
+Chain Of Actors : Dobson, Viki -> Currie, Finlay -> Sanders, George
+Chain Of Movies : Catch As Catch Can (1937) => Cracksman, The (1963) => 
+
+Bogino, David/Freytez, Patxi
+DoS = 2, RS = 2
+Chain Of Actors : Bogino, David -> Bellucci, Monica -> Freytez, Patxi
+Chain Of Movies : Pacte des loups, Le (2001) => A los que aman (1998) => 
+
+Martins, Armando/Machado, Armando
+DoS = 2, RS = 2
+Chain Of Actors : Martins, Armando -> Amaro, Jos -> Machado, Armando
+Chain Of Movies : Cames (1946) => Aldeia da Roupa Branca (1938) => 
+
+Jones, Isabelle/Kehoe, Jack
+DoS = 2, RS = 2
+Chain Of Actors : Jones, Isabelle -> Donat, Peter -> Kehoe, Jack
+Chain Of Movies : Lost Lagoon (1958) => Game, The (1997) => 
+
+Scott, Mike/Adams, Brian
+DoS = 2, RS = 8
+Chain Of Actors : Scott, Mike -> Hogan, Hulk -> Adams, Brian
+Chain Of Movies : No Holds Barred (1989) => King of the Ring (1993) => 
+
+Pruitt, Nate/Matthews, Dakin
+DoS = 2, RS = 3
+Chain Of Actors : Pruitt, Nate -> Alda, Alan -> Matthews, Dakin
+Chain Of Movies : Mad City (1997) => And the Band Played On (1993) => 
+
+Wiedenhoff, Randy/Arquette, Lewis
+DoS = 2, RS = 3
+Chain Of Actors : Wiedenhoff, Randy -> Farley, John -> Arquette, Lewis
+Chain Of Movies : Straight Story, The (1999) => Almost Heroes (1998) => 
+
+Weygers, Arlette/Van Kuyk, Fred
+DoS = 2, RS = 7
+Chain Of Actors : Weygers, Arlette -> Decleir, Jan -> Van Kuyk, Fred
+Chain Of Movies : Maria Danneels) (1982) => Daens (1992) => 
+
+Whalley, Joanne/Keir, Andrew
+DoS = 2, RS = 4
+Chain Of Actors : Whalley, Joanne -> Copeland, James -> Keir, Andrew
+Chain Of Movies : Big Man, The (1990) => Laxdale Hall (1952) => 
+
+Cederberg, Gran/Franzn, Peter
+DoS = 2, RS = 2
+Chain Of Actors : Cederberg, Gran -> Riza, Ahmed -> Franzn, Peter
+Chain Of Movies : Falskspelare (1961) => Badding (2000) => 
+
+Karim, Abdul/Paxton, Bill
+DoS = 2, RS = 6
+Chain Of Actors : Karim, Abdul -> Biehn, Michael -> Paxton, Bill
+Chain Of Movies : K2 (1991) => Aliens (1986) => 
+
+Wiedman, Marek/Behrens, Bernard
+DoS = 2, RS = 2
+Chain Of Actors : Wiedman, Marek -> Barroll, Catherine -> Behrens, Bernard
+Chain Of Movies : Dark Water (1999) => Incident in a Small Town (1994) => 
+
+Dalunde, Nancy/Skarstedt, Georg
+DoS = 2, RS = 27
+Chain Of Actors : Dalunde, Nancy -> Schedin, Hanny -> Skarstedt, Georg
+Chain Of Movies : Fram fr lilla Mrta (1945) => Bara en kypare (1959) => 
+
+Welther, Jim/Barnouw, Erik
+DoS = 2, RS = 2
+Chain Of Actors : Welther, Jim -> Barber, Red -> Barnouw, Erik
+Chain Of Movies : Powel Crosley and the 20th Century (1988) => Empire of the Air: The Men Who Made Radio (1992) => 
+
+Norton, Harold/Holt, Tim
+DoS = 2, RS = 3
+Chain Of Actors : Norton, Harold -> Bartholomew, Freddie -> Holt, Tim
+Chain Of Movies : Sepia Cinderella (1947) => Spirit of Culver, The (1939) => 
+
+Gilbert, Maude/Hart, Al
+DoS = 2, RS = 4
+Chain Of Actors : Gilbert, Maude -> De Carlton, George -> Hart, Al
+Chain Of Movies : Gilded Fool, A (1915) => Grouch, The (1918) => 
+
+Yoshioka, Adele/Alaimo, Marc
+DoS = 2, RS = 6
+Chain Of Actors : Yoshioka, Adele -> Kennedy, George -> Alaimo, Marc
+Chain Of Movies : Gaily, Gaily (1969) => Archer: Fugitive from the Empire, The (1981) => 
+
+Jarvis, Woody/Andrews, Stanley
+DoS = 2, RS = 12
+Chain Of Actors : Jarvis, Woody -> Scott, Randolph -> Andrews, Stanley
+Chain Of Movies : Capture of Bigfoot, The (1979) => Abilene Town (1946) => 
+
+Gobin, Gabriel/Demange, Paul
+DoS = 2, RS = 7
+Chain Of Actors : Gobin, Gabriel -> Gnin, Ren -> Demange, Paul
+Chain Of Movies : Amants de bras-mort, Les (1951) => Aventure est au coin de la rue (1944) => 
+
+Hartley, Lee/Gielgud, John
+DoS = 2, RS = 5
+Chain Of Actors : Hartley, Lee -> Holm, Ian -> Gielgud, John
+Chain Of Movies : Lord of the Rings: The Fellowship of the Ring, The (2001) => Chariots of Fire (1981) => 
+
+Doll, Gracie/Hytten, Olaf
+DoS = 2, RS = 23
+Chain Of Actors : Doll, Gracie -> Irwin, Charles -> Hytten, Olaf
+Chain Of Movies : Wizard of Oz, The (1939) => Adventures of Robin Hood, The (1938) => 
+
+Miroux, Thierry/Ardant, Fanny
+DoS = 2, RS = 2
+Chain Of Actors : Miroux, Thierry -> Bart, Emmanuelle -> Ardant, Fanny
+Chain Of Movies : Enfants du dsordre, Les (1989) => 8 femmes (2002) => 
+
+Daniels, Mickey/Crawford, Joan
+DoS = 2, RS = 40
+Chain Of Actors : Daniels, Mickey -> Hoskins, Allen 'Farina' -> Crawford, Joan
+Chain Of Movies : Ask Grandma (1925) => Slippery Pearls, The (1931) => 
+
+Corveau, Jeff/Alldredge, Greg
+DoS = 2, RS = 2
+Chain Of Actors : Corveau, Jeff -> Amendola, Linda -> Alldredge, Greg
+Chain Of Movies : Patriots (1994,II) => Shadow Glories (2001) => 
+
+Lacaste, Alex/Maguelon, Pierre
+DoS = 2, RS = 5
+Chain Of Actors : Lacaste, Alex -> Benguigui, Jean -> Maguelon, Pierre
+Chain Of Movies : Vous tes folle, Imogne (1991) => Imogne dgaine (1991) => 
+
+Fanning, Dakota/Abraham, Falconer
+DoS = 2, RS = 2
+Chain Of Actors : Fanning, Dakota -> Bacon, Kevin -> Abraham, Falconer
+Chain Of Movies : 24 Hours (2002,I) => Air Up There, The (1994) => 
+
+Nay, Pierre/Boyer, Charles
+DoS = 2, RS = 6
+Chain Of Actors : Nay, Pierre -> Dalio, Marcel -> Boyer, Charles
+Chain Of Movies : Pirates du rail, Les (1937) => Constant Nymph, The (1943) => 
+
+Helpmann, Robert/Green, Danny
+DoS = 2, RS = 6
+Chain Of Actors : Helpmann, Robert -> Kent, Jean -> Green, Danny
+Chain Of Movies : Caravan (1945) => Beyond This Place (1959) => 
+
+Chavez, Margaret/Fletcher, Louise
+DoS = 2, RS = 4
+Chain Of Actors : Chavez, Margaret -> Baldwin, Daniel -> Fletcher, Louise
+Chain Of Movies : Phoenix (1998) => Love Kills (1998) => 
+
+Conalves, Daniel/Lint, Derek de
+DoS = 2, RS = 3
+Chain Of Actors : Conalves, Daniel -> Hoffman, Thom -> Lint, Derek de
+Chain Of Movies : Glinsterend pantser, Het (1998) => Rituelen (1988) => 
+
+

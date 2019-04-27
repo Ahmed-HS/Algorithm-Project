@@ -57,6 +57,32 @@ namespace SmallWorld
 
         }
 
+        private void FindStrongestPath(object sender, RoutedEventArgs e)
+        {
+            string Source = FirstActor.Text;
+            string Target = SecondActor.Text;
+            Task<string> StrongestPathTask = new Task<string>(() =>
+            {
+                return "To be implemented";
+            });
+            StartTask("Finding strongest path between two actors.");
+            StrongestPathTask.Start();
+            FinishTask(StrongestPathTask.Result);
+        }
+
+        private void FindMST(object sender, RoutedEventArgs e)
+        {
+            string Source = FirstActor.Text;
+            string Target = SecondActor.Text;
+            Task<string> MSTTaske = new Task<string>(() =>
+            {
+                return ActorNames == null ? "Please choose a movie file" : "To be implemented";
+            });
+            StartTask("Finding MST.");
+            MSTTaske.Start();
+            FinishTask(MSTTaske.Result);
+        }
+
         private async void OpenQueriesFile(object sender, RoutedEventArgs e)
         {
             FileOpenPicker FilePicker = new FileOpenPicker();
@@ -97,37 +123,11 @@ namespace SmallWorld
             string Source = FirstActor.Text;
             Task<string> FindOneToAll = new Task<string>(() =>
             {
-                return Graph.GetOneToAllRelation(Source);
+                return Graph.DistributionOfShotestPath(Source);
             });
             StartTask("Calculating distribution of shortest paths.");
             FindOneToAll.Start();
             FinishTask(FindOneToAll.Result);
-        }
-
-        private void FindStrongestPath(object sender, RoutedEventArgs e)
-        {
-            string Source = FirstActor.Text;
-            string Target = SecondActor.Text;
-            Task<string> StrongestPathTask = new Task<string>(() =>
-            {
-                return "To be Implemented";
-            });
-            StartTask("Finding strongest path between two actors.");
-            StrongestPathTask.Start();
-            FinishTask(StrongestPathTask.Result);
-        }
-
-        private void FindMST(object sender, RoutedEventArgs e)
-        {
-            string Source = FirstActor.Text;
-            string Target = SecondActor.Text;
-            Task<string> MSTTaske = new Task<string>(() =>
-            {
-                return "To be Implemented";
-            });
-            StartTask("Finding MST.");
-            MSTTaske.Start();
-            FinishTask(MSTTaske.Result);
         }
 
         private void StartTask(string Status)
@@ -168,11 +168,7 @@ namespace SmallWorld
                 ShowSaveDialog(NewText, "Result too large", "The result is too large to display, Save it to a text file.");
                 return;
             }
-            else if (NewText == "Please Enter Correct Actor Names")
-            {
-                return;
-            }
-            else
+            else if(NewText != "Please Enter Correct Actor Names" && NewText != "Please choose a movie file")
             {
                 ShowSaveDialog(NewText, "Finished", "The task finished in " + FinishTime + ", Do you want to save the result to a text file ?");
             }

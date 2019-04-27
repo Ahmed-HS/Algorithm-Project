@@ -1,0 +1,14 @@
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\netcoreapp2.1\GraphUnitTests.deps.json
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\netcoreapp2.1\GraphUnitTests.runtimeconfig.json
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\netcoreapp2.1\GraphUnitTests.runtimeconfig.dev.json
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\netcoreapp2.1\GraphUnitTests.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\bin\Debug\netcoreapp2.1\GraphUnitTests.pdb
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\obj\Debug\netcoreapp2.1\GraphUnitTests.csprojAssemblyReference.cache
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\obj\Debug\netcoreapp2.1\GraphUnitTests.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\obj\Debug\netcoreapp2.1\GraphUnitTests.AssemblyInfoInputs.cache
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\obj\Debug\netcoreapp2.1\GraphUnitTests.AssemblyInfo.cs
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\obj\Debug\netcoreapp2.1\GraphUnitTests.dll
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\GraphUnitTests\obj\Debug\netcoreapp2.1\GraphUnitTests.pdb

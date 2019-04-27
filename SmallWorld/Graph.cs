@@ -43,14 +43,14 @@ namespace AlgorithmProject
     {
         public bool Visited;
         public int DistanceFromSource,Frequency;
-        public string Parent;
+        public string ForwardParent;
 
         public ActorState()
         {
             Visited = false;
             DistanceFromSource = int.MaxValue;
             Frequency = 0;
-            Parent = "Not Set";
+            ForwardParent = "Not Set";
         }
 
         public void MarkVisted(int Distance, int NewFrequency ,string CurrentParent)
@@ -58,7 +58,7 @@ namespace AlgorithmProject
             Visited = true;
             DistanceFromSource = Distance;
             Frequency = NewFrequency;
-            Parent = CurrentParent;
+            ForwardParent = CurrentParent;
         }
 
         public void Reset()
@@ -66,7 +66,7 @@ namespace AlgorithmProject
             Visited = false;
             DistanceFromSource = int.MaxValue;
             Frequency = 0;
-            Parent = "Not Set";
+            ForwardParent = "Not Set";
         }
     }
 
@@ -93,7 +93,6 @@ namespace AlgorithmProject
             {
                 CurrentActor.Reset();
             }
-            ActorStates["Null"].MarkVisted(int.MaxValue, int.MaxValue, "Null");
         }
 
         public static string ReadQueries(string FileName)
@@ -125,37 +124,13 @@ namespace AlgorithmProject
 
             while (CurrentActor != Source)
             {
-                Parent = ActorStates[CurrentActor].Parent;
+                Parent = ActorStates[CurrentActor].ForwardParent;
                 MoviePath = Relations[CurrentActor][Parent].CommonMovie + " => " + MoviePath;
                 ActorPath = Parent + " -> " + ActorPath;
                 CurrentActor = Parent;
             }
 
             return new Tuple<string, string>(ActorPath,MoviePath);
-        }
-
-        private static void BFSReset(string Source, string Target)
-        {
-            ActorStates[Source].Reset();
-
-            Queue<string> TraverseQueue = new Queue<string>();
-
-            string CurrentActor;
-            TraverseQueue.Enqueue(Source);
-            while (TraverseQueue.Count > 0)
-            {
-                CurrentActor = TraverseQueue.Dequeue();
-                foreach (string Neighbour in Relations[CurrentActor].Keys)
-                {
-                    if (ActorStates[Neighbour].Visited)
-                    {
-                        ActorStates[Neighbour].Reset();
-                        TraverseQueue.Enqueue(Neighbour);
-                    }
-                  
-                }
-            }
-
         }
 
         public static string GetTwoActorsRelation(string Source,string Target)
@@ -180,31 +155,45 @@ namespace AlgorithmProject
 
         }
 
-        public static string GetOneToAllRelation(string Source)
+        public static string DistributionOfShotestPath(string Source)
         {
             if (!Relations.ContainsKey(Source))
             {
                 return "Please Enter Correct Actor Names";
             }
 
-            string Result = "Shortest Path \t\t Frequency\n";
-            BFS(Source);
+            ResetActorStates();
+
+            ActorStates[Source].MarkVisted(0, 0, "Source");
+
+            Queue<string> TraverseQueue = new Queue<string>();
             SortedDictionary<int, int> Distribution = new SortedDictionary<int, int>();
-
-            foreach (string CurrentActor in ActorStates.Keys)
+            string CurrentActor,Result ="Shortest Path \t\t\t Frequency \n0 \t\t\t\t 1 \n";
+            TraverseQueue.Enqueue(Source);
+            while (TraverseQueue.Any())
             {
-                if (Distribution.ContainsKey(ActorStates[CurrentActor].DistanceFromSource))
+                CurrentActor = TraverseQueue.Dequeue();
+                foreach (string Neighbour in Relations[CurrentActor].Keys)
                 {
-                    Distribution[ActorStates[CurrentActor].DistanceFromSource]++;
+                    if (!ActorStates[Neighbour].Visited)
+                    {
+                        int Distance = ActorStates[CurrentActor].DistanceFromSource + 1;
+                        int Frequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
+                        ActorStates[Neighbour].MarkVisted(Distance, Frequency, CurrentActor);
+                        TraverseQueue.Enqueue(Neighbour);
+                        if (Distribution.ContainsKey(ActorStates[Neighbour].DistanceFromSource))
+                        {
+                            Distribution[ActorStates[Neighbour].DistanceFromSource]++;
+                        }
+                        else
+                        {
+                            Distribution.Add(ActorStates[Neighbour].DistanceFromSource, 1);
+                        }
+                    }
                 }
-                else if(ActorStates[CurrentActor].DistanceFromSource != int.MaxValue)
-                {
-                    Distribution.Add(ActorStates[CurrentActor].DistanceFromSource, 1);
-                }             
             }
-
-
-            foreach(int ShortestPath in Distribution.Keys)
+            
+            foreach (int ShortestPath in Distribution.Keys)
             {
                 Result += ShortestPath + "\t\t\t\t" + Distribution[ShortestPath] + "\n";
             }
@@ -212,10 +201,10 @@ namespace AlgorithmProject
             return Result;
         }
 
-        private static void BFS(string Source, string Target = "Null")
+
+        private static void BFS(string Source, string Target)
         {
             ResetActorStates();
-
             ActorStates[Source].MarkVisted(0, 0,"Source");
 
             Queue<string> TraverseQueue = new Queue<string>();
@@ -244,12 +233,14 @@ namespace AlgorithmProject
                         if (AltFrequency > ActorStates[Neighbour].Frequency)
                         {
                             ActorStates[Neighbour].Frequency = AltFrequency;
-                            ActorStates[Neighbour].Parent = CurrentActor;
+                            ActorStates[Neighbour].ForwardParent = CurrentActor;
                         }
                     }
                 }
             }
         }
+
+
 
         public static void ClearGraph()
         {
@@ -265,8 +256,6 @@ namespace AlgorithmProject
             MyDataFile = new FileStream(FileName , FileMode.Open);
             MyReader = new StreamReader(MyDataFile);
             string[] Actors;
-            ActorStates.Add("Null", new ActorState());
-            ActorStates["Null"].MarkVisted(int.MaxValue, int.MaxValue, "Null");
             while (MyReader.Peek() != -1)
             {
                 // Read a movie then split it by '/' where Actors[0] is the movie name 
@@ -319,9 +308,7 @@ namespace AlgorithmProject
             MyWatch.Stop();
             MyReader.Dispose();
             MyDataFile.Dispose();
-            string[] AllActors = ActorStates.Keys.ToArray();
-            AllActors[0] = "Select an actor";
-            return AllActors;
+            return ActorStates.Keys.ToArray();
         }
 
     }

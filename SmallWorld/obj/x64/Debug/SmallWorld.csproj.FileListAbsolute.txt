@@ -124,7 +124,6 @@ C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Debug\System.Xml.XDocument.dll
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Debug\System.Xml.XmlDocument.dll
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Debug\System.Xml.XmlSerializer.dll
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Debug\SmallWorld.csprojAssemblyReference.cache
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Debug\App.g.i.cs
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Debug\App.g.cs
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Debug\MainPage.g.i.cs
@@ -218,3 +217,4 @@ C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Debug\qualifiers.txt.intermediate
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Debug\SmallWorld.csprojAssemblyReference.cache
