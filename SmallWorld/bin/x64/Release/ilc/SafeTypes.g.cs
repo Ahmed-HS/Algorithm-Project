@@ -141,7 +141,7 @@ namespace __Interop
 
 namespace Microsoft.Win32.SafeHandles
 {
-	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.Win32.SafeHandles.SafeFileHandle,System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToke" +
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.Win32.SafeHandles.SafeFileHandle,System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToke" +
 		"n=b03f5f7f11d50a3a")]
 	public unsafe class SafeFileHandle__System_IO_FileSystem : global::System.Runtime.InteropServices.SafeHandle
 	{
@@ -164,7 +164,7 @@ namespace Microsoft.Win32.SafeHandles
 		}
 	}
 
-	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.Win32.SafeHandles.SafeThreadPoolIOHandle,System.Threading.Overlapped, Version=4.0.2.0, Culture=neutral" +
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.Win32.SafeHandles.SafeThreadPoolIOHandle,System.Threading.Overlapped, Version=4.0.1.0, Culture=neutral" +
 		", PublicKeyToken=b03f5f7f11d50a3a")]
 	public unsafe class SafeThreadPoolIOHandle__System_Threading_Overlapped : global::System.Runtime.InteropServices.SafeHandle
 	{
@@ -187,7 +187,7 @@ namespace Microsoft.Win32.SafeHandles
 		}
 	}
 
-	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.Win32.SafeHandles.SafeFindHandle,System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToke" +
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.Win32.SafeHandles.SafeFindHandle,System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToke" +
 		"n=b03f5f7f11d50a3a")]
 	public unsafe class SafeFindHandle__System_IO_FileSystem : global::System.Runtime.InteropServices.SafeHandle
 	{
@@ -222,7 +222,7 @@ namespace System
 namespace System.IO
 {
 	[global::System.Flags]
-	[global::System.Runtime.InteropServices.McgRedirectedType("System.IO.FileShare,System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11" +
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.IO.FileShare,System.IO.FileSystem.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11" +
 		"d50a3a")]
 	public enum FileShare__System_IO_FileSystem_Primitives
 	{
@@ -234,7 +234,7 @@ namespace System.IO
 		Inheritable = 16,
 	}
 
-	[global::System.Runtime.InteropServices.McgRedirectedType("System.IO.FileMode,System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d" +
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.IO.FileMode,System.IO.FileSystem.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d" +
 		"50a3a")]
 	public enum FileMode__System_IO_FileSystem_Primitives
 	{
@@ -249,7 +249,7 @@ namespace System.IO
 
 namespace System.Runtime.InteropServices
 {
-	[global::System.Runtime.InteropServices.McgRedirectedType("System.Runtime.InteropServices.IMarshal,System.Runtime.WindowsRuntime, Version=4.0.12.0, Culture=neutral, Public" +
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Runtime.InteropServices.IMarshal,System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, Public" +
 		"KeyToken=b77a5c561934e089")]
 	public unsafe interface IMarshal__System_Runtime_WindowsRuntime
 	{
@@ -293,7 +293,7 @@ namespace System.Runtime.InteropServices
 		void DisconnectObject(uint dwReserved);
 	}
 
-	[global::System.Runtime.InteropServices.McgRedirectedType("System.Runtime.InteropServices.IAgileObject,System.Runtime.WindowsRuntime, Version=4.0.12.0, Culture=neutral, Pu" +
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Runtime.InteropServices.IAgileObject,System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, Pu" +
 		"blicKeyToken=b77a5c561934e089")]
 	public unsafe interface IAgileObject__System_Runtime_WindowsRuntime
 	{
@@ -564,7 +564,7 @@ namespace System.Runtime.InteropServices.ComTypes
 
 namespace System.Runtime.InteropServices.WindowsRuntime
 {
-	[global::System.Runtime.InteropServices.McgRedirectedType("System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess,System.Runtime.WindowsRuntime, Version=4.0.12.0," +
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess,System.Runtime.WindowsRuntime, Version=4.0.11.0," +
 		" Culture=neutral, PublicKeyToken=b77a5c561934e089")]
 	public unsafe interface IBufferByteAccess__System_Runtime_WindowsRuntime
 	{
@@ -575,7 +575,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 
 namespace System.Threading
 {
-	[global::System.Runtime.InteropServices.McgRedirectedType("System.Threading.NativeOverlapped,System.Threading.Overlapped, Version=4.0.2.0, Culture=neutral, PublicKeyToken=" +
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Threading.NativeOverlapped,System.Threading.Overlapped, Version=4.0.1.0, Culture=neutral, PublicKeyToken=" +
 		"b03f5f7f11d50a3a")]
 	public unsafe partial struct NativeOverlapped__System_Threading_Overlapped
 	{
@@ -14533,7 +14533,7 @@ public unsafe partial struct Interop_mincore_CPINFOEXW__CodePageName_e__FixedBuf
 	public byte FixedElementField;
 }
 
-[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+FILE_INFO_BY_HANDLE_CLASS,System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken" +
+[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+FILE_INFO_BY_HANDLE_CLASS,System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken" +
 	"=b03f5f7f11d50a3a")]
 public enum Interop_mincore_FILE_INFO_BY_HANDLE_CLASS__System_IO_FileSystem : uint
 {
@@ -14561,7 +14561,7 @@ public enum Interop_mincore_FILE_INFO_BY_HANDLE_CLASS__System_IO_FileSystem : ui
 	MaximumFileInfoByHandleClass = 0x15u,
 }
 
-[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+FILE_STANDARD_INFO,System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f" +
+[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+FILE_STANDARD_INFO,System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f" +
 	"7f11d50a3a")]
 public unsafe partial struct Interop_mincore_FILE_STANDARD_INFO__System_IO_FileSystem
 {
@@ -14572,7 +14572,7 @@ public unsafe partial struct Interop_mincore_FILE_STANDARD_INFO__System_IO_FileS
 	public global::Interop_BOOL__System_IO_FileSystem Directory;
 }
 
-[global::System.Runtime.InteropServices.McgRedirectedType("Interop+BOOL,System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+[global::System.Runtime.InteropServices.McgRedirectedType("Interop+BOOL,System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 public enum Interop_BOOL__System_IO_FileSystem
 {
 	FALSE = 0,
@@ -14580,7 +14580,7 @@ public enum Interop_BOOL__System_IO_FileSystem
 }
 
 // Unmanaged Function Pointer - Calling Convention StdCall
-[global::System.Runtime.InteropServices.McgRedirectedType("Interop+NativeIoCompletionCallback,System.Threading.Overlapped, Version=4.0.2.0, Culture=neutral, PublicKeyToken" +
+[global::System.Runtime.InteropServices.McgRedirectedType("Interop+NativeIoCompletionCallback,System.Threading.Overlapped, Version=4.0.1.0, Culture=neutral, PublicKeyToken" +
 	"=b03f5f7f11d50a3a")]
 public unsafe delegate void Interop_NativeIoCompletionCallback__System_Threading_Overlapped(
 			global::System.IntPtr instance, 
@@ -14590,7 +14590,7 @@ public unsafe delegate void Interop_NativeIoCompletionCallback__System_Threading
 			global::System.UIntPtr numberOfBytesTransferred, 
 			global::System.IntPtr io);
 
-[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+GET_FILEEX_INFO_LEVELS,System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b0" +
+[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+GET_FILEEX_INFO_LEVELS,System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b0" +
 	"3f5f7f11d50a3a")]
 public enum Interop_mincore_GET_FILEEX_INFO_LEVELS__System_IO_FileSystem : uint
 {
@@ -14598,7 +14598,7 @@ public enum Interop_mincore_GET_FILEEX_INFO_LEVELS__System_IO_FileSystem : uint
 	GetFileExMaxInfoLevel = 0x1u,
 }
 
-[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+WIN32_FILE_ATTRIBUTE_DATA,System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken" +
+[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+WIN32_FILE_ATTRIBUTE_DATA,System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken" +
 	"=b03f5f7f11d50a3a")]
 public unsafe partial struct Interop_mincore_WIN32_FILE_ATTRIBUTE_DATA__System_IO_FileSystem
 {
@@ -14613,7 +14613,7 @@ public unsafe partial struct Interop_mincore_WIN32_FILE_ATTRIBUTE_DATA__System_I
 	public uint fileSizeLow;
 }
 
-[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+FINDEX_INFO_LEVELS,System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f" +
+[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+FINDEX_INFO_LEVELS,System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f" +
 	"7f11d50a3a")]
 public enum Interop_mincore_FINDEX_INFO_LEVELS__System_IO_FileSystem : uint
 {
@@ -14622,7 +14622,7 @@ public enum Interop_mincore_FINDEX_INFO_LEVELS__System_IO_FileSystem : uint
 	FindExInfoMaxInfoLevel = 0x2u,
 }
 
-[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+WIN32_FIND_DATA,System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f1" +
+[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+WIN32_FIND_DATA,System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f1" +
 	"1d50a3a")]
 public unsafe partial struct Interop_mincore_WIN32_FIND_DATA__System_IO_FileSystem
 {
@@ -14638,7 +14638,7 @@ public unsafe partial struct Interop_mincore_WIN32_FIND_DATA__System_IO_FileSyst
 	public string cAlternateFileName;
 }
 
-[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+FILE_TIME,System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3" +
+[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+FILE_TIME,System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3" +
 	"a")]
 public unsafe partial struct Interop_mincore_FILE_TIME__System_IO_FileSystem
 {
@@ -14646,7 +14646,7 @@ public unsafe partial struct Interop_mincore_FILE_TIME__System_IO_FileSystem
 	public uint dwHighDateTime;
 }
 
-[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+FINDEX_SEARCH_OPS,System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7" +
+[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+FINDEX_SEARCH_OPS,System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7" +
 	"f11d50a3a")]
 public enum Interop_mincore_FINDEX_SEARCH_OPS__System_IO_FileSystem : uint
 {
@@ -14656,7 +14656,7 @@ public enum Interop_mincore_FINDEX_SEARCH_OPS__System_IO_FileSystem : uint
 	FindExSearchMaxSearchOp = 0x3u,
 }
 
-[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+CREATEFILE2_EXTENDED_PARAMETERS,System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKe" +
+[global::System.Runtime.InteropServices.McgRedirectedType("Interop+mincore+CREATEFILE2_EXTENDED_PARAMETERS,System.IO.FileSystem, Version=4.0.1.0, Culture=neutral, PublicKe" +
 	"yToken=b03f5f7f11d50a3a")]
 public unsafe partial struct Interop_mincore_CREATEFILE2_EXTENDED_PARAMETERS__System_IO_FileSystem
 {

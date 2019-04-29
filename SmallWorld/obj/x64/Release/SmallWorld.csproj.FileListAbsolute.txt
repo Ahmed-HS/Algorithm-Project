@@ -1010,15 +1010,3 @@ C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll.ILTransformTask.repro
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.pdb
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\SmallWorld.csprojAssemblyReference.cache
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\MedallionPriorityQueue.dll
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\System.Console.dll
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\bin\x64\Release\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\MedallionPriorityQueue.dll
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\System.Console.dll
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\in\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\MedallionPriorityQueue.ildll
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\MedallionPriorityQueue.ilpdb
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\System.Buffers.ildll
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\System.Buffers.ilpdb
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\System.Console.ildll
-C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Release\ilc\intermediate\ILTransformed\System.Console.ilpdb

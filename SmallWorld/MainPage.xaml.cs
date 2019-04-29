@@ -30,7 +30,7 @@ namespace SmallWorld
             TaskTimer = new Stopwatch();
             QueriesResult.MaxLength = int.MaxValue;
             QueriesResult.IsReadOnly = true;
-      
+
         }
 
         private async void OpenMoviesFile(object sender, RoutedEventArgs e)
@@ -45,7 +45,7 @@ namespace SmallWorld
             if (ChosenFile != null)
             {
                 Windows.Storage.AccessCache.StorageApplicationPermissions.FutureAccessList.Add(ChosenFile);
-                ReadGraph = new Task<string[]>(()=> 
+                ReadGraph = new Task<string[]>(() =>
                 {
                     return Graph.ReadGraph(ChosenFile.Path);
                 });
@@ -63,7 +63,7 @@ namespace SmallWorld
             string Target = SecondActor.Text;
             Task<string> StrongestPathTask = new Task<string>(() =>
             {
-                return "To be implemented";
+                return Graph.GetStrongestPath(Source, Target);
             });
             StartTask("Finding strongest path between two actors.");
             StrongestPathTask.Start();
@@ -76,7 +76,7 @@ namespace SmallWorld
             string Target = SecondActor.Text;
             Task<string> MSTTaske = new Task<string>(() =>
             {
-                return ActorNames == null ? "Please choose a movie file" : "To be implemented";
+                return ActorNames == null ? "Please choose a movie file" : Graph.MST(ActorNames[1]);
             });
             StartTask("Finding MST.");
             MSTTaske.Start();
@@ -94,7 +94,7 @@ namespace SmallWorld
             if (ChosenFile != null)
             {
                 Windows.Storage.AccessCache.StorageApplicationPermissions.FutureAccessList.Add(ChosenFile);
-                ReadQueries = new Task<string>(()=>
+                ReadQueries = new Task<string>(() =>
                 {
                     return Graph.ReadQueries(ChosenFile.Path);
                 });
@@ -102,7 +102,7 @@ namespace SmallWorld
                 ReadQueries.Start();
                 FinishTask(ReadQueries.Result);
             }
-          
+
         }
 
         private void FindRelation(object sender, RoutedEventArgs e)
@@ -111,7 +111,7 @@ namespace SmallWorld
             string Target = SecondActor.Text;
             Task<string> FindRelationTask = new Task<string>(() =>
             {
-                return Graph.GetTwoActorsRelation(Source,Target);
+                return Graph.GetTwoActorsRelation(Source, Target);
             });
             StartTask("Finding relation between two actors.");
             FindRelationTask.Start();
@@ -160,7 +160,7 @@ namespace SmallWorld
             return TaskTimer.Elapsed.Minutes + " Minutes , " + TaskTimer.Elapsed.Seconds + " Seconds ";
         }
 
-        private void SetQueriesResultText(string NewText,string FinishTime)
+        private void SetQueriesResultText(string NewText, string FinishTime)
         {
             int MaxDisplaySize = 307620;
             if (NewText.Length > MaxDisplaySize)
@@ -168,16 +168,16 @@ namespace SmallWorld
                 ShowSaveDialog(NewText, "Result too large", "The result is too large to display, Save it to a text file.");
                 return;
             }
-            else if(NewText != "Please Enter Correct Actor Names" && NewText != "Please choose a movie file")
+            else if (NewText != "Please Enter Correct Actor Names" && NewText != "Please choose a movie file")
             {
                 ShowSaveDialog(NewText, "Finished", "The task finished in " + FinishTime + ", Do you want to save the result to a text file ?");
             }
             QueriesResult.IsReadOnly = false;
-            QueriesResult.Document.SetText(Windows.UI.Text.TextSetOptions.None,NewText);
+            QueriesResult.Document.SetText(Windows.UI.Text.TextSetOptions.None, NewText);
             QueriesResult.IsReadOnly = true;
         }
 
-        private async void ShowDialog(string Heading,string Message)
+        private async void ShowDialog(string Heading, string Message)
         {
             ContentDialog SavedFile = new ContentDialog
             {
@@ -189,7 +189,7 @@ namespace SmallWorld
             ContentDialogResult Result = await SavedFile.ShowAsync();
         }
 
-        private async void ShowSaveDialog(string QueriesResult,string Heading,string Message)
+        private async void ShowSaveDialog(string QueriesResult, string Heading, string Message)
         {
             ContentDialog SaveDialog = new ContentDialog
             {
@@ -240,7 +240,7 @@ namespace SmallWorld
                 sender.ItemsSource = await Task.Run(() => { return GetSuggestions(CurrentText); });
             }
         }
-        
+
         private string[] GetSuggestions(string text)
         {
             string[] Suggestions = null;
