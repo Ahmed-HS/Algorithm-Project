@@ -1,1000 +1,550 @@
-Erlich, Norman/Alc�n, Alfredo
+Davidson, Jonathan/Harris, Henry
 DoS = 1, RS = 1
-CHAIN OF ACTORS: Erlich, Norman -> Alc�n, Alfredo
-CHAIN OF MOVIES:  => Cohen vs. Rosi (1998) =>
+CHAIN OF ACTORS: Davidson, Jonathan -> Harris, Henry
+CHAIN OF MOVIES:  => George Washington (2000) =>
 
-Chilakalpudi, Seeta Rama Anjaneyulu/Nandamuri, Rama Rao Taraka
-DoS = 1, RS = 5
-CHAIN OF ACTORS: Chilakalpudi, Seeta Rama Anjaneyulu -> Nandamuri, Rama Rao Taraka
-CHAIN OF MOVIES:  => Appu Chesi Pappu Koodu (1958) =>
-
-Pugliese, Armando/Benvenuti, Leonardo
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Pugliese, Armando -> Benvenuti, Leonardo
-CHAIN OF MOVIES:  => Ferdinando e Carolina (1999) =>
-
-Bendre, Sonali/Akkineni, Nagarjuna
-DoS = 1, RS = 2
-CHAIN OF ACTORS: Bendre, Sonali -> Akkineni, Nagarjuna
-CHAIN OF MOVIES:  => Angaaray (1998) =>
-
-Jaccard, Joan/Burns, Fred
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Jaccard, Joan -> Burns, Fred
-CHAIN OF MOVIES:  => Cheyenne Kid, The (1930) =>
-
-Kriechbaum, Philipp/Blythe, Benedick
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Kriechbaum, Philipp -> Blythe, Benedick
-CHAIN OF MOVIES:  => Seven Years in Tibet (1997) =>
-
-Wirbgen, Willy/Arent, Eddi
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Wirbgen, Willy -> Arent, Eddi
-CHAIN OF MOVIES:  => F�lscher von London, Der (1961) =>
-
-Cotton, Darryl/Braverman, Barbara
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Cotton, Darryl -> Braverman, Barbara
-CHAIN OF MOVIES:  => Pushed to the Limit (1992) =>
-
-Tognella/Ciardo, Gianni
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Tognella -> Ciardo, Gianni
-CHAIN OF MOVIES:  => Pierino il fichissimo (1981) =>
-
-Zucco, Jocelyne/Andrei, Damir
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Zucco, Jocelyne -> Andrei, Damir
-CHAIN OF MOVIES:  => Almost Golden: The Jessica Savitch Story (1995) =>
-
-Guldener, Rainer/Andrae, Manfred
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Guldener, Rainer -> Andrae, Manfred
-CHAIN OF MOVIES:  => � chacun son tour (1997) =>
-
-Marineau, Barbara/Adams, Matthew
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Marineau, Barbara -> Adams, Matthew
-CHAIN OF MOVIES:  => When Nature Calls (1985) =>
-
-Ollila, Marjut/Brandt, Nils
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Ollila, Marjut -> Brandt, Nils
-CHAIN OF MOVIES:  => M�n kan inte v�ldtas (1978) =>
-
-Unruh, Siegfried/Alric, Catherine
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Unruh, Siegfried -> Alric, Catherine
-CHAIN OF MOVIES:  => Schn�ffler, Der (1983) =>
-
-Casadei, Raoul/Agren, Janet
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Casadei, Raoul -> Agren, Janet
-CHAIN OF MOVIES:  => Vai col liscio (1976) =>
-
-Danneborn-Spjuth, Sanna/Anderson, Mikael
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Danneborn-Spjuth, Sanna -> Anderson, Mikael
-CHAIN OF MOVIES:  => Jag skall bli Sveriges Rembrandt eller d�! (1990) =>
-
-Hazeldine, Jaclyn/Bostwick, Barry
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Hazeldine, Jaclyn -> Bostwick, Barry
-CHAIN OF MOVIES:  => Captive (1991) =>
-
-McMartin, Kathleen/Adair-Rios, Mark
-DoS = 1, RS = 1
-CHAIN OF ACTORS: McMartin, Kathleen -> Adair-Rios, Mark
-CHAIN OF MOVIES:  => Candyman: Day of the Dead (1999) =>
-
-Gisselkvist, Christian/Hagstedt, Kaj
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Gisselkvist, Christian -> Hagstedt, Kaj
-CHAIN OF MOVIES:  => Som krossat glas i en h�rt knuten hand (1995) =>
-
-Ahlstedt, Inga-Britt/Lilliecrona, Torsten
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Ahlstedt, Inga-Britt -> Lilliecrona, Torsten
-CHAIN OF MOVIES:  => K�rleken segrar (1949) =>
-
-Tsuda, Akiko/Chiba, Nobuo
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Tsuda, Akiko -> Chiba, Nobuo
-CHAIN OF MOVIES:  => My Geisha (1962) =>
-
-De Cohen, Lisa/Cariou, Len
-DoS = 1, RS = 1
-CHAIN OF ACTORS: De Cohen, Lisa -> Cariou, Len
-CHAIN OF MOVIES:  => Little Night Music, A (1977) =>
-
-Mermelstein, Ester/Abbas, Gassan
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Mermelstein, Ester -> Abbas, Gassan
-CHAIN OF MOVIES:  => Yom Yom (1998) =>
-
-Dazhi, Wu/Cowan, Richard
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Dazhi, Wu -> Cowan, Richard
-CHAIN OF MOVIES:  => Madame Butterfly (1995) =>
-
-Sullivan, Julie/Barry-Weske, Sean
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Sullivan, Julie -> Barry-Weske, Sean
-CHAIN OF MOVIES:  => Biggles: Adventures in Time (1986) =>
-
-G�ttner, Bruno/Gigli, Beniamino
-DoS = 1, RS = 1
-CHAIN OF ACTORS: G�ttner, Bruno -> Gigli, Beniamino
-CHAIN OF MOVIES:  => Du bist mein Gl�ck (1936) =>
-
-McCoy, Angelina/Abrahams, Doug
-DoS = 1, RS = 1
-CHAIN OF ACTORS: McCoy, Angelina -> Abrahams, Doug
-CHAIN OF MOVIES:  => 3000 Miles to Graceland (2001) =>
-
-Demorget, Robert/Amato, Nicolas
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Demorget, Robert -> Amato, Nicolas
-CHAIN OF MOVIES:  => Carrefour des enfants perdus, Le (1944) =>
-
-Christian, Beulah/Acker, Jean
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Christian, Beulah -> Acker, Jean
-CHAIN OF MOVIES:  => Mating Season, The (1951) =>
-
-Bonneveau, Mich�le Camizuli/Castel, Robert
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Bonneveau, Mich�le Camizuli -> Castel, Robert
-CHAIN OF MOVIES:  => Madame Dubois - H�tel Bellevue (1997) =>
-
-Stewart, Carl/Carpenter, Ken
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Stewart, Carl -> Carpenter, Ken
-CHAIN OF MOVIES:  => Unusual Occupations (1937,I) =>
-
-Wesson, Howard/Blair, Pamela
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Wesson, Howard -> Blair, Pamela
-CHAIN OF MOVIES:  => Me and Veronica (1992) =>
-
-Sato, Yasue/Momoi, Kaori
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Sato, Yasue -> Momoi, Kaori
-CHAIN OF MOVIES:  => Baunsu koGALS (1997) =>
-
-Mancuso, Frank/Hart, Veronica
-DoS = 1, RS = 2
-CHAIN OF ACTORS: Mancuso, Frank -> Hart, Veronica
-CHAIN OF MOVIES:  => Slammer Girls (1987) =>
-
-Heit, Sally-Jane/Robards, Jason
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Heit, Sally-Jane -> Robards, Jason
-CHAIN OF MOVIES:  => Paper, The (1994) =>
-
-Lowell, Randy/Warren, Lesley Ann
-DoS = 1, RS = 2
-CHAIN OF ACTORS: Lowell, Randy -> Warren, Lesley Ann
-CHAIN OF MOVIES:  => Limey, The (1999) =>
-
-Cooke, Ed/Bolder, Robert
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Cooke, Ed -> Bolder, Robert
-CHAIN OF MOVIES:  => Fools for Luck (1917) =>
-
-Maning, Mark/Alexander, Richard
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Maning, Mark -> Alexander, Richard
-CHAIN OF MOVIES:  => Madhouse (1990) =>
-
-Williams, Chuck/Brown, Terry
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Williams, Chuck -> Brown, Terry
-CHAIN OF MOVIES:  => Dark Rider (1991) =>
-
-Imada, Samezu/Date, Satoko
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Imada, Samezu -> Date, Satoko
-CHAIN OF MOVIES:  => Hideko no oendancho (1940) =>
-
-O'Brian, James/Beaman, Lee Anne
-DoS = 1, RS = 2
-CHAIN OF ACTORS: O'Brian, James -> Beaman, Lee Anne
-CHAIN OF MOVIES:  => Irresistible Impulse (1996) =>
-
-Nagy, Judy/Bernard, Jason
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Nagy, Judy -> Bernard, Jason
-CHAIN OF MOVIES:  => All of Me (1984) =>
-
-Torr�s, Henry/Argenziano, Carmen
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Torr�s, Henry -> Argenziano, Carmen
-CHAIN OF MOVIES:  => Stand and Deliver (1987) =>
-
-Carroll, Corky/Miller, Dick
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Carroll, Corky -> Miller, Dick
-CHAIN OF MOVIES:  => Under the Boardwalk (1989) =>
-
-Verhaeghe, Ray/Althoff Jr., Alberto
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Verhaeghe, Ray -> Althoff Jr., Alberto
-CHAIN OF MOVIES:  => Lieven Gevaert, eerste arbeider (1968) =>
-
-Simonson, Julie/Astor, Patti
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Simonson, Julie -> Astor, Patti
-CHAIN OF MOVIES:  => Assault of the Killer Bimbos (1987) =>
-
-Fischer, Margarita/Travers, Beverly
-DoS = 1, RS = 3
-CHAIN OF ACTORS: Fischer, Margarita -> Travers, Beverly
-CHAIN OF MOVIES:  => Impossible Susan (1918) =>
-
-Newman, George/Allen, Debbie
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Newman, George -> Allen, Debbie
-CHAIN OF MOVIES:  => Women of San Quentin (1983) =>
-
-McLellan, Diana/Bacall, Lauren
-DoS = 1, RS = 1
-CHAIN OF ACTORS: McLellan, Diana -> Bacall, Lauren
-CHAIN OF MOVIES:  => Greta Garbo: A Lone Star (2001) =>
-
-Sitaropoulos, Ral/Abrahams, Caz
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Sitaropoulos, Ral -> Abrahams, Caz
-CHAIN OF MOVIES:  => Ngo hai sui (1998) =>
-
-Fritz, Malcolm/Cederlund, G�sta
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Fritz, Malcolm -> Cederlund, G�sta
-CHAIN OF MOVIES:  => Kamrater i vapenrocken (1938) =>
-
-Kapadia, Simple/Khan, Kader
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Kapadia, Simple -> Khan, Kader
-CHAIN OF MOVIES:  => Naseeb (1981) =>
-
-Khahi/Atterton, Edward
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Khahi -> Atterton, Edward
-CHAIN OF MOVIES:  => Look Me in the Eye (1994) =>
-
-Honkaniemi, Airi/Majuri, Tauno
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Honkaniemi, Airi -> Majuri, Tauno
-CHAIN OF MOVIES:  => Kasvot kuvastimessa (1953) =>
-
-Usztics, M�ty�s/Apor, No�mi
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Usztics, M�ty�s -> Apor, No�mi
-CHAIN OF MOVIES:  => F�bi�n B�lint tal�lkoz�sa Istennel (1979) =>
-
-Flores, Mylene/Moss, Jim
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Flores, Mylene -> Moss, Jim
-CHAIN OF MOVIES:  => Fist of Glory (1990) =>
-
-Sigaud, Fr�d�ric/Ang�le, Olivier
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Sigaud, Fr�d�ric -> Ang�le, Olivier
-CHAIN OF MOVIES:  => Au pays des Juliets (1992) =>
-
-Langdon, Adele/Ayler, Ethel
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Langdon, Adele -> Ayler, Ethel
-CHAIN OF MOVIES:  => Stormy Weathers (1992) =>
-
-May, Edna/Lytton, L. Rogers
-DoS = 1, RS = 1
-CHAIN OF ACTORS: May, Edna -> Lytton, L. Rogers
-CHAIN OF MOVIES:  => Salvation Joan (1916) =>
-
-Menado, Maria/Maarof, Mustaffa
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Menado, Maria -> Maarof, Mustaffa
-CHAIN OF MOVIES:  => Blood of Pontianak (1958) =>
-
-Kelly, Dorothy/Connelly, Bobby
-DoS = 1, RS = 2
-CHAIN OF ACTORS: Kelly, Dorothy -> Connelly, Bobby
-CHAIN OF MOVIES:  => Law Decides, The (1916) =>
-
-Gelanza, Ted/Carter, Fleurette
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Gelanza, Ted -> Carter, Fleurette
-CHAIN OF MOVIES:  => Aroused (1966) =>
-
-Mafela, Joe/Brock, Stanley
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Mafela, Joe -> Brock, Stanley
-CHAIN OF MOVIES:  => Escape from Angola (1976) =>
-
-Novello, Don/Alexander, Jason
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Novello, Don -> Alexander, Jason
-CHAIN OF MOVIES:  => Adventures of Rocky & Bullwinkle, The (2000) =>
-
-McGowan, Dave/Carpenter, Wade
-DoS = 1, RS = 1
-CHAIN OF ACTORS: McGowan, Dave -> Carpenter, Wade
-CHAIN OF MOVIES:  => Class Warfare (2001) =>
-
-Wang, Zhixia/Zhu, Xu
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Wang, Zhixia -> Zhu, Xu
-CHAIN OF MOVIES:  => Huanglian houpu (2000) =>
-
-Perry, Vivian/Allen, Lucille
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Perry, Vivian -> Allen, Lucille
-CHAIN OF MOVIES:  => When Love Is King (1916) =>
-
-Ford, Carl Kwaku/Berry, Stephanie
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Ford, Carl Kwaku -> Berry, Stephanie
-CHAIN OF MOVIES:  => Girls Town (1996) =>
-
-Simon, Jill Marie/Allen, Tommy
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Simon, Jill Marie -> Allen, Tommy
-CHAIN OF MOVIES:  => Beautiful Mind, A (2001) =>
-
-Gabiola, Violy/Strzalkowski, Henry
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Gabiola, Violy -> Strzalkowski, Henry
-CHAIN OF MOVIES:  => Raw Target (1995) =>
-
-Mashnaya, Olga/Leonov, Yevgeni
-DoS = 1, RS = 2
-CHAIN OF ACTORS: Mashnaya, Olga -> Leonov, Yevgeni
-CHAIN OF MOVIES:  => Kin-Dza-Dza (1986) =>
-
-Reinold, Bernard A./Hendricks Jr., Ben
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Reinold, Bernard A. -> Hendricks Jr., Ben
-CHAIN OF MOVIES:  => Headless Horseman, The (1922) =>
-
-Dechamps, Charles/Dubost, Paulette
-DoS = 1, RS = 2
-CHAIN OF ACTORS: Dechamps, Charles -> Dubost, Paulette
-CHAIN OF MOVIES:  => Barnab� (1938) =>
-
-Fuest, Robert/Bates, Richard
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Fuest, Robert -> Bates, Richard
-CHAIN OF MOVIES:  => Avenging the Avengers (2000) =>
-
-Maierhouser, Joe/Bernard, Maurice
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Maierhouser, Joe -> Bernard, Maurice
-CHAIN OF MOVIES:  => Incredible Petrified World, The (1959) =>
-
-Vaughn, Henry/Anderson, Bruce
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Vaughn, Henry -> Anderson, Bruce
-CHAIN OF MOVIES:  => Funeral for an Assassin (1977) =>
-
-Petrenko, Vassily/Carter, Jimmy
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Petrenko, Vassily -> Carter, Jimmy
-CHAIN OF MOVIES:  => To Bear Witness (1983) =>
-
-Williard, Steve/Aard, Frank J.
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Williard, Steve -> Aard, Frank J.
-CHAIN OF MOVIES:  => Immortal (1995) =>
-
-Gorski, Alexandra/Arel, Fabienne
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Gorski, Alexandra -> Arel, Fabienne
-CHAIN OF MOVIES:  => Catherine et Cie (1975) =>
-
-Steele, George/Adler, Luther
+Caras, John/Bassett, William
 DoS = 1, RS = 1
-CHAIN OF ACTORS: Steele, George -> Adler, Luther
-CHAIN OF MOVIES:  => Tall Texan, The (1953) =>
+CHAIN OF ACTORS: Caras, John -> Bassett, William
+CHAIN OF MOVIES:  => Art of Stanley Kubrick: From Short Films to Strangelove, The (2000) =>
 
-Hancock, Graham/Karn, Richard
+Antu�a, Eduardo/Aguinagalde, Gorka
 DoS = 1, RS = 1
-CHAIN OF ACTORS: Hancock, Graham -> Karn, Richard
-CHAIN OF MOVIES:  => Chariots of the Gods (1997) =>
+CHAIN OF ACTORS: Antu�a, Eduardo -> Aguinagalde, Gorka
+CHAIN OF MOVIES:  => Comunidad, La (2000) =>
 
-Nolan, Margaret/Maynard, Bill
-DoS = 1, RS = 4
-CHAIN OF ACTORS: Nolan, Margaret -> Maynard, Bill
-CHAIN OF MOVIES:  => Carry On Dick (1974) =>
-
-Browning, Jill/Taylor, Ferris
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Browning, Jill -> Taylor, Ferris
-CHAIN OF MOVIES:  => Town Went Wild, The (1944) =>
-
-Sinkovits, Imre/Bessenyei, Ferenc
-DoS = 1, RS = 5
-CHAIN OF ACTORS: Sinkovits, Imre -> Bessenyei, Ferenc
-CHAIN OF MOVIES:  => Alba Regia (1961) =>
-
-Peng, Mike/Anderson, Richard
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Peng, Mike -> Anderson, Richard
-CHAIN OF MOVIES:  => Breakout (1998) =>
-
-Gillis, Mark/Annis, Francesca
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Gillis, Mark -> Annis, Francesca
-CHAIN OF MOVIES:  => Absolute Hell (1991) =>
-
-Baerwalde, David/Devona, Phillip
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Baerwalde, David -> Devona, Phillip
-CHAIN OF MOVIES:  => Initiate, The (1998) =>
-
-Koumpan, Alexander/Benedict, Jay
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Koumpan, Alexander -> Benedict, Jay
-CHAIN OF MOVIES:  => Double Team (1997) =>
-
-Johansen, David/Plummer, Christopher
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Johansen, David -> Plummer, Christopher
-CHAIN OF MOVIES:  => Light Years (1986) =>
-
-Gittleman, Milton/Clark, Linda
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Gittleman, Milton -> Clark, Linda
-CHAIN OF MOVIES:  => Wanda (1970) =>
-
-Kay, Geraldine/Bohn, John
+Danovich, Sharon/Adams, Jane
 DoS = 1, RS = 1
-CHAIN OF ACTORS: Kay, Geraldine -> Bohn, John
-CHAIN OF MOVIES:  => Crime of Dr. Crespi, The (1935) =>
+CHAIN OF ACTORS: Danovich, Sharon -> Adams, Jane
+CHAIN OF MOVIES:  => Wonder Boys (2000) =>
 
-Fregeac, Rapha�l/Aumont, Marie-Dominique
+Stroud, Peter/Waters Willard, Maxine
 DoS = 1, RS = 1
-CHAIN OF ACTORS: Fregeac, Rapha�l -> Aumont, Marie-Dominique
-CHAIN OF MOVIES:  => Petits d�sordres amoureux (1998) =>
+CHAIN OF ACTORS: Stroud, Peter -> Waters Willard, Maxine
+CHAIN OF MOVIES:  => Don Henley Live: Inside Job (2000) =>
 
-Johnson, Brad Eric/Halihan, Kelli
+Callard, Roger/Benson-Landes, Wendy
 DoS = 1, RS = 1
-CHAIN OF ACTORS: Johnson, Brad Eric -> Halihan, Kelli
-CHAIN OF MOVIES:  => Hale Bopp (2002) =>
+CHAIN OF ACTORS: Callard, Roger -> Benson-Landes, Wendy
+CHAIN OF MOVIES:  => Luck of the Draw (2000) =>
 
-Crowder, Christina/Cameron Mitchell, Christina
+Torrent, Ana/Alterio, Ernesto
 DoS = 1, RS = 1
-CHAIN OF ACTORS: Crowder, Christina -> Cameron Mitchell, Christina
-CHAIN OF MOVIES:  => Courier, The (2001) =>
+CHAIN OF ACTORS: Torrent, Ana -> Alterio, Ernesto
+CHAIN OF MOVIES:  => Yoyes (2000) =>
 
-Ching, Peter/Moss, Jim
+Casnoff, Philip/Austin, Larry
 DoS = 1, RS = 1
-CHAIN OF ACTORS: Ching, Peter -> Moss, Jim
-CHAIN OF MOVIES:  => Fist of Glory (1990) =>
+CHAIN OF ACTORS: Casnoff, Philip -> Austin, Larry
+CHAIN OF MOVIES:  => For All Time (2000) =>
 
-Andersson, Eva/Alexander, Rolf
+Ha�mann, Eva/Berkel, Christian
 DoS = 1, RS = 1
-CHAIN OF ACTORS: Andersson, Eva -> Alexander, Rolf
-CHAIN OF MOVIES:  => Vackert v�der (1996) =>
+CHAIN OF ACTORS: Ha�mann, Eva -> Berkel, Christian
+CHAIN OF MOVIES:  => Blondine sucht Million�r f�rs Leben (2000) =>
 
-Tigerholm, Magnus/Arosenius, Per-Axel
-DoS = 1, RS = 2
-CHAIN OF ACTORS: Tigerholm, Magnus -> Arosenius, Per-Axel
-CHAIN OF MOVIES:  => Anderssonskans Kalle (1972) =>
-
-Danielsen, Jimmi H�gh/Glargaard, Poul
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Danielsen, Jimmi H�gh -> Glargaard, Poul
-CHAIN OF MOVIES:  => Midt om natten (1984) =>
-
-Galante, Rudolph/Armenta, F.A.
+Eriksson, Hanna/Steen, Jan
 DoS = 1, RS = 1
-CHAIN OF ACTORS: Galante, Rudolph -> Armenta, F.A.
-CHAIN OF MOVIES:  => Cruz y la espada, La (1934) =>
-
-Hauthier dit Preston, Jean/Le Brigant, Sylvie
-DoS = 1, RS = 1
-CHAIN OF ACTORS: Hauthier dit Preston, Jean -> Le Brigant, Sylvie
-CHAIN OF MOVIES:  => Jacqueline dans ma vitrine (2000) =>
-
-Schr�der, Bolette/Skarsg�rd, Stellan
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Schr�der, Bolette -> Asholt, Jesper -> Skarsg�rd, Stellan
-CHAIN OF MOVIES:  => Royal Blues (1997) => D-dag (2000) =>
+CHAIN OF ACTORS: Eriksson, Hanna -> Steen, Jan
+CHAIN OF MOVIES:  => S�nger fr�n andra v�ningen (2000) =>
 
-Sohma, Ippei/Allison, Patricia
+MacArthur, Sweeney/Archer, Anne
 DoS = 2, RS = 2
-CHAIN OF ACTORS: Sohma, Ippei -> Ogawa, Yukiko -> Allison, Patricia
-CHAIN OF MOVIES:  => Jujiro (1928) => Seventh Sign, The (1988) =>
+CHAIN OF ACTORS: MacArthur, Sweeney -> Cavalier, Jason -> Archer, Anne
+CHAIN OF MOVIES:  => Tracker, The (2000,I) => Art of War, The (2000) =>
 
-Hannon, Dan/Finlay, Frank
-DoS = 2, RS = 4
-CHAIN OF ACTORS: Hannon, Dan -> Gray, Charles -> Finlay, Frank
-CHAIN OF MOVIES:  => Color of Water, The (2002) => Cromwell (1970) =>
-
-Levin, Marc/Allen, Penelope
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Levin, Marc -> Penn, Sean -> Allen, Penelope
-CHAIN OF MOVIES:  => Last Party, The (1993) => Hurlyburly (1998) =>
-
-Silver, Joe/Avalon, Frankie
-DoS = 2, RS = 4
-CHAIN OF ACTORS: Silver, Joe -> Conn, Didi -> Avalon, Frankie
-CHAIN OF MOVIES:  => Raggedy Ann and Andy (1977) => Grease (1978) =>
-
-Stewart, Joshua Dean/Heaton, Tom
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Stewart, Joshua Dean -> Burstyn, Ellen -> Heaton, Tom
-CHAIN OF MOVIES:  => Resurrection (1980) => Into Thin Air (1985) =>
-
-Herrera, Leticia/Azor�n, Eloy
+Vreeland, Walker/Holland, Gill
 DoS = 2, RS = 2
-CHAIN OF ACTORS: Herrera, Leticia -> Cano, M�nica -> Azor�n, Eloy
-CHAIN OF MOVIES:  => Ciudad, La (1998) => Besos para todos (2000) =>
+CHAIN OF ACTORS: Vreeland, Walker -> Devine, Malcolm -> Holland, Gill
+CHAIN OF MOVIES:  => Thinking Out Loud (2000) => Home Sweet Hoboken (2000) =>
 
-Fanaro, Mary/Adell, Traci
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Fanaro, Mary -> Krevoy, Cecile -> Adell, Traci
-CHAIN OF MOVIES:  => Love, Cheat & Steal (1993) => Dumb & Dumber (1994) =>
-
-Corncob/Mayo, Frank
-DoS = 2, RS = 24
-CHAIN OF ACTORS: Corncob -> Lewis, Vera -> Mayo, Frank
-CHAIN OF MOVIES:  => Way Down East (1935) => Always a Bride (1940) =>
-
-Jones, Liz/Anhalt, Edward
+Hooper, Jill/Elliot, Su
 DoS = 2, RS = 2
-CHAIN OF ACTORS: Jones, Liz -> Apick, Mary -> Anhalt, Edward
-CHAIN OF MOVIES:  => Ferestadeh (1982) => Right Stuff, The (1983) =>
+CHAIN OF ACTORS: Hooper, Jill -> Claxton, Elaine -> Elliot, Su
+CHAIN OF MOVIES:  => Deceit (2000,I) => Dinner of Herbs, A (2000) =>
 
-Rae, Stephen/Hickey, Paul
-DoS = 2, RS = 4
-CHAIN OF ACTORS: Rae, Stephen -> Kennedy, Maria Doyle -> Hickey, Paul
-CHAIN OF MOVIES:  => I Could Read the Sky (1999) => General, The (1998) =>
-
-Levinson, Ellis/Albulescu, Mircea
+Dalle, Peter/Apolito, Cesare
 DoS = 2, RS = 2
-CHAIN OF ACTORS: Levinson, Ellis -> Caldwell, Jane -> Albulescu, Mircea
-CHAIN OF MOVIES:  => Prehysteria! (1993) => Mandroid (1993) =>
+CHAIN OF ACTORS: Dalle, Peter -> Andersson, Bibi -> Apolito, Cesare
+CHAIN OF MOVIES:  => Det blir aldrig som man t�nkt sig (2000) => Anna (2000,III) =>
 
-Whaler, Blair/Richardson, Jay
+Songin, Sebastian/Baumeister, Muriel
 DoS = 2, RS = 2
-CHAIN OF ACTORS: Whaler, Blair -> Haim, Corey -> Richardson, Jay
-CHAIN OF MOVIES:  => Life 101 (1995) => Demolition High (1996) =>
+CHAIN OF ACTORS: Songin, Sebastian -> Egger, Rainer -> Baumeister, Muriel
+CHAIN OF MOVIES:  => Paul Is Dead (2000) => Frau, die einen M�rder liebte, Die (2000) =>
 
-Petersson, Oscar/Carradine, David
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Petersson, Oscar -> Lundgren, Lars -> Carradine, David
-CHAIN OF MOVIES:  => Farligt f�rflutet (2001) => Fatal Secret (1988) =>
-
-Symons-Sutcliffe, Alex/Steele, Lexington
-DoS = 2, RS = 4
-CHAIN OF ACTORS: Symons-Sutcliffe, Alex -> Anthony, Mark -> Steele, Lexington
-CHAIN OF MOVIES:  => Madagascar Skin (1995) => Booty Talk 20: Super Fine Sistas! (2000) =>
-
-Alexander, Jean/Anderson, John
-DoS = 2, RS = 6
-CHAIN OF ACTORS: Alexander, Jean -> Bissell, Whit -> Anderson, John
-CHAIN OF MOVIES:  => Family Secret, The (1951) => 5 Card Stud (1968) =>
-
-Francis, Anthony/O'Connor, Frank
-DoS = 2, RS = 9
-CHAIN OF ACTORS: Francis, Anthony -> Urecal, Minerva -> O'Connor, Frank
-CHAIN OF MOVIES:  => Bonnie Scotland (1935) => Corpse Vanishes, The (1942) =>
-
-Mart�nez, Antonio/Palma, Rossy de
-DoS = 2, RS = 4
-CHAIN OF ACTORS: Mart�nez, Antonio -> Rabal, Francisco -> Palma, Rossy de
-CHAIN OF MOVIES:  => A las cinco de la tarde (1961) => Airbag (1997) =>
-
-Tennstedt, Joachim/Frank, Horst
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Tennstedt, Joachim -> R�gnier, Charles -> Frank, Horst
-CHAIN OF MOVIES:  => Schn�ffler, Der (1983) => Corrida pour un espion (1965) =>
-
-Ivans, Elaine/Hardy, Oliver
-DoS = 2, RS = 33
-CHAIN OF ACTORS: Ivans, Elaine -> McKee, Raymond -> Hardy, Oliver
-CHAIN OF MOVIES:  => Last Sentence, The (1917) => Brewerytown Romance, A (1914) =>
-
-Levin, Hilde/Graber, Yossi
-DoS = 2, RS = 5
-CHAIN OF ACTORS: Levin, Hilde -> Efroni, Yehuda -> Graber, Yossi
-CHAIN OF MOVIES:  => Deadly Heroes (1994) => Kazablan (1974) =>
-
-Fretz, Tony/Lane, Nathan
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Fretz, Tony -> Abercrombie, Ian -> Lane, Nathan
-CHAIN OF MOVIES:  => Little Mo (1978) => Addams Family Values (1993) =>
-
-Van Hellem, Huib/Betz, Kris
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Van Hellem, Huib -> Flower, Co -> Betz, Kris
-CHAIN OF MOVIES:  => Ordonnans, De (1962) => Anita, My Love (1960) =>
-
-Thomas, Marlo/Lazenby, George
-DoS = 2, RS = 5
-CHAIN OF ACTORS: Thomas, Marlo -> Connery, Sean -> Lazenby, George
-CHAIN OF MOVIES:  => Dream Factory, The (1975) => Behind the Scenes with Goldfinger (1995) =>
-
-Straub, John/Blount, Steve
+Miles, Marc/Bonds, De'aundre
 DoS = 2, RS = 2
-CHAIN OF ACTORS: Straub, John -> Adams, Peter -> Blount, Steve
-CHAIN OF MOVIES:  => Project Moon Base (1953) => Agnes Browne (1999) =>
+CHAIN OF ACTORS: Miles, Marc -> Barela, Richard -> Bonds, De'aundre
+CHAIN OF MOVIES:  => All the Pretty Horses (2000) => Lockdown (2000) =>
 
-Florelle/Clariond, Aim�
-DoS = 2, RS = 7
-CHAIN OF ACTORS: Florelle -> Baumer, Jacques -> Clariond, Aim�
-CHAIN OF MOVIES:  => Caves du Majestic, Les (1945) => Affaires sont les affaires, Les (1942) =>
-
-Mau, Doan Chau/Cage, Nicolas
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Mau, Doan Chau -> Dye, Dale -> Cage, Nicolas
-CHAIN OF MOVIES:  => Heaven & Earth (1993) => Fire Birds (1990) =>
-
-Anderlini, Cristina/Bersh, Christopher
+Bissmeier, Joachim/Branckaerts, Sjarel
 DoS = 2, RS = 2
-CHAIN OF ACTORS: Anderlini, Cristina -> Mackay, Donald Sage -> Bersh, Christopher
-CHAIN OF MOVIES:  => Betting the Game (2000) => Desert Saints (2001) =>
+CHAIN OF ACTORS: Bissmeier, Joachim -> Ammelrooy, Willeke van -> Branckaerts, Sjarel
+CHAIN OF MOVIES:  => Omweg, De (2000) => Lijmen Het been (2000) =>
 
-Grossfeld, Sid/Ray, Aldo
-DoS = 2, RS = 5
-CHAIN OF ACTORS: Grossfeld, Sid -> Wynn, Keenan -> Ray, Aldo
-CHAIN OF MOVIES:  => Monitors, The (1969) => Glove, The (1978) =>
-
-Stavrakas, Dimitri/Panagiotidis, Alkis
+Flaherty, Lanny/Dorff, Stephen
 DoS = 2, RS = 2
-CHAIN OF ACTORS: Stavrakas, Dimitri -> Ferris, Costas -> Panagiotidis, Alkis
-CHAIN OF MOVIES:  => Exoristos stin kentriki leoforo (1979) => Dyo fengaria ton Avgousto (1978) =>
+CHAIN OF ACTORS: Flaherty, Lanny -> Brown, Sloane -> Dorff, Stephen
+CHAIN OF MOVIES:  => Book of Shadows: Blair Witch 2 (2000) => Cecil B. DeMented (2000) =>
 
-Curiel, Fernando/Bacon, Irving
+Stamm, Bobbie/Cook, Joe
 DoS = 2, RS = 2
-CHAIN OF ACTORS: Curiel, Fernando -> Villar�as, Carlos -> Bacon, Irving
-CHAIN OF MOVIES:  => Museo del crimen, El (1945) => Tropic Holiday (1938) =>
+CHAIN OF ACTORS: Stamm, Bobbie -> Harik, Jay -> Cook, Joe
+CHAIN OF MOVIES:  => Black Rose, The (2000) => Legion of the Dead (2000) =>
 
-Amir, Saffron/Edwards, Jango
+Forfar, Ronald/Arias, Imanol
 DoS = 2, RS = 2
-CHAIN OF ACTORS: Amir, Saffron -> Bailey, Ewan -> Edwards, Jango
-CHAIN OF MOVIES:  => Infiltrator, The (1995) => All Men Are Mortal (1995) =>
-
-Luden, Jack/Martindel, Edward
-DoS = 2, RS = 8
-CHAIN OF ACTORS: Luden, Jack -> Chandler, Lane -> Martindel, Edward
-CHAIN OF MOVIES:  => Bugle Sounds, The (1941) => Lover Come Back (1946) =>
-
-Furtak, Evelyn/Harrell, James N.
-DoS = 2, RS = 4
-CHAIN OF ACTORS: Furtak, Evelyn -> Walters, Mark -> Harrell, James N.
-CHAIN OF MOVIES:  => Pure Country (1992) => Carried Away (1996) =>
-
-Einstein, Carolyn/Angel, Vanessa
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Einstein, Carolyn -> Blake, Clement -> Angel, Vanessa
-CHAIN OF MOVIES:  => Bob, Verushka & the Pursuit of Happiness (2000) => Bread and Roses (2000) =>
-
-Marcq, Nick/Barnes, Barbara
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Marcq, Nick -> Abraham, Jake -> Barnes, Barbara
-CHAIN OF MOVIES:  => Lock, Stock and Two Smoking Barrels (1998) => 51st State, The (2001) =>
-
-Kortos, Peter/Ford, Francis
-DoS = 2, RS = 10
-CHAIN OF ACTORS: Kortos, Peter -> McLaglen, Victor -> Ford, Francis
-CHAIN OF MOVIES:  => Unholy Three, The (1925) => Black Watch, The (1929) =>
-
-Velasco, Jerry/Dale, Esther
-DoS = 2, RS = 7
-CHAIN OF ACTORS: Velasco, Jerry -> Field, Mary -> Dale, Esther
-CHAIN OF MOVIES:  => Lucy Gallant (1955) => Convicted Woman (1940) =>
-
-Bykoff, Vladimar/Chandler, George
-DoS = 2, RS = 13
-CHAIN OF ACTORS: Bykoff, Vladimar -> Burke, James -> Chandler, George
-CHAIN OF MOVIES:  => Klondike Annie (1936) => Are Husbands Necessary? (1942) =>
-
-Chambers, Dan/Dix, Richard
-DoS = 2, RS = 4
-CHAIN OF ACTORS: Chambers, Dan -> Hancock, John -> Dix, Richard
-CHAIN OF MOVIES:  => Big Business (1988) => Black Marble, The (1980) =>
-
-Moon, Joan/Breuer, Pascal
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Moon, Joan -> Bowman, Robert -> Breuer, Pascal
-CHAIN OF MOVIES:  => Whistle-Blower, The (2001) => Of Pure Blood (1986) =>
-
-Most, Don/Welker, Frank
-DoS = 2, RS = 23
-CHAIN OF ACTORS: Most, Don -> Paulsen, Rob -> Welker, Frank
-CHAIN OF MOVIES:  => Stewardess School (1987) => Aladdin and the King of Thieves (1996) =>
-
-Haugsvaer, Gunnar/Bernhoft, Unni
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Haugsvaer, Gunnar -> Halvorsen, Jan -> Bernhoft, Unni
-CHAIN OF MOVIES:  => Windjammer: The Voyage of the Christian Radich (1958) => Bedre enn sitt rykte (1955) =>
-
-Lowman, Jay/James, Sid
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Lowman, Jay -> Adams, Joyce -> James, Sid
-CHAIN OF MOVIES:  => Simon (1980) => Quatermass 2 (1957) =>
-
-Tyler, James/Gammon, James
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Tyler, James -> Sizemore, Tom -> Gammon, James
-CHAIN OF MOVIES:  => Love Is Like That (1992) => Natural Born Killers (1994) =>
-
-Javid, Krysia/West, Red
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Javid, Krysia -> Prior, Ted -> West, Red
-CHAIN OF MOVIES:  => Killer Workout (1986) => P.A.C.K., The (1997) =>
-
-Plumhoff, Wolfgang/Amerkamp, Erich
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Plumhoff, Wolfgang -> Bienert, Katja -> Amerkamp, Erich
-CHAIN OF MOVIES:  => Schulm�dchen vom Treffpunkt Zoo, Die (1979) => D�monenbrut (2000) =>
-
-Potter, Diane/Francis, Derek
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Potter, Diane -> Lee, Christopher -> Francis, Derek
-CHAIN OF MOVIES:  => Treasure of San Teresa, The (1959) => Rasputin: The Mad Monk (1966) =>
-
-Brown Jr., Herb/Ardito, Gino
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Brown Jr., Herb -> Cort, William -> Ardito, Gino
-CHAIN OF MOVIES:  => Sammy (1977) => Alex & the Gypsy (1976) =>
-
-Lee, Milton/Phelps, Lee
-DoS = 2, RS = 11
-CHAIN OF ACTORS: Lee, Milton -> Blandick, Clara -> Phelps, Lee
-CHAIN OF MOVIES:  => Bitter Tea of General Yen, The (1933) => Daybreak (1931) =>
-
-Tuominen, Matti/Pellonp��, Matti
-DoS = 2, RS = 7
-CHAIN OF ACTORS: Tuominen, Matti -> Nikkari, Esko -> Pellonp��, Matti
-CHAIN OF MOVIES:  => Ponterosa (2001) => Ariel (1988) =>
-
-Georgoulis, Kimberly/Walcott, Gregory
-DoS = 2, RS = 5
-CHAIN OF ACTORS: Georgoulis, Kimberly -> Eastwood, Clint -> Walcott, Gregory
-CHAIN OF MOVIES:  => Tightrope (1984) => Eiger Sanction, The (1975) =>
-
-Shamaei, Hooshang/Karimi, Niki
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Shamaei, Hooshang -> Kiarostami, Abbas -> Karimi, Niki
-CHAIN OF MOVIES:  => Nema-ye Nazdik (1990) => Friendly Persuasion: Iranian Cinema After the Revolution (2000) =>
-
-Kampinga, Fritz/Courbois, Kitty
-DoS = 2, RS = 8
-CHAIN OF ACTORS: Kampinga, Fritz -> Gooyer, Rijk de -> Courbois, Kitty
-CHAIN OF MOVIES:  => In de schaduw van de overwinning (1986) => An Bloem (1983) =>
-
-Chan, Mrs./Devine, Raquel
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Chan, Mrs. -> Jessica -> Devine, Raquel
-CHAIN OF MOVIES:  => Xianggang zhizao (1997) => Big & Busty Covergirls (1998) =>
-
-Tilden, Leland/Baxter, Jennifer
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Tilden, Leland -> Aasland, Derek -> Baxter, Jennifer
-CHAIN OF MOVIES:  => Urban Legends: Final Cut (2000) => Frequency (2000) =>
-
-Marggraf, Ilse/Sander, Otto
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Marggraf, Ilse -> Holtenau, Gerd -> Sander, Otto
-CHAIN OF MOVIES:  => Im Morgenwind (1981) => Liebe in Deutschland, Eine (1983) =>
-
-Monticelli, Mimma/Bonos, Gigi
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Monticelli, Mimma -> De Luca, Pupo -> Bonos, Gigi
-CHAIN OF MOVIES:  => Cognatina, La (1975) => ...continuavano a chiamarlo Trinit� (1972) =>
-
-Feeney, Mary/Barker, Eric
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Feeney, Mary -> Feeney, Pat -> Barker, Eric
-CHAIN OF MOVIES:  => Chicken-Hearted Jim (1916) => Carry On Sergeant (1958) =>
-
-Albrecht, Marcy/Pleasence, Donald
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Albrecht, Marcy -> Lawhead, Mark -> Pleasence, Donald
-CHAIN OF MOVIES:  => Hollywood High (1977) => THX 1138 (1970) =>
-
-Zignon, Yelena/Bell, Francis
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Zignon, Yelena -> Barry, Tony -> Bell, Francis
-CHAIN OF MOVIES:  => Picture Show Man, The (1977) => Absent Without Leave (1992) =>
-
-MacIntosh, Frank/Baez, Joan
-DoS = 2, RS = 2
-CHAIN OF ACTORS: MacIntosh, Frank -> Boyce, Linda -> Baez, Joan
-CHAIN OF MOVIES:  => Torture Me, Kiss Me (1970) => Dynamite Chicken (1971) =>
-
-Blechmans, Salom�/Blanc, Manuel
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Blechmans, Salom� -> Aim�e, Anouk -> Blanc, Manuel
-CHAIN OF MOVIES:  => Cent et une nuits, Les (1995) => 1999 Madeleine (1999) =>
-
-Thomas, Sean Patrick/Aguilera, Christina
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Thomas, Sean Patrick -> Rhymes, Busta -> Aguilera, Christina
-CHAIN OF MOVIES:  => Halloween: Resurrection (2002) => MTV Video Music Awards 2000 (2000) =>
-
-Moore, Ray/Holt, Tim
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Moore, Ray -> Bartholomew, Freddie -> Holt, Tim
-CHAIN OF MOVIES:  => Sepia Cinderella (1947) => Spirit of Culver, The (1939) =>
-
-Romano, Nick/Kerman, Robert
-DoS = 2, RS = 13
-CHAIN OF ACTORS: Romano, Nick -> Fox, Samantha -> Kerman, Robert
-CHAIN OF MOVIES:  => Bon Appetit (1980) => Amanda by Night (1981) =>
-
-Dundara, David/Starr, Mike
-DoS = 2, RS = 7
-CHAIN OF ACTORS: Dundara, David -> Badalucco, Michael -> Starr, Mike
-CHAIN OF MOVIES:  => Jungle Fever (1991) => Clockers (1995) =>
-
-Gosselaar, Mark-Paul/Affleck, Ben
-DoS = 2, RS = 4
-CHAIN OF ACTORS: Gosselaar, Mark-Paul -> Swank, Hilary -> Affleck, Ben
-CHAIN OF MOVIES:  => Dying to Belong (1997) => 73rd Annual Academy Awards, The (2001) =>
-
-Monroe, Rob/Hart, Veronica
-DoS = 2, RS = 5
-CHAIN OF ACTORS: Monroe, Rob -> Edwards, Eric -> Hart, Veronica
-CHAIN OF MOVIES:  => Problem Child 3 (1995) => Afternoon Delights (1980) =>
-
-Ratoucheff, Andy/Saylor, Syd
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Ratoucheff, Andy -> Raye, Martha -> Saylor, Syd
-CHAIN OF MOVIES:  => Pufnstuf (1970) => $1000 a Touchdown (1939) =>
-
-Dobson, Viki/Sanders, George
-DoS = 2, RS = 5
-CHAIN OF ACTORS: Dobson, Viki -> Currie, Finlay -> Sanders, George
-CHAIN OF MOVIES:  => Catch As Catch Can (1937) => Cracksman, The (1963) =>
-
-Bogino, David/Freytez, Patxi
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Bogino, David -> Bellucci, Monica -> Freytez, Patxi
-CHAIN OF MOVIES:  => Pacte des loups, Le (2001) => A los que aman (1998) =>
-
-Martins, Armando/Machado, Armando
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Martins, Armando -> Amaro, Jos� -> Machado, Armando
-CHAIN OF MOVIES:  => Cam�es (1946) => Aldeia da Roupa Branca (1938) =>
-
-Jones, Isabelle/Kehoe, Jack
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Jones, Isabelle -> Donat, Peter -> Kehoe, Jack
-CHAIN OF MOVIES:  => Lost Lagoon (1958) => Game, The (1997) =>
-
-Scott, Mike/Adams, Brian
-DoS = 2, RS = 8
-CHAIN OF ACTORS: Scott, Mike -> Hogan, Hulk -> Adams, Brian
-CHAIN OF MOVIES:  => No Holds Barred (1989) => King of the Ring (1993) =>
-
-Pruitt, Nate/Matthews, Dakin
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Pruitt, Nate -> Alda, Alan -> Matthews, Dakin
-CHAIN OF MOVIES:  => Mad City (1997) => And the Band Played On (1993) =>
-
-Wiedenhoff, Randy/Arquette, Lewis
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Wiedenhoff, Randy -> Farley, John -> Arquette, Lewis
-CHAIN OF MOVIES:  => Straight Story, The (1999) => Almost Heroes (1998) =>
-
-Weygers, Arlette/Van Kuyk, Fred
-DoS = 2, RS = 7
-CHAIN OF ACTORS: Weygers, Arlette -> Decleir, Jan -> Van Kuyk, Fred
-CHAIN OF MOVIES:  => Maria Danneels) (1982) => Daens (1992) =>
-
-Whalley, Joanne/Keir, Andrew
-DoS = 2, RS = 4
-CHAIN OF ACTORS: Whalley, Joanne -> Copeland, James -> Keir, Andrew
-CHAIN OF MOVIES:  => Big Man, The (1990) => Laxdale Hall (1952) =>
-
-Cederberg, G�ran/Franz�n, Peter
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Cederberg, G�ran -> Riza, Ahmed -> Franz�n, Peter
-CHAIN OF MOVIES:  => Falskspelare (1961) => Badding (2000) =>
-
-Karim, Abdul/Paxton, Bill
-DoS = 2, RS = 6
-CHAIN OF ACTORS: Karim, Abdul -> Biehn, Michael -> Paxton, Bill
-CHAIN OF MOVIES:  => K2 (1991) => Aliens (1986) =>
-
-Wiedman, Marek/Behrens, Bernard
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Wiedman, Marek -> Barroll, Catherine -> Behrens, Bernard
-CHAIN OF MOVIES:  => Dark Water (1999) => Incident in a Small Town (1994) =>
-
-Dalunde, Nancy/Skarstedt, Georg
-DoS = 2, RS = 27
-CHAIN OF ACTORS: Dalunde, Nancy -> Schedin, Hanny -> Skarstedt, Georg
-CHAIN OF MOVIES:  => Fram f�r lilla M�rta (1945) => Bara en kypare (1959) =>
-
-Welther, Jim/Barnouw, Erik
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Welther, Jim -> Barber, Red -> Barnouw, Erik
-CHAIN OF MOVIES:  => Powel Crosley and the 20th Century (1988) => Empire of the Air: The Men Who Made Radio (1992) =>
-
-Norton, Harold/Holt, Tim
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Norton, Harold -> Bartholomew, Freddie -> Holt, Tim
-CHAIN OF MOVIES:  => Sepia Cinderella (1947) => Spirit of Culver, The (1939) =>
-
-Gilbert, Maude/Hart, Al
-DoS = 2, RS = 4
-CHAIN OF ACTORS: Gilbert, Maude -> De Carlton, George -> Hart, Al
-CHAIN OF MOVIES:  => Gilded Fool, A (1915) => Grouch, The (1918) =>
-
-Yoshioka, Adele/Alaimo, Marc
-DoS = 2, RS = 6
-CHAIN OF ACTORS: Yoshioka, Adele -> Kennedy, George -> Alaimo, Marc
-CHAIN OF MOVIES:  => Gaily, Gaily (1969) => Archer: Fugitive from the Empire, The (1981) =>
-
-Jarvis, Woody/Andrews, Stanley
-DoS = 2, RS = 12
-CHAIN OF ACTORS: Jarvis, Woody -> Scott, Randolph -> Andrews, Stanley
-CHAIN OF MOVIES:  => Capture of Bigfoot, The (1979) => Abilene Town (1946) =>
-
-Gobin, Gabriel/Demange, Paul
-DoS = 2, RS = 7
-CHAIN OF ACTORS: Gobin, Gabriel -> G�nin, Ren� -> Demange, Paul
-CHAIN OF MOVIES:  => Amants de bras-mort, Les (1951) => Aventure est au coin de la rue (1944) =>
-
-Hartley, Lee/Gielgud, John
-DoS = 2, RS = 5
-CHAIN OF ACTORS: Hartley, Lee -> Holm, Ian -> Gielgud, John
-CHAIN OF MOVIES:  => Lord of the Rings: The Fellowship of the Ring, The (2001) => Chariots of Fire (1981) =>
-
-Doll, Gracie/Hytten, Olaf
-DoS = 2, RS = 23
-CHAIN OF ACTORS: Doll, Gracie -> Irwin, Charles -> Hytten, Olaf
-CHAIN OF MOVIES:  => Wizard of Oz, The (1939) => Adventures of Robin Hood, The (1938) =>
-
-Miroux, Thierry/Ardant, Fanny
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Miroux, Thierry -> B�art, Emmanuelle -> Ardant, Fanny
-CHAIN OF MOVIES:  => Enfants du d�sordre, Les (1989) => 8 femmes (2002) =>
-
-Daniels, Mickey/Crawford, Joan
-DoS = 2, RS = 40
-CHAIN OF ACTORS: Daniels, Mickey -> Hoskins, Allen 'Farina' -> Crawford, Joan
-CHAIN OF MOVIES:  => Ask Grandma (1925) => Slippery Pearls, The (1931) =>
-
-Corveau, Jeff/Alldredge, Greg
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Corveau, Jeff -> Amendola, Linda -> Alldredge, Greg
-CHAIN OF MOVIES:  => Patriots (1994,II) => Shadow Glories (2001) =>
-
-Lacaste, Alex/Maguelon, Pierre
-DoS = 2, RS = 5
-CHAIN OF ACTORS: Lacaste, Alex -> Benguigui, Jean -> Maguelon, Pierre
-CHAIN OF MOVIES:  => Vous �tes folle, Imog�ne (1991) => Imog�ne d�gaine (1991) =>
-
-Fanning, Dakota/Abraham, Falconer
-DoS = 2, RS = 2
-CHAIN OF ACTORS: Fanning, Dakota -> Bacon, Kevin -> Abraham, Falconer
-CHAIN OF MOVIES:  => 24 Hours (2002,I) => Air Up There, The (1994) =>
-
-Nay, Pierre/Boyer, Charles
-DoS = 2, RS = 6
-CHAIN OF ACTORS: Nay, Pierre -> Dalio, Marcel -> Boyer, Charles
-CHAIN OF MOVIES:  => Pirates du rail, Les (1937) => Constant Nymph, The (1943) =>
-
-Helpmann, Robert/Green, Danny
-DoS = 2, RS = 6
-CHAIN OF ACTORS: Helpmann, Robert -> Kent, Jean -> Green, Danny
-CHAIN OF MOVIES:  => Caravan (1945) => Beyond This Place (1959) =>
-
-Chavez, Margaret/Fletcher, Louise
-DoS = 2, RS = 4
-CHAIN OF ACTORS: Chavez, Margaret -> Baldwin, Daniel -> Fletcher, Louise
-CHAIN OF MOVIES:  => Phoenix (1998) => Love Kills (1998) =>
-
-Con�alves, Daniel/Lint, Derek de
-DoS = 2, RS = 3
-CHAIN OF ACTORS: Con�alves, Daniel -> Hoffman, Thom -> Lint, Derek de
-CHAIN OF MOVIES:  => Glinsterend pantser, Het (1998) => Rituelen (1988) =>
+CHAIN OF ACTORS: Forfar, Ronald -> Atkine, F�odor -> Arias, Imanol
+CHAIN OF MOVIES:  => Vatel (2000) => Cin�maton (2000) =>
+
+Byrne, Daniella/Johnston, Sue
+DoS = 3, RS = 3
+CHAIN OF ACTORS: Byrne, Daniella -> Tiernan, Andrew -> Aird, Holly -> Johnston, Sue
+CHAIN OF MOVIES:  => Small Time Obsession (2000) => Criminal, The (2000) => Waking the Dead (2000,II) =>
+
+Poppe, Herman/Aaron, Caroline
+DoS = 3, RS = 3
+CHAIN OF ACTORS: Poppe, Herman -> Allen, Penelope -> Bohne, Bruce -> Aaron, Caroline
+CHAIN OF MOVIES:  => Visit from the Sergeant Major with Unintended Consequences, A (2000) => 3 Days of Rain (2000) => Running Mates (2000) =>
+
+Harris, Niki/Bucatinsky, Dan
+DoS = 3, RS = 3
+CHAIN OF ACTORS: Harris, Niki -> Madonna -> Bennett, Fran -> Bucatinsky, Dan
+CHAIN OF MOVIES:  => Music (2000) => Next Best Thing, The (2000) => Sky Is Falling, The (2000) =>
+
+Hiscox, Heather/Baker, Dylan
+DoS = 3, RS = 3
+CHAIN OF ACTORS: Hiscox, Heather -> Barnes, Susan -> Culp, Steven -> Baker, Dylan
+CHAIN OF MOVIES:  => Where the Money Is (2000) => Nurse Betty (2000) => Thirteen Days (2000) =>
+
+Roman, Lauren E./Beatty, Ned
+DoS = 3, RS = 3
+CHAIN OF ACTORS: Roman, Lauren E. -> Ben-Victor, Paul -> Berry, Christopher -> Beatty, Ned
+CHAIN OF MOVIES:  => David Cassidy Story, The (2000) => Cure for Boredom, The (2000) => Wilgus Stories, The (2000) =>
+
+Medina Papp, Benita A./Lane, Devinn
+DoS = 3, RS = 5
+CHAIN OF ACTORS: Medina Papp, Benita A. -> Drew, Griffin -> Schnuit, Jason -> Lane, Devinn
+CHAIN OF MOVIES:  => Phantom Love (2000) => Emmanuelle 2000: Being Emmanuelle (2000) => Fast Lane to Malibu (2000) =>
+
+Koder, Selim/Acevedo, Kirk
+DoS = 3, RS = 3
+CHAIN OF ACTORS: Koder, Selim -> Ayala, Corina Katt -> McGlone, Mike -> Acevedo, Kirk
+CHAIN OF MOVIES:  => Red Lipstick (2000) => Fortunes (2000) => Dinner Rush (2000) =>
+
+Grady, Mary/Bauer, Christopher
+DoS = 3, RS = 3
+CHAIN OF ACTORS: Grady, Mary -> Brown, Andre Rosey -> Alice, Mary -> Bauer, Christopher
+CHAIN OF MOVIES:  => American Tragedy (2000) => Catfish in Black Bean Sauce (2000) => Photographer, The (2000) =>
+
+Veloz, Coralia/Kn�fken, Markus
+DoS = 3, RS = 4
+CHAIN OF ACTORS: Veloz, Coralia -> Lohmeyer, Peter -> Nickel, Jochen -> Kn�fken, Markus
+CHAIN OF MOVIES:  => Hacerse el sueco (2000) => Nie mehr zweite Liga (2000) => DoppelPack (2000) =>
+
+Wagner, Odilon/Manqui�a, Manuel
+DoS = 3, RS = 3
+CHAIN OF ACTORS: Wagner, Odilon -> Ampudia, Isabel -> Cintra, Luis Miguel -> Manqui�a, Manuel
+CHAIN OF MOVIES:  => Condenado � Liberdade (2000) => Espalda de Dios, La (2000) => Capit�es de Abril (2000) =>
+
+Wittmann, Christian/Beck, Jonathan
+DoS = 4, RS = 4
+CHAIN OF ACTORS: Wittmann, Christian -> Besson, Pierre -> Buck, Detlev -> Greiling, Michael -> Beck, Jonathan
+CHAIN OF MOVIES:  => Tatort - Die M�we (2000) => LiebesLuder (2000) => Flashback - M�rderische Ferien (2000) => Mutter wider Willen (2000) =>
+
+Hogue, Stacy/Cera, Michael
+DoS = 4, RS = 5
+CHAIN OF ACTORS: Hogue, Stacy -> Kriesa, Christopher -> Moses, William R. -> Roberts, Kim -> Cera, Michael
+CHAIN OF MOVIES:  => Perfect Tenant, The (2000) => Alone with a Stranger (2000) => Chain of Command (2000) => Steal This Movie (2000) =>
+
+Jones, Steve/Steele, Lexington
+DoS = 4, RS = 9
+CHAIN OF ACTORS: Jones, Steve -> Lydon, John -> Allen, Ginger Lynn -> G, Mickey -> Steele, Lexington
+CHAIN OF MOVIES:  => Filth and the Fury, The (2000) => Independent, The (2000) => New Wave Hookers 6 (2000) => Down the Hatch 3 (2000) =>
+
+Blanco, Giovanny/Conwell, Angell
+DoS = 4, RS = 4
+CHAIN OF ACTORS: Blanco, Giovanny -> Corrigan, Kevin -> Schiavelli, Vincent -> Bonds, De'aundre -> Conwell, Angell
+CHAIN OF MOVIES:  => See Jane Run (2000) => American Saint (2000) => 3 Strikes (2000) => Flossin (2000) =>
+
+Ruotsalainen, Jukka/Salminen, Esko
+DoS = 4, RS = 4
+CHAIN OF ACTORS: Ruotsalainen, Jukka -> J�rvenhelmi, Maria -> Peltola, Sulevi -> Nousiainen, Heikki -> Salminen, Esko
+CHAIN OF MOVIES:  => Pieni pyhiinvaellus (2000) => Bad Luck Love (2000) => Pelon maantiede (2000) => Parhaat vuodet (2000) =>
+
+Mann, Darlene/Aguilera, Christina
+DoS = 4, RS = 4
+CHAIN OF ACTORS: Mann, Darlene -> Enos III, John -> DeRizzo, Dion -> Edner, Ashley -> Aguilera, Christina
+CHAIN OF MOVIES:  => Murder in the Mirror (2000) => Redemption of the Ghost (2000) => Couple Days... A Period Piece (2000) => MTV Video Music Awards 2000 (2000) =>
+
+Sattels, Barry/Asner, Edward
+DoS = 4, RS = 4
+CHAIN OF ACTORS: Sattels, Barry -> Cory, Sean -> Kay, Kassandra -> Ford, Scott -> Asner, Edward
+CHAIN OF MOVIES:  => Gedo (2000) => Hammerlock (2000) => Drive In (2000) => Bring Him Home (2000) =>
+
+Grant, Cory W./Albert, Edward
+DoS = 4, RS = 4
+CHAIN OF ACTORS: Grant, Cory W. -> Woolley, Simon -> Spanish, Jonny -> Arnold, Tom -> Albert, Edward
+CHAIN OF MOVIES:  => Birthday Time (2000) => Lansdown (2000) => Animal Factory (2000) => Ablaze (2000) =>
+
+Garrone, Riccardo/Arcopinto, Gianluca
+DoS = 4, RS = 4
+CHAIN OF ACTORS: Garrone, Riccardo -> Cenci, Athina -> Muti, Chiara -> Amendola, Claudio -> Arcopinto, Gianluca
+CHAIN OF MOVIES:  => Al momento giusto (2000) => Rosa e Cornelia (2000) => Partigiano Johnny, Il (2000) => Domenica (2000) =>
+
+Woodard, George/Condra, Julie
+DoS = 4, RS = 4
+CHAIN OF ACTORS: Woodard, George -> Argento, Jayson -> Alexander, John -> Allbright, Landry -> Condra, Julie
+CHAIN OF MOVIES:  => Peril (2000) => Radical Jack (2000) => How the Grinch Stole Christmas (2000) => Beautiful (2000) =>
+
+Raven/Fern�ndez, Juan
+DoS = 5, RS = 5
+CHAIN OF ACTORS: Raven -> Carter, Sean -> Davieau, Joe -> Argo, Victor -> Ubach, Alanna -> Fern�ndez, Juan
+CHAIN OF MOVIES:  => Eastsidaz, Tha (2000) => Cadaverous (2000) => Fast Food, Fast Women (2000) => Blue Moon (2000) => Slice & Dice (2000) =>
+
+Tiki, Varoa/Conley, Brian
+DoS = 5, RS = 5
+CHAIN OF ACTORS: Tiki, Varoa -> Belle, Camilla -> Baker, George -> Badel, Sarah -> Akhurst, Lucy -> Conley, Brian
+CHAIN OF MOVIES:  => Rip Girls (2000) => Back to the Secret Garden (2000) => Harm Done (2000) => Longitude (2000) => Circus (2000) =>
+
+Elsholtz, Arne/Williams, Cynda
+DoS = 5, RS = 6
+CHAIN OF ACTORS: Elsholtz, Arne -> Br�hl, Daniel -> Rosling, Tara -> Powell, Charles -> Moore, Lisa Bronwyn -> Williams, Cynda
+CHAIN OF MOVIES:  => Schule (2000) => Deeply (2000) => Into My Arms (2000) => Stardom (2000) => Courage to Love, The (2000) =>
+
+Heckmann, Paul/Rae, Morgana
+DoS = 5, RS = 5
+CHAIN OF ACTORS: Heckmann, Paul -> Beasley, John -> Amos, John -> Edwards, Monique -> Robins, Elise -> Rae, Morgana
+CHAIN OF MOVIES:  => Operator, The (2000) => Disappearing Acts (2000) => All Over Again (2000) => Across the Line (2000) => Drive In (2000) =>
+
+Henderson, Ian/Gibson, Katrina
+DoS = 5, RS = 5
+CHAIN OF ACTORS: Henderson, Ian -> Blackthorne, Paul -> Thurman, Dechen -> Affleck, Casey -> Adams, Lillian -> Gibson, Katrina
+CHAIN OF MOVIES:  => Rhythm & Blues (2000) => This Is Not an Exit: The Fictional World of Bret Easton Ellis (2000) => Hamlet (2000,I) => Attention Shoppers (2000) => Dean Quixote (2000) =>
+
+Payne, Bruce/Lawson, Amber J.
+DoS = 5, RS = 5
+CHAIN OF ACTORS: Payne, Bruce -> Atterton, Edward -> Baldwin, William -> Castellanos, Vincent -> Mohawk, Peter -> Lawson, Amber J.
+CHAIN OF MOVIES:  => Britannic (2000) => Relative Values (2000) => Primary Suspect (2000) => Lost in the Pershing Point Hotel (2000) => Super Duper (2000) =>
+
+Fribourg, Roger/Foulquier, Jean-Louis
+DoS = 5, RS = 5
+CHAIN OF ACTORS: Fribourg, Roger -> Giron, Catherine -> Barrat, Pierre -> Sales, G�raldine -> Covillault, J�r�mie -> Foulquier, Jean-Louis
+CHAIN OF MOVIES:  => Djib (2000) => Confusion des genres, La (2000) => Loire, Agn�s et les gar�ons, La (2000) => Jeanne, Marie et les autres (2000) => Marie-Temp�te (2000) =>
+
+Allard, Lorraine/Alterio, H�ctor
+DoS = 5, RS = 5
+CHAIN OF ACTORS: Allard, Lorraine -> Dench, Judi -> Binoche, Juliette -> Atkine, F�odor -> Arias, Imanol -> Alterio, H�ctor
+CHAIN OF MOVIES:  => Into the Arms of Strangers: Stories of the Kindertransport (2000) => Chocolat (2000) => Code inconnu: R�cit incomplet de divers voyages (2000) => Cin�maton (2000) => Esperando al mes�as (2000) =>
+
+Hamilton, Kara/Balme, V�ronique
+DoS = 5, RS = 5
+CHAIN OF ACTORS: Hamilton, Kara -> Driscoll Jr., Neil -> Bouchez, �lodie -> Bouajila, Sami -> Ascaride, Ariane -> Balme, V�ronique
+CHAIN OF MOVIES:  => So, What Do You Think? (2000) => Shooting Vegetarians (2000) => Faute � Voltaire, La (2000) => Dr�le de F�lix (2000) => Ville est tranquille, La (2000) =>
+
+Mend, Eva/Pol�vka, Bolek
+DoS = 5, RS = 5
+CHAIN OF ACTORS: Mend, Eva -> B�ttcher, Anna -> Roll, Michael -> Ch�lkov�, Ivana -> Roden, Karel -> Pol�vka, Bolek
+CHAIN OF MOVIES:  => Erkan und Stefan (2000) => Seitensprung ins Gl�ck (2000) => B�r ist los, Der (2000) => Obeti a vrazi (2000) => Kytice (2000) =>
+
+Zetlin, Beth/Held, Gerald Alexander
+DoS = 6, RS = 7
+CHAIN OF ACTORS: Zetlin, Beth -> Graham, Holter -> Pendleton, Austin -> Johnson, Clark -> Welsh, Kenneth -> Vogler, R�diger -> Held, Gerald Alexander
+CHAIN OF MOVIES:  => Trifling with Fate (2000) => Acting Class, The (2000) => Homicide: The Movie (2000) => Deliberate Intent (2000) => Love and Murder (2000) => Anatomie (2000) =>
+
+Simon, Neil/Vinot, Alain
+DoS = 6, RS = 8
+CHAIN OF ACTORS: Simon, Neil -> Allen, Woody -> Edson, Richard -> Sands, Julian -> Roubakha, R�my -> Guesmi, Samir -> Vinot, Alain
+CHAIN OF MOVIES:  => Sid Caesar Collection: Creating the Comedy, The (2000) => Picking Up the Pieces (2000) => Million Dollar Hotel, The (2000) => Vatel (2000) => Taule, La (2000) => Sc�nario sur la drogue (2000) =>
+
+Lou, Bing Kun/Gordon, Mike
+DoS = 6, RS = 6
+CHAIN OF ACTORS: Lou, Bing Kun -> Cho, John -> Copelin, Christian -> Osborne, Holmes -> Washer, Blake -> Bavel, Ari -> Gordon, Mike
+CHAIN OF MOVIES:  => Pavilion of Women (2000) => Delivering Milo (2000) => Miracle in Lane 2 (2000) => Bring It On (2000) => Zombie Bloodbath 3: Zombie Armageddon (2000) => Catacombs (2000) =>
+
+Palmer-Stoll, Julia/Proia, Karin
+DoS = 6, RS = 8
+CHAIN OF ACTORS: Palmer-Stoll, Julia -> Pleitgen, Ulrich -> Schafmeister, Heinrich -> Otto, G�tz -> Prochnow, J�rgen -> Sabato Jr., Antonio -> Proia, Karin
+CHAIN OF MOVIES:  => Lebensl�gen (2000) => Alle Kinder brauchen Liebe (2000) => B�r ist los, Der (2000) => Gunblast Vodka (2000) => Final Ascent (2000) => Vola Sciusci� (2000) =>
+
+Sorensen, Jill/Frenkel, Noemi
+DoS = 6, RS = 7
+CHAIN OF ACTORS: Sorensen, Jill -> Cox, Brian -> West, Samuel -> Roth, Tim -> Atkine, F�odor -> Arias, Imanol -> Frenkel, Noemi
+CHAIN OF MOVIES:  => Whipped (2000) => Complicity (2000) => Bread and Roses (2000) => Vatel (2000) => Cin�maton (2000) => Esperando al mes�as (2000) =>
+
+McRae, Donna/Churcher, Teresa
+DoS = 6, RS = 6
+CHAIN OF ACTORS: McRae, Donna -> Anderson, Andy -> Cole, George -> Atkins, Eileen -> Bettany, Paul -> Kilvington, Denzil -> Churcher, Teresa
+CHAIN OF MOVIES:  => Halifax f.p: A Person of Interest (2000) => Soledad (2000) => Sleeper, The (2000) => David Copperfield (2000) => Dead Babies (2000) => Bomber (2000) =>
+
+Vujcic, Aleksandra/Land, Aaron
+DoS = 6, RS = 7
+CHAIN OF ACTORS: Vujcic, Aleksandra -> Kriesa, Christopher -> Nelson, Tracy -> Hawn, Phil -> Norona, David -> Lainer, Mark -> Land, Aaron
+CHAIN OF MOVIES:  => Alone with a Stranger (2000) => Perfect Nanny, The (2000) => Perfect Game (2000) => Maggie Moore (2000) => Alligator Alley (2000) => Escape Back to the Movies (2000) =>
+
+Williams, Ellis/Jones, Adam
+DoS = 6, RS = 6
+CHAIN OF ACTORS: Williams, Ellis -> Brandon, John -> Braff, Zach -> Macaluso, Mario -> Grant, Carson -> Mazza, Vince -> Jones, Adam
+CHAIN OF MOVIES:  => Adventures of Rocky & Bullwinkle, The (2000) => Broken Hearts Club: A Romantic Comedy, The (2000) => Blue Moon (2000) => Wannabes (2000) => He Outta Be Committed (2000) => Sunshine Deli and Grocery, The (2000) =>
+
+McGowan, Rose/Lachapelle, Andr�e
+DoS = 6, RS = 7
+CHAIN OF ACTORS: McGowan, Rose -> Pantoliano, Joe -> Baldwin, Daniel -> Camacho, Mark -> Adams, Lynne -> S�nart, Catherine -> Lachapelle, Andr�e
+CHAIN OF MOVIES:  => Ready to Rumble (2000) => Silver Man (2000) => Killing Moon (2000) => Nowhere in Sight (2000) => M�chant party (2000) => Pays dans la gorge, Le (2000) =>
+
+Mangone, Marcelo/Bierbichler, Josef
+DoS = 6, RS = 6
+CHAIN OF ACTORS: Mangone, Marcelo -> Cia, Fernando -> Rissi, Claudio -> Alterio, H�ctor -> Arias, Imanol -> Atkine, F�odor -> Bierbichler, Josef
+CHAIN OF MOVIES:  => S�lo por hoy (2000) => 76-89-03 (2000) => Plata quemada (2000) => Esperando al mes�as (2000) => Cin�maton (2000) => Code inconnu: R�cit incomplet de divers voyages (2000) =>
+
+Rapoport, Audrey/Dlouh�, Vladim�r
+DoS = 7, RS = 8
+CHAIN OF ACTORS: Rapoport, Audrey -> Baker, Dylan -> D'Onofrio, Vincent -> Garity, Troy -> Issov�, Kl�ra -> Holubov�, Eva -> Janzurov�, Iva -> Dlouh�, Vladim�r
+CHAIN OF MOVIES:  => Thirteen Days (2000) => Cell, The (2000) => Steal This Movie (2000) => Inferno (2000) => Andel Exit (2000) => Ene bene (2000) => Prepaden� (2000) =>
+
+Hembrook, Robert/Fonzi, Tom�s
+DoS = 7, RS = 9
+CHAIN OF ACTORS: Hembrook, Robert -> Bruton, Stephen -> Denzlinger, Jeremy -> Evermore, J.D. -> �lvarez, Roberto -> Hornillos Klein, Silke -> Br�dice, Leticia -> Fonzi, Tom�s
+CHAIN OF MOVIES:  => Sweet Thing (2000) => Miss Congeniality (2000) => At Any Cost (2000) => Living the Life (2000) => Km. 0 (2000) => Almejas y mejillones (2000) => Nueve reinas (2000) =>
+
+Cohen, Jaffe/Aida, Umie
+DoS = 7, RS = 7
+CHAIN OF ACTORS: Cohen, Jaffe -> Arkin, Adam -> Baird, Maggie -> Gunton, Bob -> Lee, James -> Najmuddin, Iskandar -> Hassan, Jalaluddin -> Aida, Umie
+CHAIN OF MOVIES:  => Hanging Up (2000) => Dropping Out (2000) => Running Mates (2000) => Perfect Storm, The (2000) => Lips to Lips (2000) => Mimpi Moon (2000) => Senario lagi (2000) =>
+
+Lansbury, David/Schmidt-Sch�nbein, Julia
+DoS = 7, RS = 7
+CHAIN OF ACTORS: Lansbury, David -> Bosco, Philip -> Goldfinger, Michael -> Keitel, Harvey -> Klawitter, Arnd -> R�mer, Jean-Denis -> Peschel, Janet -> Schmidt-Sch�nbein, Julia
+CHAIN OF MOVIES:  => Cupid & Cate (2000) => Brooklyn Sonnet (2000) => Little Nicky (2000) => U-571 (2000) => Sex oder Liebe? (2000) => Berlin Nights (2000) => Alex 2000 (2000) =>
+
+Cuccione, Michael/Dorlipo, Didier
+DoS = 7, RS = 8
+CHAIN OF ACTORS: Cuccione, Michael -> Brazeau, Jay -> Turner, Frank C. -> Holm, Ian -> Sz�b�, Laszl� -> Richard, Nathalie -> Giron, Catherine -> Dorlipo, Didier
+CHAIN OF MOVIES:  => 2gether (2000) => Air Bud: World Pup (2000) => Beautiful Joe (2000) => Esther Kahn (2000) => On appelle �a... le printemps (2000) => Confusion des genres, La (2000) => Djib (2000) =>
+
+Horos, Greg/Miyamura, Y�ko
+DoS = 7, RS = 8
+CHAIN OF ACTORS: Horos, Greg -> Caton, Robert Randolph -> Vargas, Jacob -> Sebastian, Lobo -> Osugi, Ren -> Suzuki, Kazuma -> Shibasaki, Kou -> Miyamura, Y�ko
+CHAIN OF MOVIES:  => Unbreakable (2000) => Traffic (2000) => Next Friday (2000) => Brother (2000) => Hakkyousuru kuchibiru (2000) => Tokyo gomi onna (2000) => Battle Royale (2000) =>
+
+Laudi�re, Herv�/Gordon, Mike
+DoS = 7, RS = 7
+CHAIN OF ACTORS: Laudi�re, Herv� -> Brialy, Jean-Claude -> Balasko, Josiane -> Perez, Vincent -> Roberts, Ian -> Washer, Blake -> Bavel, Ari -> Gordon, Mike
+CHAIN OF MOVIES:  => Nos jolies colonies de vacances (2000) => Acteurs, Les (2000) => Libertin, Le (2000) => I Dreamed of Africa (2000) => Bring It On (2000) => Zombie Bloodbath 3: Zombie Armageddon (2000) => Catacombs (2000) =>
+
+Durand, Jean-Claude/Klever, Bart
+DoS = 7, RS = 7
+CHAIN OF ACTORS: Durand, Jean-Claude -> Belvaux, Lucas -> Berriau, Pierre -> Sogne, Herv� -> Arrendell, George -> L�w, Victor -> Cohen, Horace -> Klever, Bart
+CHAIN OF MOVIES:  => M�re en fuite (2000) => On appelle �a... le printemps (2000) => Chien vert, Le (2000) => Falling Through (2000) => Iedereen beroemd! (2000) => Lek (2000) => Tinnef (2000) =>
+
+Hauptman, Tara/Han�k, Tom�s
+DoS = 7, RS = 7
+CHAIN OF ACTORS: Hauptman, Tara -> Dismond, Daryl -> Motley, Alexa -> Bell, Marshall -> Garity, Troy -> Issov�, Kl�ra -> Holubov�, Eva -> Han�k, Tom�s
+CHAIN OF MOVIES:  => Comeback (2000) => Rocky Road (2000) => Face the Music (2000) => Code Blue (2000) => Inferno (2000) => Andel Exit (2000) => Cesta z mesta (2000) =>
+
+Br�chet, Laurent/Houston, Gary
+DoS = 7, RS = 8
+CHAIN OF ACTORS: Br�chet, Laurent -> Brialy, Jean-Claude -> Berl�and, Fran�ois -> Calabretta, Tony -> Burton, No�l -> Whitaker, Forest -> Mukherji, Kevin -> Houston, Gary
+CHAIN OF MOVIES:  => In extremis (2000) => Acteurs, Les (2000) => Stardom (2000) => Art of War, The (2000) => Battlefield Earth: A Saga of the Year 3000 (2000) => American Storytellers (2000) => Brat 2 (2000) =>
+
+Duffy, Vince/Sep�lveda, Luis
+DoS = 8, RS = 8
+CHAIN OF ACTORS: Duffy, Vince -> Gordon, Pamela -> Thomas, William -> Makatsch, Heike -> Blaschke, Katharina -> Naujoks, Ingo -> Schneeberger, Gisela -> Galiena, Anna -> Sep�lveda, Luis
+CHAIN OF MOVIES:  => Chuck&Buck (2000) => Catfish in Black Bean Sauce (2000) => Longitude (2000) => Gripsholm (2000) => Tote Taucher im Wald, Der (2000) => Kalt ist der Abendhauch (2000) => Vino santo (2000) => Bibo per sempre (2000) =>
+
+Stritch, Elaine/Kicic, Gordan
+DoS = 8, RS = 9
+CHAIN OF ACTORS: Stritch, Elaine -> Huang, Timothy -> Cleghorne, Ellen -> Davies, Jeremy -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Kicic, Gordan
+CHAIN OF MOVIES:  => Autumn in New York (2000) => Coyote Ugly (2000) => Million Dollar Hotel, The (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) =>
+
+Melotte, Louise/Kapoor, Karishma
+DoS = 8, RS = 9
+CHAIN OF ACTORS: Melotte, Louise -> Tiernan, Andrew -> Aird, Holly -> Warner, Amelia -> Clunes, Martin -> Minogue, Kylie -> Shroff, Jackie -> Dutt, Sanjay -> Kapoor, Karishma
+CHAIN OF MOVIES:  => Small Time Obsession (2000) => Criminal, The (2000) => Waking the Dead (2000,II) => Lorna Doone (2000) => Royal Variety Performance 2000, The (2000) => International Indian Film Awards (2000) => Jung (2000) => Chal Mere Bhai (2000) =>
+
+Yamamoto, Taro/Mazzei, Jean
+DoS = 8, RS = 8
+CHAIN OF ACTORS: Yamamoto, Taro -> Ando, Masanobu -> Kaneshiro, Takeshi -> Chan, Eason -> Cheung, Roy -> Cheung, Maggie -> Rogers, AnnieScott -> Pibal, Janine -> Mazzei, Jean
+CHAIN OF MOVIES:  => Battle Royale (2000) => Supaas torabaraazu (2000) => Fan yi cho (2000) => Kong woo giu gap (2000) => Hua yang nian hua (2000) => Yi jian zhong qing (2000) => Enamored (2000) => Stonewashed (2000) =>
+
+Baffico, James A./Zutic, Katarina
+DoS = 8, RS = 8
+CHAIN OF ACTORS: Baffico, James A. -> Henstridge, Natasha -> Jacobi, Derek -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Kicic, Gordan -> Zutic, Katarina
+CHAIN OF MOVIES:  => It Had to Be You (2000,I) => Jason and the Argonauts (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Dorcol-Menhetn (2000) =>
+
+Reed, Kira/Morgado, Diogo
+DoS = 8, RS = 8
+CHAIN OF ACTORS: Reed, Kira -> Adair-Rios, Mark -> Velasco, Roger -> �lvarez, Roberto -> Verd�, Maribel -> Lu�s, Rui -> Raposo, Jos� -> Abreu, Maria Jo�o -> Morgado, Diogo
+CHAIN OF MOVIES:  => American Virgin (2000) => Across the Line (2000) => Living the Life (2000) => Portero, El (2000) => Toreros (2000) => Monsanto (2000) => Telefona-me (2000) => Amo-te, Teresa (2000) =>
+
+De Angelo, Frank/Zutic, Katarina
+DoS = 8, RS = 8
+CHAIN OF ACTORS: De Angelo, Frank -> Dunst, Kirsten -> Fox, James -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Kicic, Gordan -> Zutic, Katarina
+CHAIN OF MOVIES:  => Luckytown Blues (2000) => All Forgotten (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Dorcol-Menhetn (2000) =>
+
+B�naz�raf, Louise/Lyytik�inen, Anna-Elina
+DoS = 8, RS = 8
+CHAIN OF ACTORS: B�naz�raf, Louise -> Boisselier, Julien -> Gomaa, Soraya -> Giering, Frank -> Herbrechter, Max -> Hellmann, Hannes -> Onnismaa, Matti -> Peltola, Sulevi -> Lyytik�inen, Anna-Elina
+CHAIN OF MOVIES:  => Quand on sera grand (2000) => Azzurro (2000) => Marmor, Stein & Eisen (2000) => Gran paradiso (2000) => Jenny Berlin - Ende der Angst (2000) => Highway Society (2000) => Bad Luck Love (2000) => Pelon maantiede (2000) =>
+
+Lee/Aida, Umie
+DoS = 8, RS = 9
+CHAIN OF ACTORS: Lee -> G, Mickey -> Allen, Ginger Lynn -> Stiller, Ben -> Wahlberg, Mark -> Lee, James -> Najmuddin, Iskandar -> Hassan, Jalaluddin -> Aida, Umie
+CHAIN OF MOVIES:  => Initiations 3 (2000) => New Wave Hookers 6 (2000) => Independent, The (2000) => 2000 MTV Movie Awards (2000) => Perfect Storm, The (2000) => Lips to Lips (2000) => Mimpi Moon (2000) => Senario lagi (2000) =>
+
+Korm�kur, Baltasar/Davoli, Ninetto
+DoS = 8, RS = 10
+CHAIN OF ACTORS: Korm�kur, Baltasar -> Gu�nason, Hilmir Sn�r -> Pendleton, Austin -> St. Paule, Irma -> Theriault, Janine -> Berling, Charles -> Darlan, Eva -> Sandre, Didier -> Davoli, Ninetto
+CHAIN OF MOVIES:  => 101 Reykjav�k (2000) => Erotic Tales IV (2000) => Fast Food, Fast Women (2000) => Where the Money Is (2000) => Stardom (2000) => Sc�nes de crimes (2000) => Deux fr�res (2000) => Myst�re Paul, Le (2000) =>
+
+Morrissey, Pamela/Kicic, Gordan
+DoS = 9, RS = 9
+CHAIN OF ACTORS: Morrissey, Pamela -> Cusack, Sin�ad -> French, Dawn -> Fortune, John -> Brooke, Paul -> Marino, Mauro -> Gammarota, Manrico -> Sassanelli, Paolo -> Todorovic, Srdjan -> Kicic, Gordan
+CHAIN OF MOVIES:  => My Mother Frank (2000) => French & Saunders Live (2000) => Maybe Baby (2000) => Saving Grace (2000) => Cielo cade, Il (2000) => Pane e tulipani (2000) => LaCapaGira (2000) => Tandem (2000) => Rat uzivo (2000) =>
+
+Loo, Anita/Zutic, Katarina
+DoS = 9, RS = 9
+CHAIN OF ACTORS: Loo, Anita -> Dafoe, Willem -> Lucas, Josh -> Penn, Sean -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Kicic, Gordan -> Zutic, Katarina
+CHAIN OF MOVIES:  => Pavilion of Women (2000) => American Psycho (2000) => Weight of Water, The (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Dorcol-Menhetn (2000) =>
+
+Bates, Kathy/Simic, Nikola
+DoS = 9, RS = 9
+CHAIN OF ACTORS: Bates, Kathy -> Thurman, Uma -> Fox, James -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => Without Lying Down: Frances Marion and the Power of Women in Hollywood (2000) => Golden Bowl, The (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Hilario, Chavarria/Simic, Nikola
+DoS = 9, RS = 9
+CHAIN OF ACTORS: Hilario, Chavarria -> Ferguson, Craig -> Brooke, Paul -> Marino, Mauro -> Gammarota, Manrico -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => Chain of Fools (2000) => Saving Grace (2000) => Cielo cade, Il (2000) => Pane e tulipani (2000) => LaCapaGira (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Brooks, Thomas/Gotovac, Tomislav
+DoS = 9, RS = 9
+CHAIN OF ACTORS: Brooks, Thomas -> Bonds, De'aundre -> Dunphy, Jerry -> Graham, Aimee -> Sands, Julian -> Semoun, Elie -> Nikita -> Belko, Krunoslav -> Levaj, Otokar -> Gotovac, Tomislav
+CHAIN OF MOVIES:  => Black Ball (2000) => 3 Strikes (2000) => Dropping Out (2000) => Timecode (2000) => Love me (2000) => Old School (2000) => Nit zivota (2000) => Veliki Odmor (2000) => Ne daj se, Floki! (2000) =>
+
+Mora, Vicente/Simic, Nikola
+DoS = 9, RS = 9
+CHAIN OF ACTORS: Mora, Vicente -> Cobo, Roberto -> Terzieff, Laurent -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => Sue�o del caim�n, El (2000) => A prop�sito de Bu�uel (2000) => Sulla spiaggia e di l� dal molo (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Tsang, Kin-Yung/Schmidt-Sch�nbein, Julia
+DoS = 9, RS = 9
+CHAIN OF ACTORS: Tsang, Kin-Yung -> Lee, Sam -> Chan, Jordan -> Mung, YoYo -> Lo, Ken -> Coolio -> Jaenicke, Hannes -> R�mer, Jean-Denis -> Peschel, Janet -> Schmidt-Sch�nbein, Julia
+CHAIN OF MOVIES:  => Small Miracle, A (2000) => San tau chi saidoi (2000) => Killer (2000) => Lau man bye biu (2000) => Lei ting zhan jing (2000) => Submerged (2000) => Sex oder Liebe? (2000) => Berlin Nights (2000) => Alex 2000 (2000) =>
+
+Janney, Allison/Simic, Nikola
+DoS = 9, RS = 9
+CHAIN OF ACTORS: Janney, Allison -> Franken, Steve -> Jaenicke, Hannes -> Quinn, Danny -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => Nurse Betty (2000) => Crash Point Zero (2000) => Giuda (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Emerson, Chris/Simic, Nikola
+DoS = 9, RS = 9
+CHAIN OF ACTORS: Emerson, Chris -> Edelstein, Lisa -> Bancroft, Anne -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => What Women Want (2000) => Keeping the Faith (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Soufi, Abdel/Simic, Nikola
+DoS = 9, RS = 9
+CHAIN OF ACTORS: Soufi, Abdel -> Maurel, Julien -> Patron, Emmanuel -> Quinn, Danny -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => Antilles sur Seine (2000) => �pouse-moi (2000) => Caracole, La (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Knoll, R.J./Morgado, Diogo
+DoS = 10, RS = 10
+CHAIN OF ACTORS: Knoll, R.J. -> Dwarf, Hank The Angry Drunken -> Broussard, Tess -> Muser, Wolf -> Wisdom, Robert -> Compte, Maurice -> Martinez, Olivier -> Lu�s, Rui -> Raposo, Jos� -> Abreu, Maria Jo�o -> Morgado, Diogo
+CHAIN OF MOVIES:  => Shoe Shine Boys (2000) => Secret Agent 420 (2000) => Hollywood Sins (2000) => Rocky Road (2000) => Dancing at the Blue Iguana (2000) => Before Night Falls (2000) => Toreros (2000) => Monsanto (2000) => Telefona-me (2000) => Amo-te, Teresa (2000) =>
+
+Whinery, Scott Ryan/Simic, Nikola
+DoS = 10, RS = 10
+CHAIN OF ACTORS: Whinery, Scott Ryan -> Ball, Angeline -> Harrington, Richard -> Merrison, Clive -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => Housebound (2000) => Score (2000) => Care (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Myne, Shelbee/Zutic, Katarina
+DoS = 10, RS = 13
+CHAIN OF ACTORS: Myne, Shelbee -> Conner, Ryan -> Nice, Alexandra -> Hopper, Dennis -> Jacobi, Derek -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Kicic, Gordan -> Zutic, Katarina
+CHAIN OF MOVIES:  => Pink Package (2000) => Lick My Legs (2000) => Luck of the Draw (2000) => Jason and the Argonauts (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Dorcol-Menhetn (2000) =>
+
+Jacobsen, Magnus Stahl/Simic, Nikola
+DoS = 10, RS = 10
+CHAIN OF ACTORS: Jacobsen, Magnus Stahl -> Boberg, Sarah -> Christensen, Jesper -> Apolito, Cesare -> Catania, Antonio -> Gammarota, Manrico -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => Her i n�rheden (2000) => B�nken (2000) => Anna (2000,III) => Qui non � il paradiso (2000) => Pane e tulipani (2000) => LaCapaGira (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Sciacca, Nicole/Zutic, Katarina
+DoS = 10, RS = 10
+CHAIN OF ACTORS: Sciacca, Nicole -> Cohen, Brian David -> Fingaz, Sticky -> Casseus, Gabriel -> Hammond, Roger -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Kicic, Gordan -> Zutic, Katarina
+CHAIN OF MOVIES:  => Avoiding the Hollywood Hooker (2000) => True Vinyl (2000) => Lockdown (2000) => Bedazzled (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Dorcol-Menhetn (2000) =>
+
+Christell-Malmberg, Inger/Mu�iz, Berta
+DoS = 10, RS = 10
+CHAIN OF ACTORS: Christell-Malmberg, Inger -> Steen, Jan -> De Vos, Ingrid -> Beukelaers, Fran�ois -> Duret, Marc -> Atkine, F�odor -> Arias, Imanol -> Alterio, H�ctor -> Ziembrowsky, Luis -> Gonz�lez, Iv�n -> Mu�iz, Berta
+CHAIN OF MOVIES:  => S�nger fr�n andra v�ningen (2000) => Misstoestanden (2000) => Pauline en Paulette (2000) => Bal des pantins, Le (2000) => Code inconnu: R�cit incomplet de divers voyages (2000) => Cin�maton (2000) => Esperando al mes�as (2000) => Plata quemada (2000) => Chicos ricos (2000) => Rockabilly (2000) =>
+
+Jackson, Tom/Simic, Nikola
+DoS = 10, RS = 10
+CHAIN OF ACTORS: Jackson, Tom -> Herman, Jimmy -> Jovovich, Milla -> Davies, Jeremy -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => Trial by Fire (2000) => Claim, The (2000) => Million Dollar Hotel, The (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Daumas, Capucine/Simic, Nikola
+DoS = 10, RS = 10
+CHAIN OF ACTORS: Daumas, Capucine -> Berroyer, Jackie -> Arias, Imanol -> Ghini, Massimo -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => Chambre obscure, La (2000) => Cin�maton (2000) => Maria Maddalena (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Mazzotti, Alister/Simic, Nikola
+DoS = 10, RS = 10
+CHAIN OF ACTORS: Mazzotti, Alister -> Fleisher, Shira -> Kn�fken, Markus -> Zapatka, Manfred -> Quinn, Danny -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => K�ss mich, Frosch (2000) => Honolulu (2000) => DoppelPack (2000) => Giuda (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Maggiolino, Rosi/Simic, Nikola
+DoS = 10, RS = 10
+CHAIN OF ACTORS: Maggiolino, Rosi -> Mathis, Samantha -> Lucas, Josh -> Penn, Sean -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => Attraction (2000) => American Psycho (2000) => Weight of Water, The (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Springuel, Luc/Zutic, Katarina
+DoS = 11, RS = 11
+CHAIN OF ACTORS: Springuel, Luc -> Hugaert, Daan -> Peeters, Filip -> Arrendell, George -> Dobtcheff, Vernon -> Jacobi, Derek -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Kicic, Gordan -> Zutic, Katarina
+CHAIN OF MOVIES:  => Kamiels kerstverhaal (2000) => Stilte van het naderen, De (2000) => Iedereen beroemd! (2000) => Falling Through (2000) => Body, The (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Dorcol-Menhetn (2000) =>
+
+Bennett, Eric Scott/Simic, Nikola
+DoS = 11, RS = 11
+CHAIN OF ACTORS: Bennett, Eric Scott -> Whitaker, John Henry -> Gesner, Zen -> Buzzington, Ezra -> Davies, Jeremy -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => Atlantis Falling (2000) => Trigon: The Legend of Pelgidium (2000) => Me, Myself & Irene (2000) => Million Dollar Hotel, The (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Terlato, Elizabeth/Zutic, Katarina
+DoS = 11, RS = 12
+CHAIN OF ACTORS: Terlato, Elizabeth -> Gauge -> Mei-Yu -> Gina -> Thouvenin, Cyrille -> Bouix, Evelyne -> Quinn, Danny -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Kicic, Gordan -> Zutic, Katarina
+CHAIN OF MOVIES:  => Grrl Power! 2 (2000) => Real Sex Magazine 30 (2000) => Initiations 3 (2000) => In extremis (2000) => Un morceau de soleil (2000) => Caracole, La (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Dorcol-Menhetn (2000) =>
+
+Olivia/Simic, Nikola
+DoS = 11, RS = 11
+CHAIN OF ACTORS: Olivia -> Marcus, Mr. -> Gina -> Hugo, Candice -> Ferri, Fabio -> De Falco, Luciana -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => Up Your Ass 14 (2000) => Up Your Ass 15 (2000) => In extremis (2000) => Tobia al caff� (2000) => Sciamane, Le (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Fuente, Jes�s/Simic, Nikola
+DoS = 11, RS = 11
+CHAIN OF ACTORS: Fuente, Jes�s -> Celada, Federico -> Dreyfuss, Richard -> Stuart, Gloria -> Davies, Jeremy -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => B�ilame el agua (2000) => Old Man Who Read Love Stories, The (2000) => Hollywood, D.C. (2000) => Million Dollar Hotel, The (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Marley, Bob/Zutic, Katarina
+DoS = 11, RS = 11
+CHAIN OF ACTORS: Marley, Bob -> Houston, Gary -> Makovetsky, Sergei -> Mashkov, Vladimir -> Compte, Maurice -> Di Stefano, Andrea -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Kicic, Gordan -> Zutic, Katarina
+CHAIN OF MOVIES:  => Under the Bus (2000) => Brat 2 (2000) => Russkij bunt (2000) => Dancing at the Blue Iguana (2000) => Before Night Falls (2000) => Almost Blue (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Dorcol-Menhetn (2000) =>
+
+Forsyth, John/Simic, Nikola
+DoS = 11, RS = 11
+CHAIN OF ACTORS: Forsyth, John -> Faichney, Stewart -> Barry, Jason -> Delaney, Simon -> Sutton, Dudley -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => Dogwoman: The Legend of Dogwoman (2000) => Muggers (2000) => When the Sky Falls (2000) => David Copperfield (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Evans, Matthew John/Simic, Nikola
+DoS = 11, RS = 11
+CHAIN OF ACTORS: Evans, Matthew John -> Morgan, Steven -> Derek, Bo -> Blethyn, Brenda -> Brooke, Paul -> Marino, Mauro -> Gammarota, Manrico -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => Black Swan (2000) => Frozen with Fear (2000) => Best of So Graham Norton, The (2000) => Saving Grace (2000) => Cielo cade, Il (2000) => Pane e tulipani (2000) => LaCapaGira (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Sabou/Simic, Nikola
+DoS = 11, RS = 11
+CHAIN OF ACTORS: Sabou -> Chan, Jordan -> Lai, Leon -> Torres, Tamara -> Hammond, Roger -> Indovina, Lorenza -> Ghiselli, Giuliano -> Sassanelli, Paolo -> Todorovic, Srdjan -> Paskaljevic, Mihajlo-Bata -> Zivkovic, Radmila -> Simic, Nikola
+CHAIN OF MOVIES:  => Vampire Hunter D: Bloodlust (2000) => San tau chi saidoi (2000) => Yi jian zhong qing (2000) => Bedazzled (2000) => Up at the Villa (2000) => Femminile, singolare (2000) => Fratello minore, Il (2000) => Tandem (2000) => Rat uzivo (2000) => Senke uspomena (2000) => Ludje od ludjeg (2000) =>
+
+Dinn, Philip/Zutic, Katarina
+DoS = 11, RS = 11
+CHAIN OF ACTORS: Dinn, Philip -> Hynes, Ron -> MacNeill, Peter -> Aasland, Derek -> Campbell, Ken -> Brooke, Paul -> Marino, Mauro -> Gammarota, Manrico -> Sassanelli, Paolo -> Todorovic, Srdjan -> Kicic, Gordan -> Zutic, Katarina
+CHAIN OF MOVIES:  => Bingo Robbers, The (2000) => Violet (2000,II) => Frequency (2000) => Skulls, The (2000) => Saving Grace (2000) => Cielo cade, Il (2000) => Pane e tulipani (2000) => LaCapaGira (2000) => Tandem (2000) => Rat uzivo (2000) => Dorcol-Menhetn (2000) =>
 

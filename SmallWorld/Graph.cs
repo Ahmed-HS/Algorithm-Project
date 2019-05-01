@@ -249,22 +249,23 @@ namespace AlgorithmProject
             ResetActorStates();
             Queue<string> ForwardQueue = new Queue<string>();
             Queue<string> BackwardQueue = new Queue<string>();
-            ActorStates[Source].MarkVisted(0, 0, "Source");
-            ActorStates[Target].MarkVisted(0, 0, "Target");
+            ActorStates[Source].MarkVisted(0, 0, Source);
+            ActorStates[Target].MarkVisted(0, 0, Target);
             ForwardQueue.Enqueue(Source);
             BackwardQueue.Enqueue(Target);
             string IntersectingActor = "";
             string ForwardParent = "", BackwardParent = "";
-            int ForwardDistance = 0, BackwardDistance = 0;
-            int ForwardFrequency = 0, BackwardFrequency = 0;
             int TotalDistance = 0, TotalFrequency = 0;
             int FIntersection = int.MaxValue;
             int Bintersection = int.MaxValue;
             bool Intersected = false;
-            List<Tuple<string, string, string>> Common = new List<Tuple<string, string, string>>();
+            int MinimumDistance = int.MaxValue;
+            int MaximumFrequency = -1;
+            string CurrentIntersection, CurrentForwardParent, CurrentBackwardParent;
+
             while (ForwardQueue.Any() || BackwardQueue.Any())
             {
-                if (ForwardQueue.Any())
+                if (ForwardQueue.Any() && ForwardQueue.Count > BackwardQueue.Count)
                 {
                     string CurrentActor = ForwardQueue.Dequeue();
                     foreach (string Neighbour in Relations[CurrentActor].Keys)
@@ -275,11 +276,25 @@ namespace AlgorithmProject
                             if (!Intersected)
                             {
                                 FIntersection = ActorStates[CurrentActor].DistanceFromSource + 1;
+                                Intersected = true;
                             }
-                            ForwardParent = CurrentActor;
-                            BackwardParent = ActorStates[Neighbour].Parent;
-                            Intersected = true;
-                            Common.Add(new Tuple<string, string, string>(Neighbour, ForwardParent, BackwardParent));
+
+                            CurrentIntersection = Neighbour;
+                            CurrentForwardParent = CurrentActor;
+                            CurrentBackwardParent = ActorStates[Neighbour].Parent;
+                            TotalDistance = ActorStates[CurrentBackwardParent].DistanceFromSource + ActorStates[CurrentForwardParent].DistanceFromSource + 2;
+                            TotalFrequency = ActorStates[CurrentBackwardParent].Frequency + ActorStates[CurrentForwardParent].Frequency;
+                            TotalFrequency += Relations[CurrentForwardParent][CurrentIntersection].GetFrequency();
+                            TotalFrequency += Relations[CurrentBackwardParent][CurrentIntersection].GetFrequency();
+
+                            if (TotalDistance <= MinimumDistance && TotalFrequency > MaximumFrequency)
+                            {
+                                IntersectingActor = CurrentIntersection;
+                                ForwardParent = CurrentForwardParent;
+                                BackwardParent = CurrentBackwardParent;
+                                MinimumDistance = TotalDistance;
+                                MaximumFrequency = TotalFrequency;
+                            }                           
                         }
                         else if (!ActorStates[Neighbour].Visited)
                         {
@@ -304,9 +319,7 @@ namespace AlgorithmProject
                         }
                     }
                 }
-
-
-                if (BackwardQueue.Any())
+                else if (BackwardQueue.Any())
                 {
                     string CurrentActor = BackwardQueue.Dequeue();
                     foreach (string Neighbour in Relations[CurrentActor].Keys)
@@ -317,11 +330,25 @@ namespace AlgorithmProject
                             if (!Intersected)
                             {
                                 Bintersection = ActorStates[CurrentActor].DistanceFromSource + 1;
+                                Intersected = true;
                             }
-                            BackwardParent = CurrentActor;
-                            ForwardParent = ActorStates[Neighbour].Parent;
-                            Intersected = true;
-                            Common.Add(new Tuple<string, string, string>(Neighbour, ForwardParent, BackwardParent));
+
+                            CurrentIntersection = Neighbour;
+                            CurrentForwardParent = ActorStates[Neighbour].Parent;
+                            CurrentBackwardParent = CurrentActor;
+                            TotalDistance = ActorStates[CurrentBackwardParent].DistanceFromSource + ActorStates[CurrentForwardParent].DistanceFromSource + 2;
+                            TotalFrequency = ActorStates[CurrentBackwardParent].Frequency + ActorStates[CurrentForwardParent].Frequency;
+                            TotalFrequency += Relations[CurrentForwardParent][CurrentIntersection].GetFrequency();
+                            TotalFrequency += Relations[CurrentBackwardParent][CurrentIntersection].GetFrequency();
+
+                            if (TotalDistance <= MinimumDistance && TotalFrequency > MaximumFrequency)
+                            {
+                                IntersectingActor = CurrentIntersection;
+                                ForwardParent = CurrentForwardParent;
+                                BackwardParent = CurrentBackwardParent;
+                                MinimumDistance = TotalDistance;
+                                MaximumFrequency = TotalFrequency;
+                            }
                         }
                         else if (!ActorStates[Neighbour].Visited)
                         {
@@ -350,29 +377,7 @@ namespace AlgorithmProject
 
             }
 
-            int MinimumDistance = int.MaxValue;
-            int MaximumFrequency = -1;
-            string IActor, FParent, BParent;
-            foreach (Tuple<string, string, string> Intersection in Common)
-            {
-                IActor = Intersection.Item1;
-                FParent = Intersection.Item2;
-                BParent = Intersection.Item3;
-                TotalDistance = ActorStates[BParent].DistanceFromSource + ActorStates[FParent].DistanceFromSource + 2;
-                TotalFrequency = ActorStates[BParent].Frequency + ActorStates[FParent].Frequency;
-                TotalFrequency += Relations[FParent][IActor].GetFrequency();
-                TotalFrequency += Relations[BParent][IActor].GetFrequency();
-
-                if (TotalDistance <= MinimumDistance && TotalFrequency > MaximumFrequency)
-                {
-                    IntersectingActor = IActor;
-                    ForwardParent = FParent;
-                    BackwardParent = BParent;
-                    MinimumDistance = TotalDistance;
-                    MaximumFrequency = TotalFrequency;
-                }
-            }
-
+ 
             ActorStates[Target].DistanceFromSource = MinimumDistance;
             ActorStates[Target].Frequency = MaximumFrequency;
             string Actor = ForwardParent, Path = IntersectingActor;
