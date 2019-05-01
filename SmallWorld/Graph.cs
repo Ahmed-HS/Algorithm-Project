@@ -480,7 +480,6 @@ namespace AlgorithmProject
             ActorStates[Source].MarkVisted(0, 0, "Source");
 
             Queue<string> TraverseQueue = new Queue<string>();
-            int Count = 0;
             string CurrentActor, Result = "";
             TraverseQueue.Enqueue(Source);
             HashSet<string> MST = new HashSet<string>();
@@ -494,7 +493,6 @@ namespace AlgorithmProject
                         if (!MST.Contains(Relations[CurrentActor][Neighbour].CommonMovie))
                         {
                             MST.Add(Relations[CurrentActor][Neighbour].CommonMovie);
-                            Count++;
                             Result += Relations[CurrentActor][Neighbour].CommonMovie + "\n";
                         }
                         int Distance = ActorStates[CurrentActor].DistanceFromSource + 1;
@@ -504,7 +502,7 @@ namespace AlgorithmProject
                     }
                 }
             }
-            return Count + " \n" + Result;
+            return MST.Count + " \n" + Result;
         }
 
         public static void ClearGraph()

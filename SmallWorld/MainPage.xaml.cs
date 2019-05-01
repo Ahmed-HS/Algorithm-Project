@@ -63,7 +63,7 @@ namespace SmallWorld
             string Target = SecondActor.Text;
             Task<string> StrongestPathTask = new Task<string>(() =>
             {
-                return "To Be Implemented";
+                return Graph.GetStrongestPath(Source, Target);
             });
             StartTask("Finding strongest path between two actors.");
             StrongestPathTask.Start();
@@ -76,7 +76,7 @@ namespace SmallWorld
             string Target = SecondActor.Text;
             Task<string> MSTTaske = new Task<string>(() =>
             {
-                return ActorNames == null ? "Please choose a movie file" : "To Be Implemented";
+                return ActorNames == null ? "Please choose a movie file" : "To Be Impelemented";
             });
             StartTask("Finding MST.");
             MSTTaske.Start();
