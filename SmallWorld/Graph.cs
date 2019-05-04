@@ -11,7 +11,7 @@ namespace AlgorithmProject
     class CommonInfo
     {
         private int Frequency;
-        public string CommonMovie;
+        public int CommonMovie;
 
         public CommonInfo()
         {
@@ -23,7 +23,7 @@ namespace AlgorithmProject
             Frequency++;
         }
 
-        public void SetCommonMovie(string MovieName)
+        public void SetCommonMovie(int MovieName)
         {
             CommonMovie = MovieName;
         }
@@ -33,7 +33,7 @@ namespace AlgorithmProject
             return Frequency;
         }
 
-        string GetCommonMovie()
+        int GetCommonMovie()
         {
             return CommonMovie;
         }
@@ -44,17 +44,17 @@ namespace AlgorithmProject
     {
         public bool Visited;
         public int DistanceFromSource, Frequency;
-        public string Parent;
+        public int Parent;
 
         public ActorState()
         {
             Visited = false;
             DistanceFromSource = int.MaxValue;
             Frequency = 0;
-            Parent = "Not Set";
+            Parent = -1;
         }
 
-        public void MarkVisted(int Distance, int NewFrequency, string CurrentParent)
+        public void MarkVisted(int Distance, int NewFrequency, int CurrentParent)
         {
             Visited = true;
             DistanceFromSource = Distance;
@@ -67,32 +67,30 @@ namespace AlgorithmProject
             Visited = false;
             DistanceFromSource = int.MaxValue;
             Frequency = 0;
-            Parent = "Not Set";
-        }
-
-        public void Dijkstra()
-        {
-            Visited = false;
-            DistanceFromSource = 0;
-            Frequency = 0;
-            Parent = "Not Set";
+            Parent = -1;
         }
     }
 
     static class Graph
     {
         //Graph of Relations the strings are actor names 
-        private static Dictionary<string, Dictionary<string, CommonInfo>> Relations;
-        private static Dictionary<string, ActorState> ActorStates;
+        private static Dictionary<int, Dictionary<int, CommonInfo>> Relations;
+        private static Dictionary<int, ActorState> ActorStates;
+        private static Dictionary<string, int> ActorID;
+        private static Dictionary<int, string> ActorName;
+        private static Dictionary<int, string> MovieName;
 
-        private static int NumberOfActors;
+        private static int NumberOfActors,NumberOfMovies;
         private static FileStream MyDataFile;
         private static StreamReader MyReader;
 
         static Graph()
         {
-            Relations = new Dictionary<string, Dictionary<string, CommonInfo>>();
-            ActorStates = new Dictionary<string, ActorState>();
+            Relations = new Dictionary<int, Dictionary<int, CommonInfo>>();
+            ActorStates = new Dictionary<int, ActorState>();
+            ActorID = new Dictionary<string, int>();
+            ActorName = new Dictionary<int, string>();
+            MovieName = new Dictionary<int, string>();
         }
 
         private static void ResetActorStates()
@@ -128,19 +126,20 @@ namespace AlgorithmProject
 
         private static Tuple<string, string> GetPath(string Source, string Target)
         {
-            string Parent, CurrentActor = Target;
+            int SourceID = ActorID[Source], TargetID = ActorID[Target];
+            int Parent, CurrentActor = TargetID;
             string MoviePath = "", ActorPath = Target;
 
-            if (ActorStates[Target].Parent == "Not Set")
+            if (ActorStates[TargetID].Parent == -1)
             {
                 return new Tuple<string, string>("No Path Found", "No Path Found");
             }
 
-            while (CurrentActor != Source)
+            while (CurrentActor != SourceID)
             {
                 Parent = ActorStates[CurrentActor].Parent;
-                MoviePath = Relations[CurrentActor][Parent].CommonMovie + " => " + MoviePath;
-                ActorPath = Parent + " -> " + ActorPath;
+                MoviePath = MovieName[Relations[CurrentActor][Parent].CommonMovie] + " => " + MoviePath;
+                ActorPath = ActorName[Parent] + " -> " + ActorPath;
                 CurrentActor = Parent;
             }
 
@@ -149,7 +148,7 @@ namespace AlgorithmProject
 
         public static string GetTwoActorsRelation(string Source, string Target)
         {
-            if (!Relations.ContainsKey(Source) || !Relations.ContainsKey(Target) || Source == Target)
+            if (!ActorID.ContainsKey(Source) || !ActorID.ContainsKey(Target) || Source == Target)
             {
                 return "Please Enter Correct Actor Names";
             }
@@ -160,7 +159,7 @@ namespace AlgorithmProject
             string ActorPath = ShortestPath.Item1;
             string MoviePath = ShortestPath.Item2;
 
-            ActorState TargetResult = ActorStates[Target];
+            ActorState TargetResult = ActorStates[ActorID[Target]];
 
             Result += Source + "/" + Target + "\n";
             Result += "DoS = " + TargetResult.DistanceFromSource + ", RS = " + TargetResult.Frequency + "\n";
@@ -172,23 +171,24 @@ namespace AlgorithmProject
 
         public static string DistributionOfShotestPath(string Source)
         {
-            if (!Relations.ContainsKey(Source))
+            if (!ActorID.ContainsKey(Source))
             {
                 return "Please Enter Correct Actor Names";
             }
-
+            int SourceID = ActorID[Source];
             ResetActorStates();
 
-            ActorStates[Source].MarkVisted(0, 0, "Source");
+            ActorStates[SourceID].MarkVisted(0, 0, -1);
 
-            Queue<string> TraverseQueue = new Queue<string>();
+            Queue<int> TraverseQueue = new Queue<int>();
             SortedDictionary<int, int> Distribution = new SortedDictionary<int, int>();
-            string CurrentActor, Result = "Shortest Path \t\t\t Frequency \n0 \t\t\t\t 1 \n";
-            TraverseQueue.Enqueue(Source);
+            int CurrentActor;
+            string Result = "Shortest Path \t\t\t Frequency \n0 \t\t\t\t 1 \n"; ;
+            TraverseQueue.Enqueue(SourceID);
             while (TraverseQueue.Any())
             {
                 CurrentActor = TraverseQueue.Dequeue();
-                foreach (string Neighbour in Relations[CurrentActor].Keys)
+                foreach (int Neighbour in Relations[CurrentActor].Keys)
                 {
                     if (!ActorStates[Neighbour].Visited)
                     {
@@ -218,7 +218,7 @@ namespace AlgorithmProject
 
         public static string GetStrongestPath(string Source, string Target)
         {
-            if (!Relations.ContainsKey(Source) || !Relations.ContainsKey(Target) || Source == Target)
+            if (!ActorID.ContainsKey(Source) || !ActorID.ContainsKey(Target) || Source == Target)
             {
                 return "Please Enter Correct Actor Names";
             }
@@ -228,7 +228,7 @@ namespace AlgorithmProject
             Tuple<string, string> ShortestPath = GetPath(Source, Target);
             string ActorPath = ShortestPath.Item1;
             string MoviePath = ShortestPath.Item2;
-            ActorState TargetResult = ActorStates[Target];
+            ActorState TargetResult = ActorStates[ActorID[Target]];
             Result += Source + "/" + Target + "\n";
             Result += "Path Length : " + TargetResult.DistanceFromSource + "   Total Frequency : " + TargetResult.Frequency + "\n";
             Result += "Chain Of Actors : " + ActorPath + "\n";
@@ -237,183 +237,190 @@ namespace AlgorithmProject
             return Result;
         }
 
-        private static string BidirectionalSearch(string Source, string Target)
-        {
+        //private static string BidirectionalSearch(string Source, string Target)
+        //{
 
-            if (Relations[Source].ContainsKey(Target))
-            {
-                ActorStates[Target].MarkVisted(1, Relations[Source][Target].GetFrequency(), Source);
-                return Source + " -> " + Target;
-            }
+        //    if (Relations[Source].ContainsKey(Target))
+        //    {
+        //        ActorStates[Target].MarkVisted(1, Relations[Source][Target].GetFrequency(), Source);
+        //        return Source + " -> " + Target;
+        //    }
 
-            ResetActorStates();
-            Queue<string> ForwardQueue = new Queue<string>();
-            Queue<string> BackwardQueue = new Queue<string>();
-            ActorStates[Source].MarkVisted(0, 0, Source);
-            ActorStates[Target].MarkVisted(0, 0, Target);
-            ForwardQueue.Enqueue(Source);
-            BackwardQueue.Enqueue(Target);
-            string IntersectingActor = "";
-            string ForwardParent = "", BackwardParent = "";
-            int TotalDistance = 0, TotalFrequency = 0;
-            int FIntersection = int.MaxValue;
-            int Bintersection = int.MaxValue;
-            bool Intersected = false;
-            int MinimumDistance = int.MaxValue;
-            int MaximumFrequency = -1;
-            string CurrentIntersection, CurrentForwardParent, CurrentBackwardParent;
+        //    ResetActorStates();
+        //    Queue<string> ForwardQueue = new Queue<string>();
+        //    Queue<string> BackwardQueue = new Queue<string>();
+        //    ActorStates[Source].MarkVisted(0, 0, Source);
+        //    ActorStates[Target].MarkVisted(0, 0, Target);
+        //    ForwardQueue.Enqueue(Source);
+        //    BackwardQueue.Enqueue(Target);
+        //    string IntersectingActor = "";
+        //    string ForwardParent = "", BackwardParent = "";
+        //    int TotalDistance = 0, TotalFrequency = 0;
+        //    int FIntersection = int.MaxValue;
+        //    int Bintersection = int.MaxValue;
+        //    bool Intersected = false;
+        //    int MinimumDistance = int.MaxValue;
+        //    int MaximumFrequency = -1;
+        //    string CurrentIntersection, CurrentForwardParent, CurrentBackwardParent;
 
-            while (ForwardQueue.Any() || BackwardQueue.Any())
-            {
-                if (ForwardQueue.Any() && ForwardQueue.Count > BackwardQueue.Count)
-                {
-                    string CurrentActor = ForwardQueue.Dequeue();
-                    foreach (string Neighbour in Relations[CurrentActor].Keys)
-                    {
+        //    while (ForwardQueue.Any() || BackwardQueue.Any())
+        //    {
+        //        if (ForwardQueue.Any() && ForwardQueue.Count > BackwardQueue.Count)
+        //        {
+        //            string CurrentActor = ForwardQueue.Dequeue();
+        //            foreach (string Neighbour in Relations[CurrentActor].Keys)
+        //            {
 
-                        if (BackwardQueue.Contains(Neighbour))
-                        {
-                            if (!Intersected)
-                            {
-                                FIntersection = ActorStates[CurrentActor].DistanceFromSource + 1;
-                                Intersected = true;
-                            }
+        //                if (BackwardQueue.Contains(Neighbour))
+        //                {
+        //                    if (!Intersected)
+        //                    {
+        //                        FIntersection = ActorStates[CurrentActor].DistanceFromSource + 1;
+        //                        Intersected = true;
+        //                    }
 
-                            CurrentIntersection = Neighbour;
-                            CurrentForwardParent = CurrentActor;
-                            CurrentBackwardParent = ActorStates[Neighbour].Parent;
-                            TotalDistance = ActorStates[CurrentBackwardParent].DistanceFromSource + ActorStates[CurrentForwardParent].DistanceFromSource + 2;
-                            TotalFrequency = ActorStates[CurrentBackwardParent].Frequency + ActorStates[CurrentForwardParent].Frequency;
-                            TotalFrequency += Relations[CurrentForwardParent][CurrentIntersection].GetFrequency();
-                            TotalFrequency += Relations[CurrentBackwardParent][CurrentIntersection].GetFrequency();
+        //                    CurrentIntersection = Neighbour;
+        //                    CurrentForwardParent = CurrentActor;
+        //                    CurrentBackwardParent = ActorStates[Neighbour].Parent;
+        //                    TotalDistance = ActorStates[CurrentBackwardParent].DistanceFromSource + ActorStates[CurrentForwardParent].DistanceFromSource + 2;
+        //                    TotalFrequency = ActorStates[CurrentBackwardParent].Frequency + ActorStates[CurrentForwardParent].Frequency;
+        //                    TotalFrequency += Relations[CurrentForwardParent][CurrentIntersection].GetFrequency();
+        //                    TotalFrequency += Relations[CurrentBackwardParent][CurrentIntersection].GetFrequency();
 
-                            if (TotalDistance <= MinimumDistance && TotalFrequency > MaximumFrequency)
-                            {
-                                IntersectingActor = CurrentIntersection;
-                                ForwardParent = CurrentForwardParent;
-                                BackwardParent = CurrentBackwardParent;
-                                MinimumDistance = TotalDistance;
-                                MaximumFrequency = TotalFrequency;
-                            }                           
-                        }
-                        else if (!ActorStates[Neighbour].Visited)
-                        {
-                            int Distance = ActorStates[CurrentActor].DistanceFromSource + 1;
-                            int Frequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
-                            ActorStates[Neighbour].MarkVisted(Distance, Frequency, CurrentActor);
-                            ForwardQueue.Enqueue(Neighbour);
-                            if (Distance > FIntersection)
-                            {
-                                ForwardQueue.Clear();
-                                break;
-                            }
-                        }
-                        else if (ActorStates[CurrentActor].DistanceFromSource + 1 == ActorStates[Neighbour].DistanceFromSource)
-                        {
-                            int AltFrequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
-                            if (AltFrequency > ActorStates[Neighbour].Frequency)
-                            {
-                                ActorStates[Neighbour].Frequency = AltFrequency;
-                                ActorStates[Neighbour].Parent = CurrentActor;
-                            }
-                        }
-                    }
-                }
-                else if (BackwardQueue.Any())
-                {
-                    string CurrentActor = BackwardQueue.Dequeue();
-                    foreach (string Neighbour in Relations[CurrentActor].Keys)
-                    {
+        //                    if (TotalDistance <= MinimumDistance && TotalFrequency > MaximumFrequency)
+        //                    {
+        //                        IntersectingActor = CurrentIntersection;
+        //                        ForwardParent = CurrentForwardParent;
+        //                        BackwardParent = CurrentBackwardParent;
+        //                        MinimumDistance = TotalDistance;
+        //                        MaximumFrequency = TotalFrequency;
+        //                    }                           
+        //                }
+        //                else if (!ActorStates[Neighbour].Visited)
+        //                {
+        //                    int Distance = ActorStates[CurrentActor].DistanceFromSource + 1;
+        //                    int Frequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
+        //                    ActorStates[Neighbour].MarkVisted(Distance, Frequency, CurrentActor);
+        //                    ForwardQueue.Enqueue(Neighbour);
+        //                    if (Distance > FIntersection)
+        //                    {
+        //                        ForwardQueue.Clear();
+        //                        break;
+        //                    }
+        //                }
+        //                else if (ActorStates[CurrentActor].DistanceFromSource + 1 == ActorStates[Neighbour].DistanceFromSource)
+        //                {
+        //                    int AltFrequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
+        //                    if (AltFrequency > ActorStates[Neighbour].Frequency)
+        //                    {
+        //                        ActorStates[Neighbour].Frequency = AltFrequency;
+        //                        ActorStates[Neighbour].Parent = CurrentActor;
+        //                    }
+        //                }
+        //            }
+        //        }
+        //        else if (BackwardQueue.Any())
+        //        {
+        //            string CurrentActor = BackwardQueue.Dequeue();
+        //            foreach (string Neighbour in Relations[CurrentActor].Keys)
+        //            {
 
-                        if (ForwardQueue.Contains(Neighbour))
-                        {
-                            if (!Intersected)
-                            {
-                                Bintersection = ActorStates[CurrentActor].DistanceFromSource + 1;
-                                Intersected = true;
-                            }
+        //                if (ForwardQueue.Contains(Neighbour))
+        //                {
+        //                    if (!Intersected)
+        //                    {
+        //                        Bintersection = ActorStates[CurrentActor].DistanceFromSource + 1;
+        //                        Intersected = true;
+        //                    }
 
-                            CurrentIntersection = Neighbour;
-                            CurrentForwardParent = ActorStates[Neighbour].Parent;
-                            CurrentBackwardParent = CurrentActor;
-                            TotalDistance = ActorStates[CurrentBackwardParent].DistanceFromSource + ActorStates[CurrentForwardParent].DistanceFromSource + 2;
-                            TotalFrequency = ActorStates[CurrentBackwardParent].Frequency + ActorStates[CurrentForwardParent].Frequency;
-                            TotalFrequency += Relations[CurrentForwardParent][CurrentIntersection].GetFrequency();
-                            TotalFrequency += Relations[CurrentBackwardParent][CurrentIntersection].GetFrequency();
+        //                    CurrentIntersection = Neighbour;
+        //                    CurrentForwardParent = ActorStates[Neighbour].Parent;
+        //                    CurrentBackwardParent = CurrentActor;
+        //                    TotalDistance = ActorStates[CurrentBackwardParent].DistanceFromSource + ActorStates[CurrentForwardParent].DistanceFromSource + 2;
+        //                    TotalFrequency = ActorStates[CurrentBackwardParent].Frequency + ActorStates[CurrentForwardParent].Frequency;
+        //                    TotalFrequency += Relations[CurrentForwardParent][CurrentIntersection].GetFrequency();
+        //                    TotalFrequency += Relations[CurrentBackwardParent][CurrentIntersection].GetFrequency();
 
-                            if (TotalDistance <= MinimumDistance && TotalFrequency > MaximumFrequency)
-                            {
-                                IntersectingActor = CurrentIntersection;
-                                ForwardParent = CurrentForwardParent;
-                                BackwardParent = CurrentBackwardParent;
-                                MinimumDistance = TotalDistance;
-                                MaximumFrequency = TotalFrequency;
-                            }
-                        }
-                        else if (!ActorStates[Neighbour].Visited)
-                        {
-                            int Distance = ActorStates[CurrentActor].DistanceFromSource + 1;
-                            int Frequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
-                            ActorStates[Neighbour].MarkVisted(Distance, Frequency, CurrentActor);
-                            BackwardQueue.Enqueue(Neighbour);
-                            if (Distance > Bintersection)
-                            {
-                                BackwardQueue.Clear();
-                                break;
-                            }
-                        }
-                        else if (ActorStates[CurrentActor].DistanceFromSource + 1 == ActorStates[Neighbour].DistanceFromSource)
-                        {
-                            int AltFrequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
-                            if (AltFrequency > ActorStates[Neighbour].Frequency)
-                            {
-                                ActorStates[Neighbour].Frequency = AltFrequency;
-                                ActorStates[Neighbour].Parent = CurrentActor;
-                            }
-                        }
+        //                    if (TotalDistance <= MinimumDistance && TotalFrequency > MaximumFrequency)
+        //                    {
+        //                        IntersectingActor = CurrentIntersection;
+        //                        ForwardParent = CurrentForwardParent;
+        //                        BackwardParent = CurrentBackwardParent;
+        //                        MinimumDistance = TotalDistance;
+        //                        MaximumFrequency = TotalFrequency;
+        //                    }
+        //                }
+        //                else if (!ActorStates[Neighbour].Visited)
+        //                {
+        //                    int Distance = ActorStates[CurrentActor].DistanceFromSource + 1;
+        //                    int Frequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
+        //                    ActorStates[Neighbour].MarkVisted(Distance, Frequency, CurrentActor);
+        //                    BackwardQueue.Enqueue(Neighbour);
+        //                    if (Distance > Bintersection)
+        //                    {
+        //                        BackwardQueue.Clear();
+        //                        break;
+        //                    }
+        //                }
+        //                else if (ActorStates[CurrentActor].DistanceFromSource + 1 == ActorStates[Neighbour].DistanceFromSource)
+        //                {
+        //                    int AltFrequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
+        //                    if (AltFrequency > ActorStates[Neighbour].Frequency)
+        //                    {
+        //                        ActorStates[Neighbour].Frequency = AltFrequency;
+        //                        ActorStates[Neighbour].Parent = CurrentActor;
+        //                    }
+        //                }
 
-                    }
-                }
+        //            }
+        //        }
 
-            }
+        //    }
 
- 
-            ActorStates[Target].DistanceFromSource = MinimumDistance;
-            ActorStates[Target].Frequency = MaximumFrequency;
-            string Actor = ForwardParent, Path = IntersectingActor;
-            return "--";
-            Path = Actor + " -> " + Path;
-            string Parent;
-            while (Actor != Source)
-            {
-                Parent = ActorStates[Actor].Parent;
-                Path = Parent + " -> " + Path;
-                Actor = Parent;
-            }
 
-            Actor = BackwardParent;
-            Path += " - > " + Actor;
-            while (Actor != Target)
-            {
-                Parent = ActorStates[Actor].Parent;
-                Path += " - > " + Parent;
-                Actor = Parent;
-            }
-            return Path;
-        }
+        //    ActorStates[Target].DistanceFromSource = MinimumDistance;
+        //    ActorStates[Target].Frequency = MaximumFrequency;
+        //    string Actor = ForwardParent, Path = IntersectingActor;
+        //    return "--";
+        //    Path = Actor + " -> " + Path;
+        //    string Parent;
+        //    while (Actor != Source)
+        //    {
+        //        Parent = ActorStates[Actor].Parent;
+        //        Path = Parent + " -> " + Path;
+        //        Actor = Parent;
+        //    }
+
+        //    Actor = BackwardParent;
+        //    Path += " - > " + Actor;
+        //    while (Actor != Target)
+        //    {
+        //        Parent = ActorStates[Actor].Parent;
+        //        Path += " - > " + Parent;
+        //        Actor = Parent;
+        //    }
+        //    return Path;
+        //}
 
         private static void BFS(string Source, string Target)
         {
-            ResetActorStates();
-            ActorStates[Source].MarkVisted(0, 0, "Source");
+            int SourceID = ActorID[Source], TargetID = ActorID[Target];
+            if (Relations[SourceID].ContainsKey(TargetID))
+            {
+                ActorStates[TargetID].MarkVisted(1, Relations[SourceID][TargetID].GetFrequency(), SourceID);
+                return;
+            }
 
-            Queue<string> TraverseQueue = new Queue<string>();
-            string CurrentActor;
-            TraverseQueue.Enqueue(Source);
+            ResetActorStates();
+            ActorStates[SourceID].MarkVisted(0, 0, -1);
+
+            Queue<int> TraverseQueue = new Queue<int>();
+            int CurrentActor;
+            TraverseQueue.Enqueue(SourceID);
             while (TraverseQueue.Any())
             {
                 CurrentActor = TraverseQueue.Dequeue();
-                foreach (string Neighbour in Relations[CurrentActor].Keys)
+                foreach (int Neighbour in Relations[CurrentActor].Keys)
                 {
                     if (!ActorStates[Neighbour].Visited)
                     {
@@ -421,7 +428,7 @@ namespace AlgorithmProject
                         int Frequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
                         ActorStates[Neighbour].MarkVisted(Distance, Frequency, CurrentActor);
                         TraverseQueue.Enqueue(Neighbour);
-                        if (Distance > ActorStates[Target].DistanceFromSource)
+                        if (Distance > ActorStates[TargetID].DistanceFromSource)
                         {
                             TraverseQueue.Clear();
                             break;
@@ -442,15 +449,18 @@ namespace AlgorithmProject
 
         private static void Dijkstra(string Source, string Target)
         {
+
+            int SourceID = ActorID[Source], TargetID = ActorID[Target];
+
             ResetActorStates();
-            SimplePriorityQueue<string> DijkstraQueue = new SimplePriorityQueue<string>(); ;
-            ActorStates[Source].MarkVisted(0, 0, "Source");
-            DijkstraQueue.Enqueue(Source, -1);
-            string CurrentActor;
+            SimplePriorityQueue<int> DijkstraQueue = new SimplePriorityQueue<int>();
+            ActorStates[SourceID].MarkVisted(0, 0, -1);
+            DijkstraQueue.Enqueue(SourceID, -1);
+            int CurrentActor;
             while (DijkstraQueue.Any())
             {
                 CurrentActor = DijkstraQueue.Dequeue();
-                foreach (string Neighbour in Relations[CurrentActor].Keys)
+                foreach (int Neighbour in Relations[CurrentActor].Keys)
                 {
                     int Distance = ActorStates[CurrentActor].DistanceFromSource + 1;
                     int Frequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
@@ -459,7 +469,7 @@ namespace AlgorithmProject
                         ActorStates[Neighbour].MarkVisted(Distance, Frequency, CurrentActor);
                         DijkstraQueue.Enqueue(Neighbour, -ActorStates[Neighbour].Frequency);
                     }
-                    if (Neighbour == Target)
+                    if (Neighbour == TargetID)
                     {
                         DijkstraQueue.Clear();
                         break;
@@ -470,30 +480,31 @@ namespace AlgorithmProject
 
         public static string MST(string Source)
         {
-            if (!Relations.ContainsKey(Source))
+            if (!ActorID.ContainsKey(Source))
             {
                 return "Please Enter Correct Actor Names";
             }
 
             ResetActorStates();
+            int SourceID = ActorID[Source];
+            ActorStates[SourceID].MarkVisted(0, 0, -1);
 
-            ActorStates[Source].MarkVisted(0, 0, "Source");
-
-            Queue<string> TraverseQueue = new Queue<string>();
-            string CurrentActor, Result = "";
-            TraverseQueue.Enqueue(Source);
-            HashSet<string> MST = new HashSet<string>();
+            Queue<int> TraverseQueue = new Queue<int>();
+            int CurrentActor;
+            string Result = "";
+            TraverseQueue.Enqueue(SourceID);
+            HashSet<int> MST = new HashSet<int>();
             while (TraverseQueue.Any())
             {
                 CurrentActor = TraverseQueue.Dequeue();
-                foreach (string Neighbour in Relations[CurrentActor].Keys)
+                foreach (int Neighbour in Relations[CurrentActor].Keys)
                 {
                     if (!ActorStates[Neighbour].Visited)
                     {
                         if (!MST.Contains(Relations[CurrentActor][Neighbour].CommonMovie))
                         {
                             MST.Add(Relations[CurrentActor][Neighbour].CommonMovie);
-                            Result += Relations[CurrentActor][Neighbour].CommonMovie + "\n";
+                            Result += MovieName[Relations[CurrentActor][Neighbour].CommonMovie] + "\n";
                         }
                         int Distance = ActorStates[CurrentActor].DistanceFromSource + 1;
                         int Frequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
@@ -509,6 +520,9 @@ namespace AlgorithmProject
         {
             ActorStates.Clear();
             Relations.Clear();
+            ActorName.Clear();
+            ActorID.Clear();
+            MovieName.Clear();
         }
 
         public static string[] ReadGraph(string FileName)
@@ -519,50 +533,69 @@ namespace AlgorithmProject
             MyDataFile = new FileStream(FileName, FileMode.Open);
             MyReader = new StreamReader(MyDataFile);
             string[] Actors;
+            int ActorI = 0,ActorJ = 0;
             while (MyReader.Peek() != -1)
             {
                 // Read a movie then split it by '/' where Actors[0] is the movie name 
                 Actors = MyReader.ReadLine().Split('/');
                 int ActorsPerMovie = Actors.Length;
 
+                NumberOfMovies++;
+                MovieName.Add(NumberOfMovies, Actors[0]);
+
                 // Start From Fisrt Actor
                 for (int i = 1; i < ActorsPerMovie; i++)
                 {
                     // if the actor is not in the Relations Graph  add it to both Relations and ActorStates for later use in BFS 
-                    if (!Relations.ContainsKey(Actors[i]))
+                    if (!ActorID.ContainsKey(Actors[i]))
                     {
                         NumberOfActors++;
-                        ActorStates.Add(Actors[i], new ActorState());
-                        Relations.Add(Actors[i], new Dictionary<string, CommonInfo>());
+                        ActorID.Add(Actors[i], NumberOfActors);
+                        ActorName.Add(NumberOfActors, Actors[i]);
+                        ActorStates.Add(NumberOfActors, new ActorState());
+                        Relations.Add(NumberOfActors, new Dictionary<int, CommonInfo>());
+                        ActorI = NumberOfActors;
                     }
-
+                    else
+                    {
+                        ActorI = ActorID[Actors[i]];
+                    }
+                    
                     // Add to each actor in Relations the actors he acted with in the Current Movie (undirected-both ways)
                     // if a pair of actors acted together before just increase the frequency and add the movie name
                     for (int j = i + 1; j < ActorsPerMovie; j++)
                     {
-                        if (!Relations[Actors[i]].ContainsKey(Actors[j]))
-                        {
-                            Relations[Actors[i]].Add(Actors[j], new CommonInfo());
-                            Relations[Actors[i]][Actors[j]].SetCommonMovie(Actors[0]);
-                        }
 
-                        Relations[Actors[i]][Actors[j]].IncreaseFrequency();
-
-
-                        if (!Relations.ContainsKey(Actors[j]))
+                        if (!ActorID.ContainsKey(Actors[j]))
                         {
                             NumberOfActors++;
-                            ActorStates.Add(Actors[j], new ActorState());
-                            Relations.Add(Actors[j], new Dictionary<string, CommonInfo>());
+                            ActorID.Add(Actors[j], NumberOfActors);
+                            ActorName.Add(NumberOfActors, Actors[j]);
+                            ActorStates.Add(NumberOfActors, new ActorState());
+                            Relations.Add(NumberOfActors, new Dictionary<int, CommonInfo>());
+                            ActorJ = NumberOfActors;
                         }
-
-                        if (!Relations[Actors[j]].ContainsKey(Actors[i]))
+                        else
                         {
-                            Relations[Actors[j]].Add(Actors[i], new CommonInfo());
-                            Relations[Actors[j]][Actors[i]].SetCommonMovie(Actors[0]);
+                            ActorJ = ActorID[Actors[j]];
                         }
 
-                        Relations[Actors[j]][Actors[i]].IncreaseFrequency();
+                        if (!Relations[ActorI].ContainsKey(ActorJ))
+                        {
+                            Relations[ActorI].Add(ActorJ, new CommonInfo());
+                            Relations[ActorI][ActorJ].SetCommonMovie(NumberOfMovies);
+                        }
+
+                        Relations[ActorI][ActorJ].IncreaseFrequency();
+
+
+                        if (!Relations[ActorJ].ContainsKey(ActorI))
+                        {
+                            Relations[ActorJ].Add(ActorI, new CommonInfo());
+                            Relations[ActorJ][ActorI].SetCommonMovie(NumberOfMovies);
+                        }
+
+                        Relations[ActorJ][ActorI].IncreaseFrequency();
 
                     }
                 }
@@ -571,7 +604,7 @@ namespace AlgorithmProject
             MyWatch.Stop();
             MyReader.Dispose();
             MyDataFile.Dispose();
-            return ActorStates.Keys.ToArray();
+            return ActorID.Keys.ToArray();
         }
 
     }

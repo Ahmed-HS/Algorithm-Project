@@ -21,7 +21,7 @@ namespace SmallWorld
 
         string[] ActorNames;
         static Stopwatch TaskTimer;
-
+        string QueriesFileName;
         public MainPage()
         {
             InitializeComponent();
@@ -30,6 +30,7 @@ namespace SmallWorld
             TaskTimer = new Stopwatch();
             QueriesResult.MaxLength = int.MaxValue;
             QueriesResult.IsReadOnly = true;
+            QueriesFileName = "";
 
         }
 
@@ -76,7 +77,7 @@ namespace SmallWorld
             string Target = SecondActor.Text;
             Task<string> MSTTaske = new Task<string>(() =>
             {
-                return ActorNames == null ? "Please choose a movie file" : "To Be Impelemented";
+                return ActorNames == null ? "Please choose a movie file" : Graph.MST(ActorNames[1]);
             });
             StartTask("Finding MST.");
             MSTTaske.Start();
@@ -93,6 +94,9 @@ namespace SmallWorld
             Task<string> ReadQueries = null;
             if (ChosenFile != null)
             {
+                string[] QueriesPath = ChosenFile.Path.Split('\\');
+                QueriesFileName = QueriesPath[QueriesPath.Length - 3] + " " + QueriesPath[QueriesPath.Length - 2] + " " + ChosenFile.Name.Substring(0, ChosenFile.Name.Length - 4) + " Solution";
+                
                 Windows.Storage.AccessCache.StorageApplicationPermissions.FutureAccessList.Add(ChosenFile);
                 ReadQueries = new Task<string>(() =>
                 {
@@ -165,12 +169,12 @@ namespace SmallWorld
             int MaxDisplaySize = 307620;
             if (NewText.Length > MaxDisplaySize)
             {
-                ShowSaveDialog(NewText, "Result too large", "The result is too large to display, Save it to a text file.");
+                ShowSaveDialog(NewText + FinishTime, "Result too large", "The task finished in " + FinishTime + " ,but The result is too large to display, Save it to a text file.");
                 return;
             }
             else if (NewText != "Please Enter Correct Actor Names" && NewText != "Please choose a movie file")
             {
-                ShowSaveDialog(NewText, "Finished", "The task finished in " + FinishTime + ", Do you want to save the result to a text file ?");
+                ShowSaveDialog(NewText + FinishTime, "Finished", "The task finished in " + FinishTime + ", Do you want to save the result to a text file ?");
             }
             QueriesResult.IsReadOnly = false;
             QueriesResult.Document.SetText(Windows.UI.Text.TextSetOptions.None, NewText);
@@ -206,7 +210,7 @@ namespace SmallWorld
                 FileSavePicker SavePicker = new FileSavePicker();
                 SavePicker.SuggestedStartLocation = PickerLocationId.DocumentsLibrary;
                 SavePicker.FileTypeChoices.Add("Plain Text", new List<string>() { ".txt" });
-                SavePicker.SuggestedFileName = "QueriesResult";
+                SavePicker.SuggestedFileName = QueriesFileName;
 
                 StorageFile file = await SavePicker.PickSaveFileAsync();
                 if (file != null)

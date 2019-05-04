@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallWorld", "SmallWorld\SmallWorld.csproj", "{4FD43F7B-A911-41BD-8BED-EE50ED4ED04B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphUnitTests", "GraphUnitTests\GraphUnitTests.csproj", "{3F9BD0FE-9B8D-43F9-968E-5125648EE2DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphUnitTests", "GraphUnitTests\GraphUnitTests.csproj", "{3F9BD0FE-9B8D-43F9-968E-5125648EE2DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallWorldUnitTests", "SmallWorldUnitTests\SmallWorldUnitTests.csproj", "{785E9896-EE9E-4D66-86ED-1A154215BDFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,22 @@ Global
 		{3F9BD0FE-9B8D-43F9-968E-5125648EE2DC}.Release|x64.Build.0 = Release|Any CPU
 		{3F9BD0FE-9B8D-43F9-968E-5125648EE2DC}.Release|x86.ActiveCfg = Release|Any CPU
 		{3F9BD0FE-9B8D-43F9-968E-5125648EE2DC}.Release|x86.Build.0 = Release|Any CPU
+		{785E9896-EE9E-4D66-86ED-1A154215BDFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{785E9896-EE9E-4D66-86ED-1A154215BDFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{785E9896-EE9E-4D66-86ED-1A154215BDFB}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{785E9896-EE9E-4D66-86ED-1A154215BDFB}.Debug|ARM.Build.0 = Debug|Any CPU
+		{785E9896-EE9E-4D66-86ED-1A154215BDFB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{785E9896-EE9E-4D66-86ED-1A154215BDFB}.Debug|x64.Build.0 = Debug|Any CPU
+		{785E9896-EE9E-4D66-86ED-1A154215BDFB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{785E9896-EE9E-4D66-86ED-1A154215BDFB}.Debug|x86.Build.0 = Debug|Any CPU
+		{785E9896-EE9E-4D66-86ED-1A154215BDFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{785E9896-EE9E-4D66-86ED-1A154215BDFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{785E9896-EE9E-4D66-86ED-1A154215BDFB}.Release|ARM.ActiveCfg = Release|Any CPU
+		{785E9896-EE9E-4D66-86ED-1A154215BDFB}.Release|ARM.Build.0 = Release|Any CPU
+		{785E9896-EE9E-4D66-86ED-1A154215BDFB}.Release|x64.ActiveCfg = Release|Any CPU
+		{785E9896-EE9E-4D66-86ED-1A154215BDFB}.Release|x64.Build.0 = Release|Any CPU
+		{785E9896-EE9E-4D66-86ED-1A154215BDFB}.Release|x86.ActiveCfg = Release|Any CPU
+		{785E9896-EE9E-4D66-86ED-1A154215BDFB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
