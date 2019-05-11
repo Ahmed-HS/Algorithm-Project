@@ -218,3 +218,4 @@ C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Debug\SmallWorld.csprojAssemblyReference.cache
+C:\Users\Ahmed Hatem\Documents\AlgorithmProject\Algorithm-Project\SmallWorld\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758480200000000.json

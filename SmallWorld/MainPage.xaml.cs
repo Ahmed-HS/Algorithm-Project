@@ -48,7 +48,7 @@ namespace SmallWorld
                 Windows.Storage.AccessCache.StorageApplicationPermissions.FutureAccessList.Add(ChosenFile);
                 ReadGraph = new Task<string[]>(() =>
                 {
-                    return Graph.ReadGraph(ChosenFile.Path);
+                    return Graph.ReadGraph(ChosenFile).Result;
                 });
                 StartTask("Reading movies file.");
                 ReadGraph.Start();
@@ -100,7 +100,7 @@ namespace SmallWorld
                 Windows.Storage.AccessCache.StorageApplicationPermissions.FutureAccessList.Add(ChosenFile);
                 ReadQueries = new Task<string>(() =>
                 {
-                    return Graph.ReadQueries(ChosenFile.Path);
+                    return Graph.ReadQueries(ChosenFile).Result;
                 });
                 StartTask("Reading queries file.");
                 ReadQueries.Start();
