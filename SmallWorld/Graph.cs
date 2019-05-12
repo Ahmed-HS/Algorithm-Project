@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.IO;
 using System.Threading.Tasks;
-using System.Diagnostics;
-using Priority_Queue;
 using Windows.Storage;
 
 namespace AlgorithmProject
@@ -38,6 +35,70 @@ namespace AlgorithmProject
         int GetCommonMovie()
         {
             return CommonMovie;
+        }
+    }
+
+
+    class Edge
+    {
+        public int ActorS { get; set; }
+        public int ActorE { get; set; }
+        public int Frequency { get; set; }
+
+        public Edge(int ActorS, int ActorE,int Frequency)
+        {
+            this.ActorS = ActorS;
+            this.ActorE = ActorE;
+            this.Frequency = Frequency;
+        }
+    }
+
+    class DisjointSet
+    {
+        int[] Array;
+        int[] Size;
+
+        public DisjointSet(int Count)
+        {
+            Array = new int[Count + 1];
+            Size = new int[Count + 1];
+            for (int i = 1; i <= Count; i++)
+            {
+                Array[i] = i;
+                Size[i] = 1;
+            }
+        }
+
+        public void Union(int i, int j)
+        {
+            int RootI = GetRoot(i);
+            int RootJ = GetRoot(j);
+            
+            if (Size[i] < Size[j])
+            {
+                Array[RootI] = Array[RootJ];
+                Size[RootJ] += Size[RootI];
+            }
+            else
+            {
+                Array[RootJ] = Array[RootI];
+                Size[RootI] += Size[RootJ];
+            }
+        }
+
+        public bool SameSet(int i, int j)
+        {
+            return GetRoot(i) == GetRoot(j);
+        }
+
+        public int GetRoot(int i)
+        {
+            while (Array[i] != i)
+            {
+                Array[i] = Array[Array[i]];
+                i = Array[i];
+            }
+            return i;
         }
     }
 
@@ -104,7 +165,7 @@ namespace AlgorithmProject
 
         public static async Task<string> ReadQueries(StorageFile QueriesFile)
         {
-            IList<string> Queries = await FileIO.ReadLinesAsync(QueriesFile);
+            IList<string> Queries = await Windows.Storage.FileIO.ReadLinesAsync(QueriesFile);
 
             string[] CurrentQuery;
             string Source, Target, QueriesResult = "";
@@ -213,27 +274,6 @@ namespace AlgorithmProject
             return Result;
         }
 
-        public static string GetStrongestPath(string Source, string Target)
-        {
-            if (!ActorID.ContainsKey(Source) || !ActorID.ContainsKey(Target) || Source == Target)
-            {
-                return "Please Enter Correct Actor Names";
-            }
-
-            string Result = "";
-            Dijkstra(Source, Target);
-            Tuple<string, string> ShortestPath = GetPath(Source, Target);
-            string ActorPath = ShortestPath.Item1;
-            string MoviePath = ShortestPath.Item2;
-            ActorState TargetResult = ActorStates[ActorID[Target]];
-            Result += Source + "/" + Target + "\n";
-            Result += "Path Length : " + TargetResult.DistanceFromSource + "   Total Frequency : " + TargetResult.Frequency + "\n";
-            Result += "Chain Of Actors : " + ActorPath + "\n";
-            Result += "Chain Of Movies : " + MoviePath + "\n\n";
-
-            return Result;
-        }
-
         private static void BFS(string Source, string Target)
         {
             int SourceID = ActorID[Source], TargetID = ActorID[Target];
@@ -279,77 +319,51 @@ namespace AlgorithmProject
             }
         }
 
-        private static void Dijkstra(string Source, string Target)
+        public static string MST()
         {
-
-            int SourceID = ActorID[Source], TargetID = ActorID[Target];
-
-            ResetActorStates();
-            SimplePriorityQueue<int> DijkstraQueue = new SimplePriorityQueue<int>();
-            ActorStates[SourceID].MarkVisted(0, 0, -1);
-            DijkstraQueue.Enqueue(SourceID, -1);
-            int CurrentActor;
-            while (DijkstraQueue.Any())
-            {
-                CurrentActor = DijkstraQueue.Dequeue();
-                foreach (int Neighbour in Relations[CurrentActor].Keys)
-                {
-                    int Distance = ActorStates[CurrentActor].DistanceFromSource + 1;
-                    int Frequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
-                    if (!ActorStates[Neighbour].Visited && Frequency > ActorStates[Neighbour].Frequency)
-                    {
-                        ActorStates[Neighbour].MarkVisted(Distance, Frequency, CurrentActor);
-                        DijkstraQueue.Enqueue(Neighbour, -ActorStates[Neighbour].Frequency);
-                    }
-                    if (Neighbour == TargetID)
-                    {
-                        DijkstraQueue.Clear();
-                        break;
-                    }
-                }
-            }
-        }
-
-        public static string MST(string Source)
-        {
-            if (!ActorID.ContainsKey(Source))
-            {
-                return "Please Enter Correct Actor Names";
-            }
-
-            ResetActorStates();
-            int SourceID = ActorID[Source];
-            ActorStates[SourceID].MarkVisted(0, 0, -1);
-
-            Queue<int> TraverseQueue = new Queue<int>();
-            int CurrentActor;
             string Result = "";
-            TraverseQueue.Enqueue(SourceID);
-            HashSet<int> MST = new HashSet<int>();
-            while (TraverseQueue.Any())
+            int Count = 0;
+            DisjointSet ActorSet = new DisjointSet(NumberOfActors);
+            HashSet<int> Movies = new HashSet<int>();
+            List<Edge> AllEdges = new List<Edge>();
+
+            foreach (int Actor in Relations.Keys)
             {
-                CurrentActor = TraverseQueue.Dequeue();
-                foreach (int Neighbour in Relations[CurrentActor].Keys)
+                foreach (int Neighbour in Relations[Actor].Keys)
                 {
-                    if (!ActorStates[Neighbour].Visited)
-                    {
-                        if (!MST.Contains(Relations[CurrentActor][Neighbour].CommonMovie))
-                        {
-                            MST.Add(Relations[CurrentActor][Neighbour].CommonMovie);
-                            Result += MovieName[Relations[CurrentActor][Neighbour].CommonMovie] + "\n";
-                        }
-                        int Distance = ActorStates[CurrentActor].DistanceFromSource + 1;
-                        int Frequency = ActorStates[CurrentActor].Frequency + Relations[CurrentActor][Neighbour].GetFrequency();
-                        ActorStates[Neighbour].MarkVisted(Distance, Frequency, CurrentActor);
-                        TraverseQueue.Enqueue(Neighbour);
-                    }
+                    Edge CurrentEdge = new Edge(Actor, Neighbour, Relations[Actor][Neighbour].GetFrequency());
+                    AllEdges.Add(CurrentEdge);
                 }
             }
-            return MST.Count + " \n" + Result;
+
+            AllEdges.Sort((x, y) => x.Frequency.CompareTo(y.Frequency));
+
+            foreach (Edge Currentedge in AllEdges)
+            {
+                if (!ActorSet.SameSet(Currentedge.ActorS, Currentedge.ActorE))
+                {
+                    if (!Movies.Contains(Relations[Currentedge.ActorS][Currentedge.ActorE].CommonMovie))
+                    {
+                        Movies.Add(Relations[Currentedge.ActorS][Currentedge.ActorE].CommonMovie);
+                        Result += MovieName[Relations[Currentedge.ActorS][Currentedge.ActorE].CommonMovie] + "\n";
+                    }
+                    ActorSet.Union(Currentedge.ActorS, Currentedge.ActorE);
+                    Count++;
+                }
+
+                if (Count == NumberOfActors - 1)
+                {
+                    break;
+                }
+            }
+
+            return Movies.Count + "\n" + Result;
         }
 
         public static void ClearGraph()
         {
+            NumberOfActors = 0;
+            NumberOfMovies = 0;
             ActorStates.Clear();
             Relations.Clear();
             ActorName.Clear();
@@ -357,10 +371,10 @@ namespace AlgorithmProject
             MovieName.Clear();
         }
 
-        public static async Task<string[]> ReadGraph(StorageFile Movies)
+        public static async Task<string[]> ReadGraph(StorageFile FileName)
         {
             ClearGraph();
-            IList<string> MoviesFile = await FileIO.ReadLinesAsync(Movies);
+            IList<string> MoviesFile = await Windows.Storage.FileIO.ReadLinesAsync(FileName);
             string[] Actors;
             int ActorI = 0,ActorJ = 0;
             for (int k = 0; k < MoviesFile.Count; k++)
@@ -414,7 +428,7 @@ namespace AlgorithmProject
                             Relations[ActorI].Add(ActorJ, new CommonInfo());
                             Relations[ActorI][ActorJ].SetCommonMovie(NumberOfMovies);
                         }
-
+ 
                         Relations[ActorI][ActorJ].IncreaseFrequency();
 
 

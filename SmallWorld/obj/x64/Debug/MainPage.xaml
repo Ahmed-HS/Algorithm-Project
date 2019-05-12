@@ -7,7 +7,7 @@
     mc:Ignorable="d" Width="800" Height="700" HorizontalAlignment="Center" VerticalAlignment="Center" Background="{ThemeResource SystemControlChromeMediumAcrylicWindowMediumBrush}" RequestedTheme="Default">
     <Grid HorizontalAlignment="Center" Height="700" VerticalAlignment="Center" Width="800">
         <AppBarButton x:ConnectionId='2' x:Name="SelectMovies" HorizontalAlignment="Left" Icon="OpenWith" Label="Select Movies File" Margin="688,24,0,0" VerticalAlignment="Top" RequestedTheme="Light"                       />
-        <AppBarButton x:ConnectionId='3' HorizontalAlignment="Left" Icon="Refresh" Label="Multiple&#xD;&#xA; Queries" Margin="688,588,0,0" VerticalAlignment="Top"                         RenderTransformOrigin="1.015,0.526"/>
+        <AppBarButton x:ConnectionId='3' HorizontalAlignment="Left" Icon="Refresh" Label="Multiple&#xD;&#xA; Queries" Margin="683,588,0,0" VerticalAlignment="Top"                         RenderTransformOrigin="1.015,0.526"/>
         <TextBlock HorizontalAlignment="Left" Margin="35,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22" Height="32"><Run Text="First Actor :"/><LineBreak/><Run/></TextBlock>
         <RichEditBox x:ConnectionId='4' x:Name="QueriesResult" HorizontalAlignment="Center" Margin="0,146,0,0" VerticalAlignment="Top" Height="418" Width="732"/>
         <AutoSuggestBox x:ConnectionId='5' x:Name="FirstActor" HorizontalAlignment="Left" Margin="191,33,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.258,-0.328" Width="163"                           />
@@ -17,8 +17,7 @@
         <AppBarButton x:ConnectionId='8' x:Name="FindAllRelationsButton" HorizontalAlignment="Left" Icon="ContactInfo" Label="1 to all Relation" Margin="615,588,0,0" VerticalAlignment="Top"                         />
         <TextBlock x:ConnectionId='9' x:Name="StatusText" HorizontalAlignment="Left" Margin="51,617,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.359,1.75" Width="237" Height="42"/>
         <TextBlock HorizontalAlignment="Left" Margin="42,578,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Height="28" Width="63"><Run Text="Status :"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
-        <AppBarButton x:ConnectionId='10' x:Name="StrongestPath" HorizontalAlignment="Left" Icon="Link" Label="Strongest Path" Margin="469,589,0,0" VerticalAlignment="Top"                          />
-        <AppBarButton x:ConnectionId='11' HorizontalAlignment="Left" Icon="World" Label="Find MSTree" Margin="401,589,0,0" VerticalAlignment="Top"                />
+        <AppBarButton x:ConnectionId='10' HorizontalAlignment="Left" Icon="World" Label="Find MSTree" Margin="474,589,0,0" VerticalAlignment="Top"                />
     </Grid>
 </Page>
 

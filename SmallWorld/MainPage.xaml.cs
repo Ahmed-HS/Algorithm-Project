@@ -58,26 +58,13 @@ namespace SmallWorld
 
         }
 
-        private void FindStrongestPath(object sender, RoutedEventArgs e)
-        {
-            string Source = FirstActor.Text;
-            string Target = SecondActor.Text;
-            Task<string> StrongestPathTask = new Task<string>(() =>
-            {
-                return Graph.GetStrongestPath(Source, Target);
-            });
-            StartTask("Finding strongest path between two actors.");
-            StrongestPathTask.Start();
-            FinishTask(StrongestPathTask.Result);
-        }
-
         private void FindMST(object sender, RoutedEventArgs e)
         {
             string Source = FirstActor.Text;
             string Target = SecondActor.Text;
             Task<string> MSTTaske = new Task<string>(() =>
             {
-                return ActorNames == null ? "Please choose a movie file" : Graph.MST(ActorNames[1]);
+                return ActorNames == null ? "Please choose a movie file" : Graph.MST();
             });
             StartTask("Finding MST.");
             MSTTaske.Start();
